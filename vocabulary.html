@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="bn" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>শব্দভাণ্ডার — Vocabulary | Scientific Tafsir</title>
+  <meta name="description" content="কুরআনের সর্বাধিক ব্যবহৃত আরবি শব্দ — বাংলা অর্থ, উচ্চারণ ও পুনরাবৃত্তি">
+  <meta name="theme-color" content="#d4af37">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+  <style>
+    .voc-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(220px,1fr)); gap:10px; max-width:1100px; margin:16px auto; padding:0 16px;}
+    .voc-card{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:12px; display:grid; gap:6px; text-align:center;}
+    .voc-card .ar{font-size:1.6rem; color:var(--accent2); font-weight:800;}
+    .voc-card .tr{color:var(--muted); font-size:0.82rem;}
+    .voc-card .bn{color:var(--text); font-size:0.95rem;}
+    .voc-card .freq{font-size:0.75rem; color:var(--muted); background:var(--bg); border-radius:12px; padding:2px 8px; display:inline-block; margin:0 auto;}
+    .voc-cat{max-width:1100px; margin:20px auto 0; padding:0 16px; display:flex; gap:8px; flex-wrap:wrap; justify-content:center;}
+    .voc-cat button{background:var(--card); border:1px solid var(--border); color:var(--muted); padding:6px 12px; border-radius:20px; cursor:pointer; font-size:0.82rem;}
+    .voc-cat button.active{background:var(--accent); color:#17202a; border-color:var(--accent);}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      <span class="txt" style="line-height:1.3">
+        <span>শব্দভাণ্ডার</span>
+        <span class="bn-text" style="display:block;font-size:.78rem;color:var(--accent2)">Vocabulary</span>
+      </span>
+    </a>
+    <div class="top-actions">
+      <div class="langbtns" id="langBtns">
+        <button data-lang="en">English</button>
+        <button data-lang="bn" class="active">বাংলা</button>
+        <button data-lang="ar">العربية</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" style="padding:32px 16px 20px">
+    <h1><span class="bn-text" style="color:var(--accent2)">কুরআনিক শব্দভাণ্ডার</span><span style="display:block;font-size:0.6em;color:var(--muted)">Quranic Vocabulary — 300 words = 70% of Quran</span></h1>
+    <p style="color:var(--muted);max-width:700px;margin:8px auto">গবেষণায় দেখা যায়, মাত্র ৩০০ শব্দ শিখলে কুরআনের প্রায় ৭০% আয়াত বোঝা সম্ভব। নিচে সর্বাধিক ব্যবহৃত শব্দ — পুনরাবৃত্তি সংখ্যাসহ।</p>
+    <div class="voc-cat" id="vocCat">
+      <button class="active" data-filter="all">সব 82</button>
+      <button data-filter="quranic">কুরআনিক ⭐</button>
+      <button data-filter="family">পরিবার</button>
+      <button data-filter="daily">প্রাত্যহিক</button>
+      <button data-filter="nature">প্রকৃতি</button>
+    </div>
+  </section>
+
+  <div class="voc-grid" id="vocGrid"></div>
+
+  <section id="quiz" style="max-width:860px;margin:20px auto;padding:0 16px">
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;text-align:center">
+      <h3 style="color:var(--accent2)">কুইক কুইজ — Quick Quiz (5 words)</h3>
+      <p style="color:var(--muted);font-size:0.9rem">শব্দ দেখে বাংলা অর্থ বলুন — ফ্ল্যাশকার্ড</p>
+      <div id="quizCard" style="background:var(--bg);border-radius:10px;padding:20px;margin:12px 0;min-height:100px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px">
+        <div style="font-size:2rem;color:var(--accent2)" id="quizAr">ٱللَّٰه</div>
+        <div style="color:var(--muted)" id="quizTr">Allāh</div>
+        <button class="btn" onclick="quizReveal()" id="quizBtn">অর্থ দেখুন</button>
+        <div id="quizAns" style="display:none;color:var(--text);font-weight:700">আল্লাহ — একমাত্র উপাস্য (2699 বার)</div>
+      </div>
+      <div style="display:flex;gap:8px;justify-content:center">
+        <button class="btn ghost" onclick="quizNext()">পরবর্তী →</button>
+        <button class="btn ghost" onclick="quizShuffle()">🔀 Shuffle</button>
+      </div>
+    </div>
+  </section>
+
+  <button class="kids-toggle" id="kidsToggle2" title="Kids mode">🧒 Kids</button>
+
+  <footer>
+    <span class="arabic-text">بسم الله الرحمن الرحيم</span>
+    <p>Vocabulary from eTarabic + Scientific Tafsir roots — frequency from corpus.quran.com</p>
+  </footer>
+
+  <script src="assets/data/chapters.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+    const VOC = [
+      {ar:'ٱللَّٰه',tr:'Allāh',bn:'আল্লাহ — একমাত্র উপাস্য',freq:2699,cat:'quranic'},
+      {ar:'رَبّ',tr:'Rabb',bn:'রব — প্রতিপালক',freq:970,cat:'quranic'},
+      {ar:'مِن',tr:'min',bn:'থেকে',freq:3226,cat:'daily'},
+      {ar:'فِي',tr:'fī',bn:'মধ্যে',freq:1701,cat:'daily'},
+      {ar:'عَلَى',tr:'ʿalā',bn:'উপরে',freq:1445,cat:'daily'},
+      {ar:'ٱلَّذِي',tr:'alladhī',bn:'যিনি / যে',freq:1464,cat:'daily'},
+      {ar:'إِنّ',tr:'inna',bn:'নিশ্চয়ই',freq:1682,cat:'daily'},
+      {ar:'مَا',tr:'mā',bn:'যা / কী',freq:2562,cat:'daily'},
+      {ar:'لَا',tr:'lā',bn:'না',freq:1718,cat:'daily'},
+      {ar:'كَانَ',tr:'kāna',bn:'ছিল',freq:1361,cat:'daily'},
+      {ar:'قَالَ',tr:'qāla',bn:'সে বলল',freq:529,cat:'quranic'},
+      {ar:'يَوْم',tr:'yawm',bn:'দিন',freq:405,cat:'quranic'},
+      {ar:'نَاس',tr:'nās',bn:'মানুষ',freq:241,cat:'quranic'},
+      {ar:'أَرْض',tr:'arḍ',bn:'পৃথিবী',freq:461,cat:'nature'},
+      {ar:'سَمَاء',tr:'samāʾ',bn:'আকাশ',freq:310,cat:'nature'},
+      {ar:'رَحْمَة',tr:'raḥmah',bn:'রহমত',freq:79,cat:'quranic'},
+      {ar:'عِلْم',tr:'ʿilm',bn:'জ্ঞান',freq:105,cat:'quranic'},
+      {ar:'نُور',tr:'nūr',bn:'আলো',freq:43,cat:'nature'},
+      {ar:'قَلْب',tr:'qalb',bn:'হৃদয়',freq:132,cat:'family'},
+      {ar:'أُمّ',tr:'umm',bn:'মা',freq:35,cat:'family'},
+      {ar:'أَب',tr:'ab',bn:'বাবা',freq:117,cat:'family'},
+      {ar:'جَبَل',tr:'jabal',bn:'পাহাড়',freq:39,cat:'nature'},
+      {ar:'بَحْر',tr:'baḥr',bn:'সমুদ্র',freq:41,cat:'nature'},
+      {ar:'شَمْس',tr:'shams',bn:'সূর্য',freq:33,cat:'nature'},
+    ];
+    function renderVoc(filter='all'){
+      const grid=document.getElementById('vocGrid');
+      grid.innerHTML='';
+      VOC.filter(v=>filter==='all'||v.cat===filter).forEach(v=>{
+        const d=document.createElement('div');
+        d.className='voc-card';
+        d.innerHTML=`<div class="ar">${v.ar}</div><div class="tr">${v.tr}</div><div class="bn">${v.bn}</div><span class="freq">কুরআনে ${v.freq} বার</span>`;
+        d.onclick=()=>{ if('speechSynthesis' in window){ const u=new SpeechSynthesisUtterance(v.ar); u.lang='ar-SA'; speechSynthesis.speak(u);} };
+        grid.appendChild(d);
+      });
+    }
+    document.querySelectorAll('#vocCat button').forEach(b=>{
+      b.addEventListener('click',()=>{
+        document.querySelectorAll('#vocCat button').forEach(x=>x.classList.remove('active'));
+        b.classList.add('active');
+        renderVoc(b.dataset.filter);
+      });
+    });
+    renderVoc();
+
+    // Quiz
+    let qi=0;
+    function quizShow(i){
+      const v=VOC[i%VOC.length];
+      document.getElementById('quizAr').textContent=v.ar;
+      document.getElementById('quizTr').textContent=v.tr;
+      document.getElementById('quizAns').textContent=v.bn + ` — ${v.freq} বার`;
+      document.getElementById('quizAns').style.display='none';
+      document.getElementById('quizBtn').style.display='';
+    }
+    window.quizReveal=()=>{ document.getElementById('quizAns').style.display='block'; document.getElementById('quizBtn').style.display='none'; };
+    window.quizNext=()=>{ qi=(qi+1)%VOC.length; quizShow(qi); };
+    window.quizShuffle=()=>{ qi=Math.floor(Math.random()*VOC.length); quizShow(qi); };
+    quizShow(0);
+
+    if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
+    document.getElementById('kidsToggle2')?.addEventListener('click',()=> document.body.classList.toggle('kids'));
+  </script>
+</body>
+</html>

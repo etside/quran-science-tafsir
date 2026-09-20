@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scientific Tafsir of the Quran — Bilingual English & বাংলা</title>
   <meta name="description" content="Complete bilingual edition with all 114 chapters embedded. No PDF viewer needed.">
+  <meta name="theme-color" content="#d4af37">
+  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
 </head>
@@ -36,7 +38,43 @@
     </h1>
     <p class="sub">Guidance for the Doers of Good — Hudan lil-Muhsinin. The complete work, all 114 chapters, fully translated into বাংলা, embedded directly on this site — no PDF loading required.</p>
     <p class="sub bn-text" style="color:var(--accent2)">মুহসিনদের জন্য হেদায়েত — হুদাল-লিল-মুহসিনীন। সম্পূর্ণ ১১৪টি সূরার ইংরেজি ও বাংলা অনুবাদ এই সাইটেই — কোনো PDF লোডিং নেই।</p>
+    <div style="margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+      <span class="offline-badge">✓ অফলাইনে প্রস্তুত — ইনস্টল করে ইন্টারনেট ছাড়াই পড়ুন</span>
+      <a href="vocabulary.html" style="background:var(--card);border:1px solid var(--border);color:var(--accent2);padding:6px 12px;border-radius:20px;font-size:0.82rem;text-decoration:none">📚 শব্দভাণ্ডার — Vocabulary</a>
+    </div>
   </section>
+
+  <div class="today-wrap">
+    <div class="today-card" id="todayCard">
+      <div class="today-head">
+        <b style="color:var(--accent2)">আজকের আয়াত · Today's Ayah</b>
+        <span class="streak-badge">🔥 <span id="streakCount">1</span> দিন · streak</span>
+      </div>
+      <div class="today-ayah" id="todayAyah">اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ</div>
+      <div class="today-trans" id="todayTrans">“পড়ো তোমার রবের নামে, যিনি সৃষ্টি করেছেন।” — সূরা আল-আলাক ৯৬:১</div>
+      <div class="today-actions">
+        <button class="btn" onclick="document.getElementById('todayAudio')?.play()">🔊 তিলাওয়াত শুনুন</button>
+        <a class="btn ghost" id="todayLink" href="chapters/96.html">তাফসির পড়ুন →</a>
+      </div>
+      <audio id="todayAudio" preload="none"></audio>
+    </div>
+    <div class="progress-wrap" id="progressWrap">
+      <div style="display:flex;justify-content:space-between;align-items:center"><b style="color:var(--accent2)">আপনার অগ্রগতি · Your Progress</b><span id="progressText" style="color:var(--muted);font-size:0.82rem">0/114</span></div>
+      <div class="progress-bar"><div id="progressBar" style="width:0%"></div></div>
+      <div class="progress-meta"><span>পঠিত সূরা</span><span id="progressPct">0%</span></div>
+    </div>
+    <div style="text-align:center">
+      <p style="color:var(--muted);font-size:0.82rem;margin:6px 0">কুইক ড্রিলস · Quick Drills</p>
+      <div class="drills">
+        <a href="chapters/1.html" title="Al-Fatiha">أ</a>
+        <a href="vocabulary.html" title="Vocabulary">ب</a>
+        <a href="chapters/2.html" title="Roots ر-ب-ب">ر</a>
+        <a href="chapters/96.html" title="Iqra">ق</a>
+        <a href="vocabulary.html#quiz" title="Quiz">؟</a>
+        <a href="chapters/36.html" title="Ya-Sin">ي</a>
+      </div>
+    </div>
+  </div>
   <section class="section-title">
     <h2>The Three Parts <span class="bn-text ar-range" style="display:block">তিনটি অংশ</span><span class="arabic-text">الأجزاء الثلاثة</span></h2>
   </section>
@@ -1012,6 +1050,7 @@
     });
   </script>
   
+  <button class="kids-toggle" id="kidsToggle" title="Kids mode — simplified">🧒 Kids</button>
   <footer>
     <span class="arabic-text">بسم الله الرحمن الرحيم</span>
     <span class="bn-text" style="display:block;color:var(--accent2);margin-top:4px">বিসমিল্লাহির রাহমানির রাহিম</span>
