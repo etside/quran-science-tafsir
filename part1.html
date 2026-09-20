@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 1 of 3 — Scientific Tafsir of the Quran</title>
+  <meta name="description" content="Part 1 of 3 of the Scientific Tafsir of the Quran — bilingual Arabic/English reader.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      <span class="txt" style="line-height:1.2"><span>Bilingual Scientific Tafsir</span><span class="ar-tag" style="display:block">التفسير العلمي للقرآن الكريم</span></span>
+    </a>
+    <div class="top-actions">
+      <label class="switch" title="العربية / English">
+        <input type="checkbox" id="langSwitch">
+        <span class="slider"><span>EN</span><span>ع</span></span>
+      </label>
+    </div>
+  </header>
+
+  <div class="reader-header">
+    <div class="breadcrumbs"><a href="index.html" data-i18n="reader.back">All Parts</a> › <span>Part 1 of 3</span></div>
+    <h1>Part 1 of 3 <span class="arabic-text">الجزء الأول من ثلاثة</span></h1>
+    <div class="ar-strip">Chapters 1 – 9 · السور ١ – ٩ · Guidance for the Guards · هدى للاتقياء</div>
+    <p style="color:var(--muted);margin-top:6px">905 pages</p>
+  </div>
+
+  <div class="viewer-wrap">
+    <nav class="side">
+      <h3>Chapters in this part <span class="arabic-text" dir="rtl">السور ١ – ٩</span></h3>
+      <a data-page-hint="#الفاتحة" href="javascript:void(0)" onclick="jumpToChapter(1)"><span class="cnum">1</span><span><span class="cname-ar">الفاتحة</span> <span class="en">Al-Fatihah / The Opening</span></span></a>
+      <a data-page-hint="#البقرة" href="javascript:void(0)" onclick="jumpToChapter(2)"><span class="cnum">2</span><span><span class="cname-ar">البقرة</span> <span class="en">Al-Baqarah / The Heifer</span></span></a>
+      <a data-page-hint="#آل عمران" href="javascript:void(0)" onclick="jumpToChapter(3)"><span class="cnum">3</span><span><span class="cname-ar">آل عمران</span> <span class="en">Aal-e Imran / Family of Imran</span></span></a>
+      <a data-page-hint="#النساء" href="javascript:void(0)" onclick="jumpToChapter(4)"><span class="cnum">4</span><span><span class="cname-ar">النساء</span> <span class="en">An-Nisa / The Women</span></span></a>
+      <a data-page-hint="#المائدة" href="javascript:void(0)" onclick="jumpToChapter(5)"><span class="cnum">5</span><span><span class="cname-ar">المائدة</span> <span class="en">Al-Ma'idah / The Repast</span></span></a>
+      <a data-page-hint="#الأنعام" href="javascript:void(0)" onclick="jumpToChapter(6)"><span class="cnum">6</span><span><span class="cname-ar">الأنعام</span> <span class="en">Al-An'am / The Cattle</span></span></a>
+      <a data-page-hint="#الأعراف" href="javascript:void(0)" onclick="jumpToChapter(7)"><span class="cnum">7</span><span><span class="cname-ar">الأعراف</span> <span class="en">Al-A'raf / The Heights</span></span></a>
+      <a data-page-hint="#الأنفال" href="javascript:void(0)" onclick="jumpToChapter(8)"><span class="cnum">8</span><span><span class="cname-ar">الأنفال</span> <span class="en">Al-Anfal / The Spoils of War</span></span></a>
+      <a data-page-hint="#التوبة" href="javascript:void(0)" onclick="jumpToChapter(9)"><span class="cnum">9</span><span><span class="cname-ar">التوبة</span> <span class="en">At-Tawbah / The Repentance</span></span></a>
+      <a href="index.html" style="margin-top:10px;color:var(--accent)">← <span data-i18n="reader.back">All Parts</span></a>
+    </nav>
+
+    <div class="viewer-panel">
+      <div class="toolbar">
+        <button id="firstPageBtn" title="First">⏮</button>
+        <button id="prevPageBtn" title="Prev">◀</button>
+        <input type="number" id="pageInput" min="1" value="1" step="1">
+        <span style="color:var(--muted);font-size:0.85rem" id="pageOf">/ 1</span>
+        <button id="nextPageBtn" title="Next">▶</button>
+        <button id="lastPageBtn" title="Last">⏭</button>
+        <span class="pageinfo" id="pageInfo"></span>
+      </div>
+      <div class="toolbar" style="border-top:none">
+        <button id="zoomOutBtn" title="Zoom out">−</button>
+        <button id="zoomInBtn" title="Zoom in">+</button>
+        <div class="search-wrap">
+          <input type="text" id="searchInput" placeholder="Search in PDF…">
+          <div class="search-res" id="searchRes"></div>
+        </div>
+        <a class="btn ghost" id="downloadBtn" style="font-size:.8rem;padding:6px 12px" href="assets/pdf/part1.pdf" download>⬇ <span data-i18n="download">Download PDF</span></a>
+      </div>
+      <div id="viewer" style="min-height:70vh;position:relative;overflow:auto;background:#0b1520;text-align:center">
+        <div class="loading" id="loading">Loading PDF…</div>
+        <canvas id="pdfCanvas"></canvas>
+      </div>
+      <div class="page-nav">
+        <button id="firstPageBtn2">⏮</button>
+        <button id="prevPageBtn2">◀</button>
+        <button id="nextPageBtn2">▶</button>
+        <button id="lastPageBtn2">⏭</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span class="arabic-text">بسم الله الرحمن الرحيم</span>
+    <p>Scientific Tafsir of the Quran · Zakaria Kamal</p>
+  </footer>
+
+  <script src="assets/js/pdf.min.js"></script>
+  <script>window.PDFJS_WORKER = "assets/js/pdf.worker.min.js";</script>
+  <script src="assets/data/chapters.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/reader.js"></script>
+  <script>window.PART_CONFIG = { part: 1, file: "assets/pdf/part1.pdf", totalPages: 905, chapterPages: {"1": 5, "2": 133, "3": 329, "4": 451, "5": 518, "6": 573, "7": 739, "8": 842, "9": 866} };</script>
+</body>
+</html>

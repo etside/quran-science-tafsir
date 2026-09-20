@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific Tafsir of the Quran — Bilingual Edition</title>
+  <meta name="description" content="Scientific Tafsir of the Quran by Zakaria Kamal — three PDF parts, bilingual Arabic/English, live online reader.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      <span class="txt" data-i18n="tagline" style="line-height:1.2"><span>Bilingual Scientific Tafsir</span><span class="ar-tag" style="display:block">التفسير العلمي للقرآن الكريم</span></span>
+    </a>
+    <div class="top-actions">
+      <label class="switch" title="العربية / English">
+        <input type="checkbox" id="langSwitch">
+        <span class="slider"><span>EN</span><span>ع</span></span>
+      </label>
+    </div>
+  </header>
+
+  <section class="hero">
+    <p class="kicker">Zakaria Kamal</p>
+    <h1>
+      Scientific Tafsir of the Quran
+      <span class="arabic-text">التفسير العلمي للقرآن الكريم</span>
+    </h1>
+    <p class="sub" data-lang-toggle="en">Guidance for the Doers of Good — Hudan lil-Muhsinin · هدى للمحسنين. The complete work in three PDF volumes, chapters 1 to 114.</p>
+    <span class="divider"></span>
+    <p class="sub" data-lang-toggle="ar" style="color:var(--accent2)">هدى للمحسنين — العد الكامل من سورة الفاتحة إلى سورة الناس، في ثلاثة مجلدات.</p>
+  </section>
+
+  <section class="section-title">
+    <h2>
+      The Three Parts
+      <span class="arabic-text">الأجزاء الثلاثة</span>
+    </h2>
+  </section>
+
+  <section class="cards" id="partCards"></section>
+
+  <section class="section-title">
+    <h2>
+      All 114 Chapters (Surahs)
+      <span class="arabic-text">السور كلها — من الفاتحة إلى الناس</span>
+    </h2>
+  </section>
+
+  <section class="chapters" id="chips"></section>
+
+  <footer>
+    <span class="arabic-text">بسم الله الرحمن الرحيم</span>
+    <p data-i18n="footerNote">Scientific Tafsir of the Quran by Zakaria Kamal. Freely shareable and publishable per the author's notice.</p>
+  </footer>
+
+  <script src="assets/data/chapters.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+    const cards = document.getElementById("partCards");
+    const chips = document.getElementById("chips");
+
+    QURAN.parts.forEach((p) => {
+      cards.insertAdjacentHTML("beforeend", `
+        <a class="card" href="part${p.id}.html">
+          <div class="num">${p.id.toString().padStart(2, "0")}</div>
+          <h2>${p.en.title}</h2>
+          <div class="ar-range">${p.ar.title}</div>
+          <div class="range">${p.en.subtitle} · ${p.ar.subtitle} — ${p.en.range}</div>
+          <p class="note">${p.en.note}</p>
+          <div class="meta">
+            <span>📄 ${p.pages} pages</span>
+            <span>${p.en.range}</span>
+          </div>
+          <span class="btn" style="text-align:center">Read Online · اقرأ</span>
+        </a>`);
+    });
+
+    QURAN.chapters.forEach((c) => {
+      const part = c.n <= 9 ? 1 : c.n <= 30 ? 2 : 3;
+      chips.insertAdjacentHTML("beforeend", `
+        <a class="chip" href="part${part}.html">
+          <span class="cnum">${c.n}</span>
+          <span>
+            <span class="cname-ar">${c.ar}</span>
+            <span class="cname-en">${c.en}</span>
+          </span>
+        </a>`);
+    });
+
+    const grouped = {};
+    QURAN.chapters.forEach((c) => {
+      const part = c.n <= 9 ? 1 : c.n <= 30 ? 2 : 3;
+      (grouped[part] = grouped[part] || []).push(c);
+    });
+  </script>
+</body>
+</html>
