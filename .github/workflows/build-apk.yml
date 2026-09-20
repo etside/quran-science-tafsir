@@ -47,16 +47,19 @@ jobs:
           $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
           echo "SDK installed"
 
-      - name: Install Capacitor CLI
-        run: npm install -g @capacitor/cli @capacitor/core
+      - name: Install Capacitor
+        run: |
+          npm init -y || true
+          npm install @capacitor/core @capacitor/cli @capacitor/android --save
+          npx cap --version
 
       - name: Init Capacitor (if needed)
         run: |
           if [ ! -d "android" ]; then
-            npx cap add android || true
+            npx cap add android
           fi
-          # Ensure webDir is correct and capacitor config exists
           cat capacitor.config.json
+          ls -la android/ 2>&1 | head -20
 
       - name: Sync web assets
         run: npx cap sync android || true
