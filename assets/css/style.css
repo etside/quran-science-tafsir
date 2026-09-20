@@ -301,3 +301,32 @@ body[dir="rtl"] .ch-body .quote { border-left: none; border-right: 3px solid var
 .gaur-q .a{color:#cbd8ec; margin-top:6px;}
 .balagha-card{border:1px dashed var(--border); border-radius:10px; padding:10px 12px; margin:8px 0;}
 .balagha-card b{color:var(--accent2)}
+
+/* ============ INTERACTIVE MEANING BUILDER ============ */
+.builder-wrap{max-width:860px; margin:18px auto 0; background:var(--card); border:1px solid var(--border); border-radius:12px; overflow:hidden;}
+.builder-head{padding:14px 16px; background:linear-gradient(135deg, rgba(212,175,55,0.12), transparent); border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;}
+.builder-head h4{color:var(--accent2); font-size:1rem; margin:0;}
+.builder-head .small{color:var(--muted); font-size:0.78rem;}
+.quran-rule{margin:12px 16px; background:rgba(212,175,55,0.08); border:1px solid rgba(212,175,55,0.25); border-radius:10px; padding:10px 12px; font-size:0.85rem; line-height:1.6;}
+.quran-rule b{color:var(--accent2)}
+.quran-rule ul{margin:6px 0 0 18px; color:var(--muted);}
+.word-builder{display:grid; gap:12px; padding:14px 16px;}
+.word-card{background:var(--bg2); border:1px solid var(--border); border-radius:10px; padding:10px 12px; display:grid; gap:8px;}
+.word-card .w-head{display:flex; align-items:center; justify-content:space-between; gap:8px;}
+.word-card .w-ar{color:var(--accent2); font-size:1.35rem; font-weight:800;}
+.word-card .w-meta{color:var(--muted); font-size:0.72rem;}
+.word-alts{display:flex; flex-wrap:wrap; gap:6px;}
+.word-alts button{border:1px solid var(--border); background:var(--bg); color:var(--muted); padding:6px 10px; border-radius:20px; font-size:0.82rem; cursor:pointer; transition:0.2s;}
+.word-alts button.active{background:var(--accent); color:#17202a; border-color:var(--accent); font-weight:700;}
+.word-alts button:hover{border-color:var(--accent2); color:var(--text);}
+.word-alts .src{font-size:0.65rem; opacity:0.7; margin-left:4px;}
+.preview-box{background:linear-gradient(180deg, var(--bg2), var(--card)); border:1px solid var(--border); border-radius:10px; padding:14px 16px; margin:12px 16px; min-height:60px;}
+.preview-box h5{color:var(--accent2); font-size:0.85rem; margin:0 0 8px; letter-spacing:1px; text-transform:uppercase;}
+.preview-box .preview-en{font-size:1.05rem; line-height:1.8; color:var(--text);}
+.preview-box .preview-bn{font-size:1rem; line-height:1.8; color:var(--accent2); margin-top:8px; border-top:1px dashed var(--border); padding-top:8px;}
+.preview-actions{display:flex; gap:8px; flex-wrap:wrap; margin:10px 16px 16px;}
+.preview-actions button{padding:7px 14px; border-radius:20px; font-size:0.82rem; cursor:pointer;}
+.science-builder{padding:0 16px 16px;}
+.science-builder .sci-opt{border:1px solid var(--border); border-radius:10px; padding:10px 12px; margin:8px 0; cursor:pointer; transition:0.2s;}
+.science-builder .sci-opt.active{border-color:var(--accent); background:rgba(212,175,55,0.08);}
+.science-builder .sci-opt input{margin-right:8px;}
