@@ -90,32 +90,66 @@
       <div class="kb-body" data-kb="alt"></div>
     </details>
   </div>
+  <!-- Deep Research — Nouman Ali Khan / Bayyinah + Gaur Fikr style -->
+  <div class="deep-wrap" id="deep-8">
+    <details open>
+      <summary>🧭 Amud & Nazm — Central Theme & Coherence</summary>
+      <div class="kb-body" data-kb="deep-amud"></div>
+    </details>
+    <details>
+      <summary>🔤 Word-by-Word — Sarf & Why This Word, Not That</summary>
+      <div class="kb-body" data-kb="deep-wbw"></div>
+    </details>
+    <details open>
+      <summary>📚 Multiple Meanings of Same Ayah — 4 Tafsirs Side-by-Side</summary>
+      <div class="kb-body" data-kb="deep-meanings"></div>
+    </details>
+    <details>
+      <summary>✨ Balagha — Literary Miracles & Rhetoric</summary>
+      <div class="kb-body" data-kb="deep-balagha"></div>
+    </details>
+    <details>
+      <summary>🤔 Gaur Fikr — Tadabbur Questions to Think Deeply</summary>
+      <div class="kb-body" data-kb="deep-gaur"></div>
+    </details>
+  </div>
   <script>
   (function(){
     const n=8;
     const d=(window.SURAH_KNOWLEDGE||{})[n];
-    if(!d) return;
+    const deep=(window.DEEP_RESEARCH||{})[n];
+    if(!d && !deep) return;
     const lang=document.documentElement.lang || 'en';
     function pick(o){ return (o[lang]||o.en||'') }
-    // context
-    const cEl=document.querySelector('#kb-context-8 [data-kb=context]');
-    if(cEl) cEl.innerHTML='<p>'+Hesc(pick(d.context))+'</p><p class="small">Source: Scientific Tafsir + classical Asbāb literature (condensed).</p>'.replace(/Hesc/,'');
-    // roots
-    const rEl=document.querySelector('#kb-roots-8 [data-kb=roots]');
-    if(rEl) rEl.innerHTML=(d.roots||[]).map(r=>'<div class="root-card"><div class="ar">'+r.ar+' <span class="tr">('+r.tr+' · '+r.root+')</span></div><div><b>'+Hesc(r.en)+'</b></div><div class="small bn-text">'+Hesc(r.bn)+'</div><div class="small"><em>Ex:</em> '+Hesc(r.ex||'')+'</div></div>'.replace(/Hesc/g,'')).join('') || '<p class="small">No roots indexed.</p>';
-    // science
-    const sEl=document.querySelector('#kb-science-8 [data-kb=science]');
-    if(sEl) sEl.innerHTML=(d.science||[]).map(s=>'<div class="sci-card"><b>'+s.topic+'</b> <span class="small">('+s.ref+' · '+s.sci+')</span><div>'+Hesc(pick({en:s.en,bn:s.bn}))+'</div></div>').join('') || '<p class="small">No science refs.</p>';
-    // alt
-    const aEl=document.querySelector('#kb-alt-8 [data-kb=alt]');
-    if(aEl) aEl.innerHTML='<div class="alt-grid">'+(d.alt||[]).map(a=>'<div class="alt-card"><b>'+a.w+'</b><ul>'+a.meanings.map(m=>'<li>'+m+'</li>').join('')+'</ul></div>').join('')+'</div>';
-    function Hesc(s){ const d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
+    function Hesc(s){ const x=document.createElement('div'); x.textContent=s; return x.innerHTML; }
+    if(d){
+      const cEl=document.querySelector('#kb-context-8 [data-kb=context]');
+      if(cEl) cEl.innerHTML='<p>'+Hesc(pick(d.context))+'</p><p class="small">Source: Scientific Tafsir + classical Asbāb literature (condensed).</p>';
+      const rEl=document.querySelector('#kb-roots-8 [data-kb=roots]');
+      if(rEl) rEl.innerHTML=(d.roots||[]).map(r=>'<div class="root-card"><div class="ar">'+r.ar+' <span class="tr">('+r.tr+' · '+r.root+')</span></div><div><b>'+Hesc(r.en)+'</b></div><div class="small bn-text">'+Hesc(r.bn)+'</div><div class="small"><em>Ex:</em> '+Hesc(r.ex||'')+'</div></div>').join('') || '<p class="small">No roots indexed.</p>';
+      const sEl=document.querySelector('#kb-science-8 [data-kb=science]');
+      if(sEl) sEl.innerHTML=(d.science||[]).map(s=>'<div class="sci-card"><b>'+Hesc(s.topic)+'</b> <span class="small">('+Hesc(s.ref)+' · '+Hesc(s.sci)+')</span><div>'+Hesc(pick({en:s.en,bn:s.bn}))+'</div></div>').join('') || '<p class="small">No science refs.</p>';
+      const aEl=document.querySelector('#kb-alt-8 [data-kb=alt]');
+      if(aEl) aEl.innerHTML='<div class="alt-grid">'+(d.alt||[]).map(a=>'<div class="alt-card"><b>'+Hesc(a.w)+'</b><ul>'+a.meanings.map(m=>'<li>'+Hesc(m)+'</li>').join('')+'</ul></div>').join('')+'</div>';
+    }
+    if(deep){
+      const am=document.querySelector('#deep-8 [data-kb=deep-amud]');
+      if(am) am.innerHTML='<div class="deep-amud"><b>Amud (Central Theme):</b> '+Hesc(pick(deep.amud))+'</div><div class="deep-amud" style="margin-top:8px"><b>Nazm (Coherence):</b> '+Hesc(pick(deep.nazm))+'</div>';
+      const wb=document.querySelector('#deep-8 [data-kb=deep-wbw]');
+      if(wb) wb.innerHTML='<div class="wbw-grid">'+(deep.wordByWord||[]).map(w=>'<div class="wbw-card"><div class="w-ar">'+Hesc(w.w)+' <span class="w-tr">'+Hesc(w.tr)+' · '+Hesc(w.root)+' · '+Hesc(w.form)+'</span></div><div><b>'+Hesc(w.en)+'</b></div><div class="small bn-text">'+Hesc(w.bn)+'</div><div class="w-why"><b>Why this word?</b> '+Hesc(w.why)+'</div></div>').join('')+'</div>';
+      const mm=document.querySelector('#deep-8 [data-kb=deep-meanings]');
+      if(mm) mm.innerHTML=(deep.multipleMeanings||[]).map(m=>'<div class="meaning-block"><h5>'+Hesc(m.ayah)+'</h5><div class="meanings">'+m.meanings.map(x=>'<div class="mean-item"><b>'+Hesc(x.source)+':</b> '+Hesc(x.text)+'</div>').join('')+'</div></div>').join('') || '<p class="small">Multiple tafsir views will appear here.</p>';
+      const bl=document.querySelector('#deep-8 [data-kb=deep-balagha]');
+      if(bl) bl.innerHTML=(deep.balagha||[]).map(b=>'<div class="balagha-card"><b>'+Hesc(b.point)+'</b><div>'+Hesc(b.explain)+'</div></div>').join('') || '<p class="small">Balagha points.</p>';
+      const gr=document.querySelector('#deep-8 [data-kb=deep-gaur]');
+      if(gr) gr.innerHTML=(deep.gaurFikr||[]).map(g=>'<div class="gaur-q"><b>Q: '+Hesc(g.q)+'</b><div class="a">A: '+Hesc(g.a)+'</div></div>').join('') || '<p class="small">Tadabbur questions.</p>';
+    }
   })();
   </script>
 
   </div>
   <div class="ch-nav"><a class="prev" href="chapters/7.html">← #7 আল-আরাফ</a><a class="next" href="chapters/9.html">#9 আত-তওবাহ →</a></div>
-<script src="../assets/data/surah_knowledge.js"></script><script src="../assets/js/tts.js"></script>
+<script src="../assets/data/surah_knowledge.js"></script><script src="../assets/data/deep_research.js"></script><script src="../assets/js/tts.js"></script>
   <footer>
     <span class="arabic-text">بسم الله الرحمن الرحيم</span>
     <span class="bn-text" style="display:block;color:var(--accent2);margin-top:4px">বিসমিল্লাহির রাহমানির রাহিম</span>
