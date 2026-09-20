@@ -28,7 +28,7 @@
   </header>
 
   <div class="chapter-head">
-    <div class="breadcrumbs"><a href="index.html" data-i18n="home">Home</a> › <a href="part3.html">Part 3 of 3 · পার্ট 3</a> › Surah 112</div>
+    <div class="breadcrumbs"><a href="../index.html" data-i18n="home">Home</a> › <a href="../part3.html">Part 3 of 3 · পার্ট 3</a> › Surah 112</div>
     <span class="part-badge">Part 3 of 3 · সূরা 112 · Surah 112</span>
     <h1><span class="bn-text">আল-ইখলাস</span> <span class="arabic-text">الإخلاص</span></h1>
     <span class="sh-en">Al-Ikhlas / The Purity of Faith</span>
@@ -41,14 +41,81 @@
     </div>
   </div>
   <div class="ch-nav"><a class="prev" href="chapters/111.html">← #111 আল-মাসাদ</a><a class="next" href="chapters/113.html">#113 আল-ফালাক →</a></div>
+  
+  <div class="tts-bar">
+    <button id="ttsPlay" onclick="TTSPlay()">▶ Play Audio</button>
+    <button class="ghost" onclick="TTSStop()">■ Stop</button>
+    <label>Voice <select id="ttsVoice"></select></label>
+    <label>Lang <select id="ttsLang"><option value="en-US">English</option><option value="bn-BD">বাংলা</option><option value="ar-SA">العربية</option></select></label>
+    <label>Speed <input id="ttsRate" type="range" min="0.7" max="1.4" step="0.1" value="1"><span id="ttsRateVal">1×</span></label>
+    <span id="ttsState">Ready</span>
+  </div>
+
   <div class="read-wrap">
     <nav class="ch-toc"><h4>Contents · সূচি · المحتويات</h4><a href="#sec-1">Introduction</a><a href="#sec-2">Remarks:</a></nav>
     <div class="ch-body">
-    <h3 id="sec-1" class="subhead c-en" lang="en">Introduction</h3><h3 id="sec-1-bn" class="subhead c-bn" lang="bn">ভূমিকা</h3><p class="para c-en" lang="en">This Surah simply explains the concept of one God and presents compelling arguments in this regard.</p><p class="para c-bn" lang="bn">এই সূরাটি এক ঈশ্বরের ধারণাকে সহজভাবে ব্যাখ্যা করে এবং এই বিষয়ে জোরালো যুক্তি উপস্থাপন করে।</p><p class="para c-en" lang="en">Tafsir of the Surah Say: He is God, the One and Only; God, the Eternal, Absolute. He begets not, nor is He begotten. And there is none like unto Him.</p><p class="para c-bn" lang="bn">সূরার তাফসীর বলুন: তিনি আল্লাহ, একক এবং একমাত্র; ঈশ্বর, চিরন্তন, পরম। তিনি জন্ম দেন না এবং তিনি জন্মগ্রহণ করেন না। আর তাঁর সমতুল্য কেউ নেই।</p><h3 id="sec-2" class="subhead c-en" lang="en">Remarks:</h3><h3 id="sec-2-bn" class="subhead c-bn" lang="bn">মন্তব্য:</h3><p class="quote c-en" lang="en">Allah is One and Only. If Allah had a child, He would no longer be One; He would become two. Therefore, He does not have a child. He is Eternal. He did not take birth, nor does He give birth. There is nothing like unto Him. Everything around us is created. So, people often ask, ―Who created God?‖ Actually, nothing is created; everything is transformed into its present form. Absolute creation is not possible for Allah either. He provided (breathed out) a part of His Soul (Nafsin-Wahidatin / a Single Soul / GUT Force+) from His own Nafs and transformed it into creation. Absolute annihilation is also not possible.</p><p class="quote c-bn" lang="bn">আল্লাহ এক এবং একমাত্র। আল্লাহর সন্তান থাকলে তিনি আর এক হতেন না; সে দুই হয়ে যেত। তাই তার কোন সন্তান নেই। তিনি চিরন্তন। তিনি জন্ম দেননি, জন্ম দেননি। তাঁর অনুরূপ কিছুই নেই। আমাদের চারপাশের সবকিছুই তৈরি। তাই, লোকেরা প্রায়শই জিজ্ঞাসা করে, "কে ঈশ্বরকে সৃষ্টি করেছেন?" আসলে, কিছুই সৃষ্টি হয় না; সবকিছু তার বর্তমান আকারে রূপান্তরিত হয়। পরম সৃষ্টি আল্লাহর পক্ষেও সম্ভব নয়। তিনি তাঁর নিজের নফস থেকে তাঁর আত্মার একটি অংশ (নাফসিন-ওয়াহিদাতিন/একক আত্মা/জিইউটি ফোর্স+) প্রদান করেন এবং তা সৃষ্টিতে রূপান্তরিত করেন। পরম বিনাশও সম্ভব নয়।</p>
+    <h3 id="sec-1" class="subhead c-en" lang="en">Introduction</h3><h3 id="sec-1-bn" class="subhead c-bn" lang="bn">ভূমিকা</h3><p class="para c-en" lang="en"><button class="para-tts" onclick="TTSPlayPara(this.parentElement)" title="Play this paragraph">🔈</button>This Surah simply explains the concept of one God and presents compelling arguments in this regard.</p><p class="para c-bn" lang="bn"><button class="para-tts" onclick="TTSPlayPara(this.parentElement)" title="Play this paragraph">🔈</button>এই সূরাটি এক ঈশ্বরের ধারণাকে সহজভাবে ব্যাখ্যা করে এবং এই বিষয়ে জোরালো যুক্তি উপস্থাপন করে।</p><p class="para c-en" lang="en"><button class="para-tts" onclick="TTSPlayPara(this.parentElement)" title="Play this paragraph">🔈</button>Tafsir of the Surah Say: He is God, the One and Only; God, the Eternal, Absolute. He begets not, nor is He begotten. And there is none like unto Him.</p><p class="para c-bn" lang="bn"><button class="para-tts" onclick="TTSPlayPara(this.parentElement)" title="Play this paragraph">🔈</button>সূরার তাফসীর বলুন: তিনি আল্লাহ, একক এবং একমাত্র; ঈশ্বর, চিরন্তন, পরম। তিনি জন্ম দেন না এবং তিনি জন্মগ্রহণ করেন না। আর তাঁর সমতুল্য কেউ নেই।</p><h3 id="sec-2" class="subhead c-en" lang="en">Remarks:</h3><h3 id="sec-2-bn" class="subhead c-bn" lang="bn">মন্তব্য:</h3><p class="quote c-en" lang="en"><button class="para-tts" onclick="TTSPlayPara(this.parentElement)" title="Play this paragraph">🔈</button>Allah is One and Only. If Allah had a child, He would no longer be One; He would become two. Therefore, He does not have a child. He is Eternal. He did not take birth, nor does He give birth. There is nothing like unto Him. Everything around us is created. So, people often ask, ―Who created God?‖ Actually, nothing is created; everything is transformed into its present form. Absolute creation is not possible for Allah either. He provided (breathed out) a part of His Soul (Nafsin-Wahidatin / a Single Soul / GUT Force+) from His own Nafs and transformed it into creation. Absolute annihilation is also not possible.</p><p class="quote c-bn" lang="bn"><button class="para-tts" onclick="TTSPlayPara(this.parentElement)" title="Play this paragraph">🔈</button>আল্লাহ এক এবং একমাত্র। আল্লাহর সন্তান থাকলে তিনি আর এক হতেন না; সে দুই হয়ে যেত। তাই তার কোন সন্তান নেই। তিনি চিরন্তন। তিনি জন্ম দেননি, জন্ম দেননি। তাঁর অনুরূপ কিছুই নেই। আমাদের চারপাশের সবকিছুই তৈরি। তাই, লোকেরা প্রায়শই জিজ্ঞাসা করে, "কে ঈশ্বরকে সৃষ্টি করেছেন?" আসলে, কিছুই সৃষ্টি হয় না; সবকিছু তার বর্তমান আকারে রূপান্তরিত হয়। পরম সৃষ্টি আল্লাহর পক্ষেও সম্ভব নয়। তিনি তাঁর নিজের নফস থেকে তাঁর আত্মার একটি অংশ (নাফসিন-ওয়াহিদাতিন/একক আত্মা/জিইউটি ফোর্স+) প্রদান করেন এবং তা সৃষ্টিতে রূপান্তরিত করেন। পরম বিনাশও সম্ভব নয়।</p>
     </div>
+    
+  <div class="kb-wrap" id="kb-112">
+    <details>
+      <summary>🔊 Audio — Listen to this Surah (TTS)</summary>
+      <div class="kb-body">
+        <div class="tts-bar">
+          <button id="ttsPlay" onclick="TTSPlay()">▶ Play Audio</button>
+          <button class="ghost" onclick="TTSStop()">■ Stop</button>
+          <label>Voice <select id="ttsVoice"></select></label>
+          <label>Lang <select id="ttsLang"><option value="en-US">English</option><option value="bn-BD">বাংলা</option><option value="ar-SA">العربية</option></select></label>
+          <label>Speed <input id="ttsRate" type="range" min="0.7" max="1.4" step="0.1" value="1"><span id="ttsRateVal">1×</span></label>
+          <span id="ttsState">Ready</span>
+        </div>
+        <p class="small">Browser TTS — works offline (Chrome/Edge/Android). Set <code>window.TTS_CLOUD_URL</code> to use your own cloud TTS API (see <code>assets/js/tts.js</code> hook).</p>
+        <p class="small">Tip: tap the <em>🔈</em> on any paragraph to play just that paragraph.</p>
+      </div>
+    </details>
+    <details id="kb-context-112">
+      <summary>📜 Historical Context — Pre-Islamic Arabia & Asbāb al-Nuzūl</summary>
+      <div class="kb-body" data-kb="context"></div>
+    </details>
+    <details id="kb-roots-112">
+      <summary>🔤 Arabic Root Words & Etymology</summary>
+      <div class="kb-body" data-kb="roots"></div>
+    </details>
+    <details id="kb-science-112">
+      <summary>🔬 Science References that Match</summary>
+      <div class="kb-body" data-kb="science"></div>
+    </details>
+    <details id="kb-alt-112">
+      <summary>📖 Alternative Meanings & Cross-References</summary>
+      <div class="kb-body" data-kb="alt"></div>
+    </details>
+  </div>
+  <script>
+  (function(){
+    const n=112;
+    const d=(window.SURAH_KNOWLEDGE||{})[n];
+    if(!d) return;
+    const lang=document.documentElement.lang || 'en';
+    function pick(o){ return (o[lang]||o.en||'') }
+    // context
+    const cEl=document.querySelector('#kb-context-112 [data-kb=context]');
+    if(cEl) cEl.innerHTML='<p>'+Hesc(pick(d.context))+'</p><p class="small">Source: Scientific Tafsir + classical Asbāb literature (condensed).</p>'.replace(/Hesc/,'');
+    // roots
+    const rEl=document.querySelector('#kb-roots-112 [data-kb=roots]');
+    if(rEl) rEl.innerHTML=(d.roots||[]).map(r=>'<div class="root-card"><div class="ar">'+r.ar+' <span class="tr">('+r.tr+' · '+r.root+')</span></div><div><b>'+Hesc(r.en)+'</b></div><div class="small bn-text">'+Hesc(r.bn)+'</div><div class="small"><em>Ex:</em> '+Hesc(r.ex||'')+'</div></div>'.replace(/Hesc/g,'')).join('') || '<p class="small">No roots indexed.</p>';
+    // science
+    const sEl=document.querySelector('#kb-science-112 [data-kb=science]');
+    if(sEl) sEl.innerHTML=(d.science||[]).map(s=>'<div class="sci-card"><b>'+s.topic+'</b> <span class="small">('+s.ref+' · '+s.sci+')</span><div>'+Hesc(pick({en:s.en,bn:s.bn}))+'</div></div>').join('') || '<p class="small">No science refs.</p>';
+    // alt
+    const aEl=document.querySelector('#kb-alt-112 [data-kb=alt]');
+    if(aEl) aEl.innerHTML='<div class="alt-grid">'+(d.alt||[]).map(a=>'<div class="alt-card"><b>'+a.w+'</b><ul>'+a.meanings.map(m=>'<li>'+m+'</li>').join('')+'</ul></div>').join('')+'</div>';
+    function Hesc(s){ const d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
+  })();
+  </script>
+
   </div>
   <div class="ch-nav"><a class="prev" href="chapters/111.html">← #111 আল-মাসাদ</a><a class="next" href="chapters/113.html">#113 আল-ফালাক →</a></div>
-
+<script src="../assets/data/surah_knowledge.js"></script><script src="../assets/js/tts.js"></script>
   <footer>
     <span class="arabic-text">بسم الله الرحمن الرحيم</span>
     <span class="bn-text" style="display:block;color:var(--accent2);margin-top:4px">বিসমিল্লাহির রাহমানির রাহিম</span>

@@ -247,3 +247,31 @@ body[dir="rtl"] .ch-body .quote { border-left: none; border-right: 3px solid var
 .chip[data-cat="makki"]{border-left:3px solid var(--accent);}
 .chip[data-cat="madani"]{border-left:3px solid #3498db;}
 .chip .badge{font-size:0.65rem; padding:2px 6px; border-radius:10px; background:var(--bg2); color:var(--muted);}
+
+/* ============ TTS BAR ============ */
+.tts-bar{display:flex; flex-wrap:wrap; gap:8px; align-items:center; justify-content:center; background:var(--card); border:1px solid var(--border); border-radius:12px; padding:10px 14px; margin:14px auto; max-width:860px;}
+.tts-bar button{background:linear-gradient(135deg,var(--accent2),var(--accent)); color:#17202a; border:none; border-radius:20px; padding:7px 16px; font-weight:700; cursor:pointer;}
+.tts-bar button.ghost{background:transparent; color:var(--accent); border:1px solid var(--accent);}
+.tts-bar select,.tts-bar input[type=range]{background:var(--bg); color:var(--text); border:1px solid var(--border); border-radius:8px; padding:6px 8px; font-size:0.82rem;}
+.tts-bar label{font-size:0.78rem; color:var(--muted); display:flex; align-items:center; gap:6px;}
+.tts-hl{outline:2px solid var(--accent); outline-offset:2px; border-radius:6px; background:rgba(212,175,55,0.08) !important;}
+#ttsState{font-size:0.78rem; color:var(--muted); min-width:90px; text-align:center;}
+
+/* ============ KNOWLEDGE / COLLAPSIBLE TABS ============ */
+.kb-wrap{max-width:860px; margin:18px auto 0; display:grid; gap:10px;}
+.kb-wrap details{background:var(--card); border:1px solid var(--border); border-radius:12px; overflow:hidden;}
+.kb-wrap summary{list-style:none; cursor:pointer; padding:12px 16px; display:flex; align-items:center; justify-content:space-between; gap:10px; font-weight:700; color:var(--accent2); user-select:none;}
+.kb-wrap summary::-webkit-details-marker{display:none}
+.kb-wrap summary::after{content:"▾"; color:var(--muted); transition:transform .2s; font-size:1rem;}
+.kb-wrap details[open] summary::after{transform:rotate(180deg)}
+.kb-wrap .kb-body{padding:0 16px 14px; color:var(--text); font-size:0.96rem; line-height:1.75;}
+.kb-wrap .kb-body .small{color:var(--muted); font-size:0.85rem;}
+.kb-wrap .root-card{background:var(--bg2); border:1px solid var(--border); border-radius:10px; padding:10px 12px; margin:8px 0; display:grid; gap:4px;}
+.kb-wrap .root-card .ar{color:var(--accent2); font-size:1.35rem; font-weight:700;}
+.kb-wrap .root-card .tr{color:var(--muted); font-size:0.82rem;}
+.kb-wrap .sci-card{background:rgba(212,175,55,0.06); border-left:3px solid var(--accent); border-radius:8px; padding:10px 12px; margin:8px 0;}
+.kb-wrap .alt-grid{display:grid; grid-template-columns:1fr; gap:8px;}
+.kb-wrap .alt-card{background:var(--bg2); border:1px solid var(--border); border-radius:10px; padding:8px 12px;}
+.kb-wrap .alt-card b{color:var(--accent2)}
+.para-tts{float:right; background:transparent; border:1px solid var(--border); color:var(--muted); border-radius:16px; padding:2px 8px; font-size:0.72rem; cursor:pointer; margin:2px 0 2px 8px;}
+.para-tts:hover{border-color:var(--accent); color:var(--accent2)}
