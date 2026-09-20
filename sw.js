@@ -20,7 +20,6 @@ self.addEventListener("activate", e => {
 });
 self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
-  // Only cache same-origin GET
   if (e.request.method !== "GET" || !url.pathname.includes("/quran-science-tafsir/")) return;
   e.respondWith(
     caches.match(e.request).then(cached => {
@@ -31,4 +30,28 @@ self.addEventListener("fetch", e => {
       return cached || fetched;
     })
   );
+});
+
+// Notifications & periodic tasks
+self.addEventListener("push", e => {
+  const data = e.data ? e.data.json() : {};
+  const title = data.title || "Scientific Tafsir — Today's Ayah";
+  const opts = {
+    body: data.body || "আজকের আয়াত পড়ুন · Today's ayah is ready",
+    icon: "./assets/icon-192.png",
+    badge: "./assets/icon-192.png",
+    data: { url: data.url || "./" }
+  };
+  e.waitUntil(self.registration.showNotification(title, opts));
+});
+self.addEventListener("notificationclick", e => {
+  e.notification.close();
+  const url = (e.notification.data && e.notification.data.url) || "./";
+  e.waitUntil(clients.matchAll({type:"window"}).then(list=>{
+    for(const c of list) if(c.url.includes("/quran-science-tafsir/")) return c.focus();
+    return clients.openWindow(url);
+  }));
+});
+self.addEventListener("periodicsync", e => {
+  if(e.tag === "research-daily") e.waitUntil(fetch("./assets/data/alt_meanings.json").then(r=>r.ok && caches.open(CACHE).then(c=>c.put("./assets/data/alt_meanings.json", r))));
 });

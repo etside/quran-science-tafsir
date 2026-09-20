@@ -336,3 +336,25 @@ body[dir="rtl"] .ch-body .quote { border-left: none; border-right: 3px solid var
 body.kids .deep-wrap, body.kids .builder-wrap, body.kids .kb-wrap details:not(:first-child){display:none;}
 body.kids .ch-body{font-size:1.15rem; line-height:2;}
 body.kids .ch-body .subhead{font-size:1.35rem;}
+
+/* Production APK — responsiveness: larger touch targets, safe areas, no horizontal scroll */
+html, body{max-width:100%; overflow-x:hidden;}
+.btn, .chip, .card, .langbtns button, .drills a, .word-alts button{ min-height:44px; }
+.topbar{padding:10px 14px;}
+@media (max-width: 640px){
+  .hero{padding:28px 14px 24px;}
+  .today-card .today-ayah{font-size:1.35rem;}
+  .cards{grid-template-columns:1fr; padding:20px 14px;}
+  .chapters{grid-template-columns:1fr; padding:16px 12px;}
+  .read-wrap{padding:16px 14px 40px;}
+  .ch-body{font-size:1rem;}
+  .tts-bar{flex-direction:column; align-items:stretch;}
+  .filter-bar{overflow-x:auto; flex-wrap:nowrap; -webkit-overflow-scrolling:touch; padding-bottom:6px;}
+}
+@media (min-width: 1200px){
+  .read-wrap{max-width:920px;}
+  .today-wrap{max-width:920px;}
+}
+.update-btn{background:var(--card); border:1px solid var(--border); color:var(--accent2); padding:8px 14px; border-radius:20px; font-size:0.82rem; cursor:pointer;}
+.update-btn:hover{border-color:var(--accent)}
+.update-btn[disabled]{opacity:0.6; pointer-events:none;}
