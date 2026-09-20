@@ -64,6 +64,24 @@ jobs:
           cat capacitor.config.json
           ls -la android/ 2>&1 | head -20
 
+      - name: Fix Kotlin duplicates
+        run: |
+          # Fix duplicate kotlin-stdlib issue - exclude old jdk7/jdk8 modules
+          echo "Fixing Kotlin duplicates..."
+          # Add resolutionStrategy to android/build.gradle
+          if ! grep -q "kotlin-stdlib-jdk" android/build.gradle 2>/dev/null; then
+            cat >> android/build.gradle <<'GRADLE'
+          // Fix duplicate Kotlin classes
+          subprojects {
+              configurations.all {
+                  exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk7'
+                  exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'
+              }
+          }
+          GRADLE
+          fi
+          cat android/build.gradle | tail -20
+
       - name: Sync web assets
         run: npx cap sync android
 
