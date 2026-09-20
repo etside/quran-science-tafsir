@@ -1,9 +1,6 @@
 {
   "appId": "com.etside.quran.tafsir",
   "appName": "Scientific Tafsir",
-  "webDir": ".",
-  "bundledWebRuntime": false,
-  "server": {
-    "androidScheme": "https"
-  }
+  "webDir": "www",
+  "bundledWebRuntime": false
 }

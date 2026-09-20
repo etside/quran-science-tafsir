@@ -53,6 +53,13 @@ jobs:
           npm install @capacitor/core @capacitor/cli @capacitor/android --save
           npx cap --version
 
+      - name: Prepare www
+        run: |
+          mkdir -p www
+          cp -r index.html assets chapters part*.html manifest.json sw.js vocabulary.html 404.html www/ 2>&1 | head -20
+          ls -lh www/ 2>&1 | head -20
+          echo "www ready"
+
       - name: Init Capacitor (if needed)
         run: |
           if [ ! -d "android" ]; then
@@ -62,7 +69,7 @@ jobs:
           ls -la android/ 2>&1 | head -20
 
       - name: Sync web assets
-        run: npx cap sync android || true
+        run: npx cap sync android
 
       - name: Build Debug APK
         run: |
