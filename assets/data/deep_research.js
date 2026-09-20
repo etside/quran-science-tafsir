@@ -2,14 +2,14 @@
 const DEEP_RESEARCH = {
   "111": {
     "amud": {
-      "en": "Amud: Surah 111 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 111 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 111 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Palm Fiber — Abu Lahab",
+      "bn": "আমূদ: Palm Fiber — Abu Lahab",
+      "ar": "العمود: Palm Fiber — Abu Lahab"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Perish hands of Abu Lahab, perish he",
+      "bn": "নজম: Perish hands of Abu Lahab, perish he",
+      "ar": "النظم: Perish hands of Abu Lahab, perish he"
     },
     "wordByWord": [
       {
@@ -100,14 +100,14 @@ const DEEP_RESEARCH = {
   },
   "110": {
     "amud": {
-      "en": "Amud: Surah 110 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 110 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 110 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Help — Nasr and conquest",
+      "bn": "আমূদ: Help — Nasr and conquest",
+      "ar": "العمود: Help — Nasr and conquest"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: When Allah's help and conquest comes, see people entering in droves",
+      "bn": "নজম: When Allah's help and conquest comes, see people entering in droves",
+      "ar": "النظم: When Allah's help and conquest comes, see people entering in droves"
     },
     "wordByWord": [
       {
@@ -394,14 +394,14 @@ const DEEP_RESEARCH = {
   },
   "109": {
     "amud": {
-      "en": "Amud: Surah 109 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 109 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 109 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Disbelievers — Kafirun",
+      "bn": "আমূদ: Disbelievers — Kafirun",
+      "ar": "العمود: Disbelievers — Kafirun"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: O disbelievers, I do not worship what you worship",
+      "bn": "নজম: O disbelievers, I do not worship what you worship",
+      "ar": "النظم: O disbelievers, I do not worship what you worship"
     },
     "wordByWord": [
       {
@@ -590,14 +590,14 @@ const DEEP_RESEARCH = {
   },
   "108": {
     "amud": {
-      "en": "Amud: Surah 108 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 108 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 108 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Abundance — Kawthar",
+      "bn": "আমূদ: Abundance — Kawthar",
+      "ar": "العمود: Abundance — Kawthar"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Indeed We gave you Kawthar — so pray and sacrifice",
+      "bn": "নজম: Indeed We gave you Kawthar — so pray and sacrifice",
+      "ar": "النظم: Indeed We gave you Kawthar — so pray and sacrifice"
     },
     "wordByWord": [
       {
@@ -786,14 +786,14 @@ const DEEP_RESEARCH = {
   },
   "107": {
     "amud": {
-      "en": "Amud: Surah 107 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 107 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 107 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Small Kindness — Ma'un",
+      "bn": "আমূদ: Small Kindness — Ma'un",
+      "ar": "العمود: Small Kindness — Ma'un"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Have you seen one who denies Deen? Pushes orphan, urges not feeding poor",
+      "bn": "নজম: Have you seen one who denies Deen? Pushes orphan, urges not feeding poor",
+      "ar": "النظم: Have you seen one who denies Deen? Pushes orphan, urges not feeding poor"
     },
     "wordByWord": [
       {
@@ -884,14 +884,14 @@ const DEEP_RESEARCH = {
   },
   "106": {
     "amud": {
-      "en": "Amud: Surah 106 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 106 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 106 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Quraysh — Familiarity of Quraysh",
+      "bn": "আমূদ: Quraysh — Familiarity of Quraysh",
+      "ar": "العمود: Quraysh — Familiarity of Quraysh"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: For familiarity of Quraysh — their winter and summer journeys",
+      "bn": "নজম: For familiarity of Quraysh — their winter and summer journeys",
+      "ar": "النظم: For familiarity of Quraysh — their winter and summer journeys"
     },
     "wordByWord": [
       {
@@ -1080,14 +1080,14 @@ const DEEP_RESEARCH = {
   },
   "105": {
     "amud": {
-      "en": "Amud: Surah 105 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 105 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 105 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Elephant — People of Elephant",
+      "bn": "আমূদ: Elephant — People of Elephant",
+      "ar": "العمود: Elephant — People of Elephant"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Have you not seen how your Lord dealt with people of elephant?",
+      "bn": "নজম: Have you not seen how your Lord dealt with people of elephant?",
+      "ar": "النظم: Have you not seen how your Lord dealt with people of elephant?"
     },
     "wordByWord": [
       {
@@ -1178,14 +1178,14 @@ const DEEP_RESEARCH = {
   },
   "104": {
     "amud": {
-      "en": "Amud: Surah 104 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 104 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 104 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Slanderer — Humazah",
+      "bn": "আমূদ: Slanderer — Humazah",
+      "ar": "العمود: Slanderer — Humazah"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Woe to every slanderer, backbiter who gathers wealth and counts it",
+      "bn": "নজম: Woe to every slanderer, backbiter who gathers wealth and counts it",
+      "ar": "النظم: Woe to every slanderer, backbiter who gathers wealth and counts it"
     },
     "wordByWord": [
       {
@@ -1374,14 +1374,14 @@ const DEEP_RESEARCH = {
   },
   "103": {
     "amud": {
-      "en": "Amud: Surah 103 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 103 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 103 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Time — Asr",
+      "bn": "আমূদ: Time — Asr",
+      "ar": "العمود: Time — Asr"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: By time, man is in loss except those with faith and righteous deeds",
+      "bn": "নজম: By time, man is in loss except those with faith and righteous deeds",
+      "ar": "النظم: By time, man is in loss except those with faith and righteous deeds"
     },
     "wordByWord": [
       {
@@ -1668,14 +1668,14 @@ const DEEP_RESEARCH = {
   },
   "102": {
     "amud": {
-      "en": "Amud: Surah 102 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 102 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 102 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Rivalry — Competing for increase",
+      "bn": "আমূদ: Rivalry — Competing for increase",
+      "ar": "العمود: Rivalry — Competing for increase"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Rivalry for increase diverted you until you visit graves",
+      "bn": "নজম: Rivalry for increase diverted you until you visit graves",
+      "ar": "النظم: Rivalry for increase diverted you until you visit graves"
     },
     "wordByWord": [
       {
@@ -1864,14 +1864,14 @@ const DEEP_RESEARCH = {
   },
   "101": {
     "amud": {
-      "en": "Amud: Surah 101 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 101 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 101 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Calamity — Qariah",
+      "bn": "আমূদ: Calamity — Qariah",
+      "ar": "العمود: Calamity — Qariah"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Qariah — what is it? Striking calamity",
+      "bn": "নজম: Qariah — what is it? Striking calamity",
+      "ar": "النظم: Qariah — what is it? Striking calamity"
     },
     "wordByWord": [
       {
@@ -2158,14 +2158,14 @@ const DEEP_RESEARCH = {
   },
   "100": {
     "amud": {
-      "en": "Amud: Surah 100 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 100 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 100 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Chargers — Horses charging",
+      "bn": "আমূদ: Chargers — Horses charging",
+      "ar": "العمود: Chargers — Horses charging"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: By chargers panting, striking sparks",
+      "bn": "নজম: By chargers panting, striking sparks",
+      "ar": "النظم: By chargers panting, striking sparks"
     },
     "wordByWord": [
       {
@@ -2354,14 +2354,14 @@ const DEEP_RESEARCH = {
   },
   "99": {
     "amud": {
-      "en": "Amud: Surah 99 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 99 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 99 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Earthquake — Zalzalah",
+      "bn": "আমূদ: Earthquake — Zalzalah",
+      "ar": "العمود: Earthquake — Zalzalah"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: When earth is shaken with its quake, and brings forth its burdens",
+      "bn": "নজম: When earth is shaken with its quake, and brings forth its burdens",
+      "ar": "النظم: When earth is shaken with its quake, and brings forth its burdens"
     },
     "wordByWord": [
       {
@@ -2542,14 +2542,14 @@ const DEEP_RESEARCH = {
   },
   "98": {
     "amud": {
-      "en": "Amud: Surah 98 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 98 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 98 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Clear Proof — Bayyinah",
+      "bn": "আমূদ: Clear Proof — Bayyinah",
+      "ar": "العمود: Clear Proof — Bayyinah"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Those who disbelieved will not cease until clear proof comes",
+      "bn": "নজম: Those who disbelieved will not cease until clear proof comes",
+      "ar": "النظم: Those who disbelieved will not cease until clear proof comes"
     },
     "wordByWord": [
       {
@@ -2738,14 +2738,14 @@ const DEEP_RESEARCH = {
   },
   "97": {
     "amud": {
-      "en": "Amud: Surah 97 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 97 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 97 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Power — Night of Qadr",
+      "bn": "আমূদ: Power — Night of Qadr",
+      "ar": "العمود: Power — Night of Qadr"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: We sent it down on Night of Power — better than 1000 months",
+      "bn": "নজম: We sent it down on Night of Power — better than 1000 months",
+      "ar": "النظم: We sent it down on Night of Power — better than 1000 months"
     },
     "wordByWord": [
       {
@@ -2934,14 +2934,14 @@ const DEEP_RESEARCH = {
   },
   "96": {
     "amud": {
-      "en": "Amud: Surah 96 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 96 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 96 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Clot — Read in name of your Lord",
+      "bn": "আমূদ: Clot — Read in name of your Lord",
+      "ar": "العمود: Clot — Read in name of your Lord"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Read — your Lord created from clot, taught by pen",
+      "bn": "নজম: Read — your Lord created from clot, taught by pen",
+      "ar": "النظم: Read — your Lord created from clot, taught by pen"
     },
     "wordByWord": [
       {
@@ -3228,14 +3228,14 @@ const DEEP_RESEARCH = {
   },
   "95": {
     "amud": {
-      "en": "Amud: Surah 95 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 95 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 95 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Fig — Fig and olive, Sinai, secure city",
+      "bn": "আমূদ: Fig — Fig and olive, Sinai, secure city",
+      "ar": "العمود: Fig — Fig and olive, Sinai, secure city"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: By fig and olive, Mount Sinai, this secure city",
+      "bn": "নজম: By fig and olive, Mount Sinai, this secure city",
+      "ar": "النظم: By fig and olive, Mount Sinai, this secure city"
     },
     "wordByWord": [
       {
@@ -3326,14 +3326,14 @@ const DEEP_RESEARCH = {
   },
   "79": {
     "amud": {
-      "en": "Amud: Surah 79 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 79 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 79 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Pulling — Angels that pull",
+      "bn": "আমূদ: Pulling — Angels that pull",
+      "ar": "العمود: Pulling — Angels that pull"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: By those who pull out violently",
+      "bn": "নজম: By those who pull out violently",
+      "ar": "النظم: By those who pull out violently"
     },
     "wordByWord": [
       {
@@ -3522,14 +3522,14 @@ const DEEP_RESEARCH = {
   },
   "94": {
     "amud": {
-      "en": "Amud: Surah 94 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 94 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 94 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Expansion — Did We not expand your chest?",
+      "bn": "আমূদ: Expansion — Did We not expand your chest?",
+      "ar": "العمود: Expansion — Did We not expand your chest?"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Did We not expand for you your chest?",
+      "bn": "নজম: Did We not expand for you your chest?",
+      "ar": "النظم: Did We not expand for you your chest?"
     },
     "wordByWord": [
       {
@@ -3620,14 +3620,14 @@ const DEEP_RESEARCH = {
   },
   "78": {
     "amud": {
-      "en": "Amud: Surah 78 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 78 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 78 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Great News — What they differ about",
+      "bn": "আমূদ: Great News — What they differ about",
+      "ar": "العمود: Great News — What they differ about"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: About what are they asking? About the great news",
+      "bn": "নজম: About what are they asking? About the great news",
+      "ar": "النظم: About what are they asking? About the great news"
     },
     "wordByWord": [
       {
@@ -3718,14 +3718,14 @@ const DEEP_RESEARCH = {
   },
   "93": {
     "amud": {
-      "en": "Amud: Surah 93 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 93 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 93 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Morning — Duha",
+      "bn": "আমূদ: Morning — Duha",
+      "ar": "العمود: Morning — Duha"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: By morning light, night when still — your Lord has not forsaken you",
+      "bn": "নজম: By morning light, night when still — your Lord has not forsaken you",
+      "ar": "النظم: By morning light, night when still — your Lord has not forsaken you"
     },
     "wordByWord": [
       {
@@ -3816,14 +3816,14 @@ const DEEP_RESEARCH = {
   },
   "77": {
     "amud": {
-      "en": "Amud: Surah 77 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 77 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 77 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Sent Forth — Winds sent forth",
+      "bn": "আমূদ: Sent Forth — Winds sent forth",
+      "ar": "العمود: Sent Forth — Winds sent forth"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: By those sent forth in succession",
+      "bn": "নজম: By those sent forth in succession",
+      "ar": "النظم: By those sent forth in succession"
     },
     "wordByWord": [
       {
@@ -4012,14 +4012,14 @@ const DEEP_RESEARCH = {
   },
   "92": {
     "amud": {
-      "en": "Amud: Surah 92 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 92 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 92 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Night — Night when it covers",
+      "bn": "আমূদ: Night — Night when it covers",
+      "ar": "العمود: Night — Night when it covers"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: By night when it covers, day when it appears",
+      "bn": "নজম: By night when it covers, day when it appears",
+      "ar": "النظم: By night when it covers, day when it appears"
     },
     "wordByWord": [
       {
@@ -4110,14 +4110,14 @@ const DEEP_RESEARCH = {
   },
   "76": {
     "amud": {
-      "en": "Amud: Surah 76 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 76 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 76 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Man — Time when man was nothing",
+      "bn": "আমূদ: Man — Time when man was nothing",
+      "ar": "العمود: Man — Time when man was nothing"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Has there come upon man a period when he was nothing mentioned?",
+      "bn": "নজম: Has there come upon man a period when he was nothing mentioned?",
+      "ar": "النظم: Has there come upon man a period when he was nothing mentioned?"
     },
     "wordByWord": [
       {
@@ -4208,14 +4208,14 @@ const DEEP_RESEARCH = {
   },
   "91": {
     "amud": {
-      "en": "Amud: Surah 91 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 91 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 91 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Sun — Sun and its brightness",
+      "bn": "আমূদ: Sun — Sun and its brightness",
+      "ar": "العمود: Sun — Sun and its brightness"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: By sun and its brightness, moon when it follows",
+      "bn": "নজম: By sun and its brightness, moon when it follows",
+      "ar": "النظم: By sun and its brightness, moon when it follows"
     },
     "wordByWord": [
       {
@@ -4306,14 +4306,14 @@ const DEEP_RESEARCH = {
   },
   "75": {
     "amud": {
-      "en": "Amud: Surah 75 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 75 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 75 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Resurrection — Self-reproaching soul",
+      "bn": "আমূদ: Resurrection — Self-reproaching soul",
+      "ar": "العمود: Resurrection — Self-reproaching soul"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Does man think We will not assemble his bones?",
+      "bn": "নজম: Does man think We will not assemble his bones?",
+      "ar": "النظم: Does man think We will not assemble his bones?"
     },
     "wordByWord": [
       {
@@ -4404,14 +4404,14 @@ const DEEP_RESEARCH = {
   },
   "90": {
     "amud": {
-      "en": "Amud: Surah 90 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 90 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 90 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: City — This city, this parent and child",
+      "bn": "আমূদ: City — This city, this parent and child",
+      "ar": "العمود: City — This city, this parent and child"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: I swear by this city, you are free in this city",
+      "bn": "নজম: I swear by this city, you are free in this city",
+      "ar": "النظم: I swear by this city, you are free in this city"
     },
     "wordByWord": [
       {
@@ -4502,14 +4502,14 @@ const DEEP_RESEARCH = {
   },
   "74": {
     "amud": {
-      "en": "Amud: Surah 74 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 74 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 74 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Covered — Arise and warn",
+      "bn": "আমূদ: Covered — Arise and warn",
+      "ar": "العمود: Covered — Arise and warn"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: O you covered, arise and warn, magnify your Lord",
+      "bn": "নজম: O you covered, arise and warn, magnify your Lord",
+      "ar": "النظم: O you covered, arise and warn, magnify your Lord"
     },
     "wordByWord": [
       {
@@ -4600,14 +4600,14 @@ const DEEP_RESEARCH = {
   },
   "89": {
     "amud": {
-      "en": "Amud: Surah 89 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 89 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 89 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Dawn — Ten nights",
+      "bn": "আমূদ: Dawn — Ten nights",
+      "ar": "العمود: Dawn — Ten nights"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: By dawn, ten nights, even and odd, night when it passes",
+      "bn": "নজম: By dawn, ten nights, even and odd, night when it passes",
+      "ar": "النظم: By dawn, ten nights, even and odd, night when it passes"
     },
     "wordByWord": [
       {
@@ -4698,14 +4698,14 @@ const DEEP_RESEARCH = {
   },
   "73": {
     "amud": {
-      "en": "Amud: Surah 73 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 73 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 73 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Wrapped — Night prayer",
+      "bn": "আমূদ: Wrapped — Night prayer",
+      "ar": "العمود: Wrapped — Night prayer"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: O you wrapped, stand night except a little",
+      "bn": "নজম: O you wrapped, stand night except a little",
+      "ar": "النظم: O you wrapped, stand night except a little"
     },
     "wordByWord": [
       {
@@ -4796,14 +4796,14 @@ const DEEP_RESEARCH = {
   },
   "88": {
     "amud": {
-      "en": "Amud: Surah 88 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 88 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 88 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Overwhelming — Faces humbled/exalted",
+      "bn": "আমূদ: Overwhelming — Faces humbled/exalted",
+      "ar": "العمود: Overwhelming — Faces humbled/exalted"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Has there come to you news of the overwhelming?",
+      "bn": "নজম: Has there come to you news of the overwhelming?",
+      "ar": "النظم: Has there come to you news of the overwhelming?"
     },
     "wordByWord": [
       {
@@ -4894,14 +4894,14 @@ const DEEP_RESEARCH = {
   },
   "72": {
     "amud": {
-      "en": "Amud: Surah 72 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 72 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 72 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Jinn — Jinn listening to Quran",
+      "bn": "আমূদ: Jinn — Jinn listening to Quran",
+      "ar": "العمود: Jinn — Jinn listening to Quran"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Jinn heard Quran and said: we heard a wondrous recitation",
+      "bn": "নজম: Jinn heard Quran and said: we heard a wondrous recitation",
+      "ar": "النظم: Jinn heard Quran and said: we heard a wondrous recitation"
     },
     "wordByWord": [
       {
@@ -5090,14 +5090,14 @@ const DEEP_RESEARCH = {
   },
   "87": {
     "amud": {
-      "en": "Amud: Surah 87 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 87 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 87 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Most High — Praise the Most High",
+      "bn": "আমূদ: Most High — Praise the Most High",
+      "ar": "العمود: Most High — Praise the Most High"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Exalt the name of your Lord, the Most High",
+      "bn": "নজম: Exalt the name of your Lord, the Most High",
+      "ar": "النظم: Exalt the name of your Lord, the Most High"
     },
     "wordByWord": [
       {
@@ -5188,14 +5188,14 @@ const DEEP_RESEARCH = {
   },
   "71": {
     "amud": {
-      "en": "Amud: Surah 71 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 71 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 71 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Noah — 950 years of dawah",
+      "bn": "আমূদ: Noah — 950 years of dawah",
+      "ar": "العمود: Noah — 950 years of dawah"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Nuh called his people night and day",
+      "bn": "নজম: Nuh called his people night and day",
+      "ar": "النظم: Nuh called his people night and day"
     },
     "wordByWord": [
       {
@@ -5286,14 +5286,14 @@ const DEEP_RESEARCH = {
   },
   "86": {
     "amud": {
-      "en": "Amud: Surah 86 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 86 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 86 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Night Comer — Tariq",
+      "bn": "আমূদ: Night Comer — Tariq",
+      "ar": "العمود: Night Comer — Tariq"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: By sky and Tariq — piercing star, over every soul is a guardian",
+      "bn": "নজম: By sky and Tariq — piercing star, over every soul is a guardian",
+      "ar": "النظم: By sky and Tariq — piercing star, over every soul is a guardian"
     },
     "wordByWord": [
       {
@@ -5384,14 +5384,14 @@ const DEEP_RESEARCH = {
   },
   "70": {
     "amud": {
-      "en": "Amud: Surah 70 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 70 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 70 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Ascending Ways — Patience beautiful",
+      "bn": "আমূদ: Ascending Ways — Patience beautiful",
+      "ar": "العمود: Ascending Ways — Patience beautiful"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Patient patience — Ma'arij, angels ascend in 50k years",
+      "bn": "নজম: Patient patience — Ma'arij, angels ascend in 50k years",
+      "ar": "النظم: Patient patience — Ma'arij, angels ascend in 50k years"
     },
     "wordByWord": [
       {
@@ -5482,14 +5482,14 @@ const DEEP_RESEARCH = {
   },
   "85": {
     "amud": {
-      "en": "Amud: Surah 85 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 85 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 85 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Towers — Fortified towers, burning trench",
+      "bn": "আমূদ: Towers — Fortified towers, burning trench",
+      "ar": "العمود: Towers — Fortified towers, burning trench"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: By sky with towers, by promised Day, by ditch of fire",
+      "bn": "নজম: By sky with towers, by promised Day, by ditch of fire",
+      "ar": "النظم: By sky with towers, by promised Day, by ditch of fire"
     },
     "wordByWord": [
       {
@@ -5580,14 +5580,14 @@ const DEEP_RESEARCH = {
   },
   "69": {
     "amud": {
-      "en": "Amud: Surah 69 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 69 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 69 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Inevitable Reality — Haqqah",
+      "bn": "আমূদ: Inevitable Reality — Haqqah",
+      "ar": "العمود: Inevitable Reality — Haqqah"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Haqqah — what is it? What will make you know?",
+      "bn": "নজম: Haqqah — what is it? What will make you know?",
+      "ar": "النظم: Haqqah — what is it? What will make you know?"
     },
     "wordByWord": [
       {
@@ -5678,14 +5678,14 @@ const DEEP_RESEARCH = {
   },
   "68": {
     "amud": {
-      "en": "Amud: Surah 68 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 68 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 68 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Pen — Character of Prophet",
+      "bn": "আমূদ: Pen — Character of Prophet",
+      "ar": "العمود: Pen — Character of Prophet"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Nun, by the pen — you are not mad, you have great character",
+      "bn": "নজম: Nun, by the pen — you are not mad, you have great character",
+      "ar": "النظم: Nun, by the pen — you are not mad, you have great character"
     },
     "wordByWord": [
       {
@@ -5776,14 +5776,14 @@ const DEEP_RESEARCH = {
   },
   "84": {
     "amud": {
-      "en": "Amud: Surah 84 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 84 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 84 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Splitting — Sky split",
+      "bn": "আমূদ: Splitting — Sky split",
+      "ar": "العمود: Splitting — Sky split"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: When sky is split and listens to its Lord",
+      "bn": "নজম: When sky is split and listens to its Lord",
+      "ar": "النظم: When sky is split and listens to its Lord"
     },
     "wordByWord": [
       {
@@ -5874,14 +5874,14 @@ const DEEP_RESEARCH = {
   },
   "83": {
     "amud": {
-      "en": "Amud: Surah 83 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 83 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 83 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Defrauders — Woe to those who give less",
+      "bn": "আমূদ: Defrauders — Woe to those who give less",
+      "ar": "العمود: Defrauders — Woe to those who give less"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Woe to mutaffifin who take full but give less",
+      "bn": "নজম: Woe to mutaffifin who take full but give less",
+      "ar": "النظم: Woe to mutaffifin who take full but give less"
     },
     "wordByWord": [
       {
@@ -5972,14 +5972,14 @@ const DEEP_RESEARCH = {
   },
   "67": {
     "amud": {
-      "en": "Amud: Surah 67 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 67 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 67 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Dominion — Who is best in deeds",
+      "bn": "আমূদ: Dominion — Who is best in deeds",
+      "ar": "العمود: Dominion — Who is best in deeds"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Blessed is He in whose hand is dominion — who will test you",
+      "bn": "নজম: Blessed is He in whose hand is dominion — who will test you",
+      "ar": "النظم: Blessed is He in whose hand is dominion — who will test you"
     },
     "wordByWord": [
       {
@@ -6054,14 +6054,14 @@ const DEEP_RESEARCH = {
   },
   "82": {
     "amud": {
-      "en": "Amud: Surah 82 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 82 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 82 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Cleaving — Sky cleaved",
+      "bn": "আমূদ: Cleaving — Sky cleaved",
+      "ar": "العمود: Cleaving — Sky cleaved"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: When sky is cleaved, when stars scattered",
+      "bn": "নজম: When sky is cleaved, when stars scattered",
+      "ar": "النظم: When sky is cleaved, when stars scattered"
     },
     "wordByWord": [
       {
@@ -7224,14 +7224,14 @@ const DEEP_RESEARCH = {
   },
   "66": {
     "amud": {
-      "en": "Amud: Surah 66 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 66 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 66 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Prohibition — Prophet and his wives",
+      "bn": "আমূদ: Prohibition — Prophet and his wives",
+      "ar": "العمود: Prohibition — Prophet and his wives"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Why do you prohibit what Allah made lawful?",
+      "bn": "নজম: Why do you prohibit what Allah made lawful?",
+      "ar": "النظم: Why do you prohibit what Allah made lawful?"
     },
     "wordByWord": [
       {
@@ -7660,14 +7660,14 @@ const DEEP_RESEARCH = {
   },
   "65": {
     "amud": {
-      "en": "Amud: Surah 65 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 65 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 65 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Divorce — Limits of Allah",
+      "bn": "আমূদ: Divorce — Limits of Allah",
+      "ar": "العمود: Divorce — Limits of Allah"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Divorce with precision — do not transgress limits",
+      "bn": "নজম: Divorce with precision — do not transgress limits",
+      "ar": "النظم: Divorce with precision — do not transgress limits"
     },
     "wordByWord": [
       {
@@ -7856,14 +7856,14 @@ const DEEP_RESEARCH = {
   },
   "64": {
     "amud": {
-      "en": "Amud: Surah 64 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 64 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 64 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Mutual Loss — Day of Taghabun",
+      "bn": "আমূদ: Mutual Loss — Day of Taghabun",
+      "ar": "العمود: Mutual Loss — Day of Taghabun"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Day you will be gathered — Day of mutual loss",
+      "bn": "নজম: Day you will be gathered — Day of mutual loss",
+      "ar": "النظم: Day you will be gathered — Day of mutual loss"
     },
     "wordByWord": [
       {
@@ -7954,14 +7954,14 @@ const DEEP_RESEARCH = {
   },
   "63": {
     "amud": {
-      "en": "Amud: Surah 63 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 63 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 63 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Hypocrites — Outward Islam, inward disease",
+      "bn": "আমূদ: Hypocrites — Outward Islam, inward disease",
+      "ar": "العمود: Hypocrites — Outward Islam, inward disease"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: When hypocrites come, they say we bear witness…",
+      "bn": "নজম: When hypocrites come, they say we bear witness…",
+      "ar": "النظم: When hypocrites come, they say we bear witness…"
     },
     "wordByWord": [
       {
@@ -8052,14 +8052,14 @@ const DEEP_RESEARCH = {
   },
   "62": {
     "amud": {
-      "en": "Amud: Surah 62 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 62 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 62 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Friday — Congregation and remembrance",
+      "bn": "আমূদ: Friday — Congregation and remembrance",
+      "ar": "العمود: Friday — Congregation and remembrance"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Hasten to remembrance of Allah on Friday",
+      "bn": "নজম: Hasten to remembrance of Allah on Friday",
+      "ar": "النظم: Hasten to remembrance of Allah on Friday"
     },
     "wordByWord": [
       {
@@ -8150,14 +8150,14 @@ const DEEP_RESEARCH = {
   },
   "61": {
     "amud": {
-      "en": "Amud: Surah 61 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 61 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 61 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Row — Like a solid structure",
+      "bn": "আমূদ: Row — Like a solid structure",
+      "ar": "العمود: Row — Like a solid structure"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Allah loves those who fight in His way as a solid wall",
+      "bn": "নজম: Allah loves those who fight in His way as a solid wall",
+      "ar": "النظم: Allah loves those who fight in His way as a solid wall"
     },
     "wordByWord": [
       {
@@ -8444,14 +8444,14 @@ const DEEP_RESEARCH = {
   },
   "60": {
     "amud": {
-      "en": "Amud: Surah 60 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 60 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 60 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Tested — Emigrant women tested",
+      "bn": "আমূদ: Tested — Emigrant women tested",
+      "ar": "العمود: Tested — Emigrant women tested"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Test believing women emigrating",
+      "bn": "নজম: Test believing women emigrating",
+      "ar": "النظم: Test believing women emigrating"
     },
     "wordByWord": [
       {
@@ -8738,14 +8738,14 @@ const DEEP_RESEARCH = {
   },
   "59": {
     "amud": {
-      "en": "Amud: Surah 59 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 59 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 59 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Gathering — Banu Nadir's expulsion",
+      "bn": "আমূদ: Gathering — Banu Nadir's expulsion",
+      "ar": "العمود: Gathering — Banu Nadir's expulsion"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: First gathering of exile — divine planning",
+      "bn": "নজম: First gathering of exile — divine planning",
+      "ar": "النظم: First gathering of exile — divine planning"
     },
     "wordByWord": [
       {
@@ -8836,14 +8836,14 @@ const DEEP_RESEARCH = {
   },
   "58": {
     "amud": {
-      "en": "Amud: Surah 58 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 58 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 58 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Pleading Woman — Zihar and justice",
+      "bn": "আমূদ: Pleading Woman — Zihar and justice",
+      "ar": "العمود: Pleading Woman — Zihar and justice"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Allah heard the woman who disputes with you",
+      "bn": "নজম: Allah heard the woman who disputes with you",
+      "ar": "النظم: Allah heard the woman who disputes with you"
     },
     "wordByWord": [
       {
@@ -9130,14 +9130,14 @@ const DEEP_RESEARCH = {
   },
   "57": {
     "amud": {
-      "en": "Amud: Surah 57 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 57 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 57 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Iron — Power and revelation together",
+      "bn": "আমূদ: Iron — Power and revelation together",
+      "ar": "العمود: Iron — Power and revelation together"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: We sent iron wherein is great might — power must serve revelation",
+      "bn": "নজম: We sent iron wherein is great might — power must serve revelation",
+      "ar": "النظم: We sent iron wherein is great might — power must serve revelation"
     },
     "wordByWord": [
       {
@@ -9228,14 +9228,14 @@ const DEEP_RESEARCH = {
   },
   "56": {
     "amud": {
-      "en": "Amud: Surah 56 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 56 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 56 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: The Inevitable — Three groups on Day",
+      "bn": "আমূদ: The Inevitable — Three groups on Day",
+      "ar": "العمود: The Inevitable — Three groups on Day"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Waqiah — forerunners, companions of right, companions of left",
+      "bn": "নজম: Waqiah — forerunners, companions of right, companions of left",
+      "ar": "النظم: Waqiah — forerunners, companions of right, companions of left"
     },
     "wordByWord": [
       {
@@ -9424,14 +9424,14 @@ const DEEP_RESEARCH = {
   },
   "55": {
     "amud": {
-      "en": "Amud: Surah 55 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 55 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 55 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: The Most Gracious — Balance and gratitude",
+      "bn": "আমূদ: The Most Gracious — Balance and gratitude",
+      "ar": "العمود: The Most Gracious — Balance and gratitude"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Which of your Lord's favors will you deny? (repeated 31 times)",
+      "bn": "নজম: Which of your Lord's favors will you deny? (repeated 31 times)",
+      "ar": "النظم: Which of your Lord's favors will you deny? (repeated 31 times)"
     },
     "wordByWord": [
       {
@@ -9522,14 +9522,14 @@ const DEEP_RESEARCH = {
   },
   "54": {
     "amud": {
-      "en": "Amud: Surah 54 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 54 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 54 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Moon — Splitting as Hour nears",
+      "bn": "আমূদ: Moon — Splitting as Hour nears",
+      "ar": "العمود: Moon — Splitting as Hour nears"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Hour drew near and moon split — still they turn away",
+      "bn": "নজম: Hour drew near and moon split — still they turn away",
+      "ar": "النظم: Hour drew near and moon split — still they turn away"
     },
     "wordByWord": [
       {
@@ -9620,14 +9620,14 @@ const DEEP_RESEARCH = {
   },
   "53": {
     "amud": {
-      "en": "Amud: Surah 53 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 53 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 53 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Star — Revelation not astray",
+      "bn": "আমূদ: Star — Revelation not astray",
+      "ar": "العمود: Star — Revelation not astray"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Star when it falls — your companion has not strayed",
+      "bn": "নজম: Star when it falls — your companion has not strayed",
+      "ar": "النظم: Star when it falls — your companion has not strayed"
     },
     "wordByWord": [
       {
@@ -9718,14 +9718,14 @@ const DEEP_RESEARCH = {
   },
   "52": {
     "amud": {
-      "en": "Amud: Surah 52 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 52 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 52 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Mount Tur — Oath of Tur and sea",
+      "bn": "আমূদ: Mount Tur — Oath of Tur and sea",
+      "ar": "العمود: Mount Tur — Oath of Tur and sea"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Tur, Book, House, sea — witnesses to punishment",
+      "bn": "নজম: Tur, Book, House, sea — witnesses to punishment",
+      "ar": "النظم: Tur, Book, House, sea — witnesses to punishment"
     },
     "wordByWord": [
       {
@@ -9914,14 +9914,14 @@ const DEEP_RESEARCH = {
   },
   "51": {
     "amud": {
-      "en": "Amud: Surah 51 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 51 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 51 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Scattering Winds — Oaths of winds",
+      "bn": "আমূদ: Scattering Winds — Oaths of winds",
+      "ar": "العمود: Scattering Winds — Oaths of winds"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Oaths by winds that scatter, then carry, then easy the matter",
+      "bn": "নজম: Oaths by winds that scatter, then carry, then easy the matter",
+      "ar": "النظم: Oaths by winds that scatter, then carry, then easy the matter"
     },
     "wordByWord": [
       {
@@ -10502,14 +10502,14 @@ const DEEP_RESEARCH = {
   },
   "81": {
     "amud": {
-      "en": "Amud: Surah 81 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 81 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 81 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Folding — Sun folded",
+      "bn": "আমূদ: Folding — Sun folded",
+      "ar": "العمود: Folding — Sun folded"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: When sun is folded, stars fall",
+      "bn": "নজম: When sun is folded, stars fall",
+      "ar": "النظم: When sun is folded, stars fall"
     },
     "wordByWord": [
       {
@@ -10796,14 +10796,14 @@ const DEEP_RESEARCH = {
   },
   "80": {
     "amud": {
-      "en": "Amud: Surah 80 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 80 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 80 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: He Frowned — Blind man vs chiefs",
+      "bn": "আমূদ: He Frowned — Blind man vs chiefs",
+      "ar": "العمود: He Frowned — Blind man vs chiefs"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: He frowned and turned away when blind man came",
+      "bn": "নজম: He frowned and turned away when blind man came",
+      "ar": "النظم: He frowned and turned away when blind man came"
     },
     "wordByWord": [
       {
@@ -10894,14 +10894,14 @@ const DEEP_RESEARCH = {
   },
   "112": {
     "amud": {
-      "en": "Amud: Surah 112 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 112 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 112 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Sincerity — Ikhlas, 1/3 of Quran",
+      "bn": "আমূদ: Sincerity — Ikhlas, 1/3 of Quran",
+      "ar": "العمود: Sincerity — Ikhlas, 1/3 of Quran"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Say: He is Allah, One — neither begets nor is born",
+      "bn": "নজম: Say: He is Allah, One — neither begets nor is born",
+      "ar": "النظم: Say: He is Allah, One — neither begets nor is born"
     },
     "wordByWord": [
       {
@@ -10992,14 +10992,14 @@ const DEEP_RESEARCH = {
   },
   "113": {
     "amud": {
-      "en": "Amud: Surah 113 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 113 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 113 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Daybreak — Falaq from evil",
+      "bn": "আমূদ: Daybreak — Falaq from evil",
+      "ar": "العمود: Daybreak — Falaq from evil"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Say: I seek refuge in Lord of daybreak from evil of what He created",
+      "bn": "নজম: Say: I seek refuge in Lord of daybreak from evil of what He created",
+      "ar": "النظم: Say: I seek refuge in Lord of daybreak from evil of what He created"
     },
     "wordByWord": [
       {
@@ -11090,14 +11090,14 @@ const DEEP_RESEARCH = {
   },
   "114": {
     "amud": {
-      "en": "Amud: Surah 114 — Part of the final juz's short, powerful surahs",
-      "bn": "আমূদ: Surah 114 — Part of the final juz's short, powerful surahs",
-      "ar": "العمود: Surah 114 — Part of the final juz's short, powerful surahs"
+      "en": "Amud: Mankind — Lord, King, God of mankind",
+      "bn": "আমূদ: Mankind — Lord, King, God of mankind",
+      "ar": "العمود: Mankind — Lord, King, God of mankind"
     },
     "nazm": {
-      "en": "Nazm: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "bn": "নজম: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)",
-      "ar": "النظم: Each short surah is a complete argument — no wasted word (Nouman: small surahs are the most concentrated)"
+      "en": "Nazm: Say: I seek refuge in Lord of mankind, King, God — from whisperer",
+      "bn": "নজম: Say: I seek refuge in Lord of mankind, King, God — from whisperer",
+      "ar": "النظم: Say: I seek refuge in Lord of mankind, King, God — from whisperer"
     },
     "wordByWord": [
       {
