@@ -1,6 +1,10 @@
-# Scientific Tafsir of the Quran — Bilingual Edition
+# Scientific Tafsir of the Quran — Bilingual (English / বাংলা / العربية) Edition
 
-Live bilingual (Arabic / English) website for the three-volume **"Scientific Tafsir of the Quran"** by **Zakaria Kamal**, hosted as a static site on GitHub Pages.
+Live multilingual **English · বাংলা · العربية** website for the three-volume **"Scientific Tafsir of the Quran"** by **Zakaria Kamal**, hosted as a static site on GitHub Pages.
+
+- The **book text** is in English (with Arabic Quranic terms).
+- The **website interface and navigation** are fully translated into English, Bengali and Arabic (RTL).
+- Surah names are shown in Arabic, English and Bengali throughout.
 
 ## Contents
 
@@ -12,9 +16,10 @@ Live bilingual (Arabic / English) website for the three-volume **"Scientific Taf
 
 ## Features
 
-- **Bilingual UI**: full English ↔ Arabic toggle (RTL support) for every page.
-- **Online reader**: PDF.js renders the original volumes inside the browser — no download needed.
-- **Structured navigation**: sidebar with all 114 surahs (Arabic + English names), pre-mapped to their start pages in each volume.
+- **Trilingual UI**: one-tap switch between **English, বাংলা, العربية** (full RTL support for Arabic) on every page.
+- **Bilingual everywhere**: hero, card titles, chapter lists and surah names are shown in English + Bengali side by side.
+- **Fast online reader**: PDF.js streams pages over HTTP range requests (GitHub Pages returns `206`), renders at capped device-pixel ratio for speed on phones, shows a live download-progress bar.
+- **Structured navigation**: sidebar with all 114 surahs (Arabic + English + Bengali names), pre-mapped to their start pages in each volume.
 - **Search**: full-text search inside any PDF volume.
 - **Jump to page / zoom / keyboard navigation** (← → arrows, +/- zoom).
 - **Download**: each volume downloadable directly from the reader toolbar.
@@ -35,12 +40,12 @@ Static site only — no build step.
 ```
 assets/
   css/style.css        UI styles
-  js/app.js            language toggle + i18n
+  js/app.js            language toggle (en/bn/ar) + i18n
   js/reader.js         PDF.js viewer, search & chapter jumps
   js/pdf.min.js        PDF.js library (self-hosted)
   js/pdf.worker.min.js PDF.js worker (self-hosted)
   pdf/part{1..3}.pdf   original volumes
-  data/chapters.js     bilingual chapter data (114 surahs)
+  data/chapters.js     trilingual chapter data (114 surahs)
 ```
 
 Serve locally:

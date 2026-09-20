@@ -20,6 +20,28 @@ body {
 }
 body[dir="rtl"] { font-family: "Segoe UI", "Noto Naskh Arabic", "Amiri", "Traditional Arabic", serif; }
 body[dir="rtl"] .arabic-text, body[dir="rtl"] .ar { font-family: "Noto Naskh Arabic", "Amiri", "Traditional Arabic", "Scheherazade New", serif; }
+body.lang-bn { font-family: "Noto Sans Bengali", "Hind Siliguri", "Bangla MN", "Segoe UI", sans-serif; }
+body.lang-bn .bn-text, .bn-text { font-family: "Noto Sans Bengali", "Hind Siliguri", "Bangla MN", "Segoe UI", sans-serif; }
+
+/* Segmented language control */
+.langbtns { display: flex; align-items: center; gap: 4px; background: var(--card); border: 1px solid var(--border); border-radius: 22px; padding: 3px; }
+.langbtns button {
+  border: none; background: transparent; color: var(--muted); cursor: pointer;
+  padding: 5px 12px; border-radius: 18px; font-size: 0.82rem; font-weight: 600; transition: 0.2s;
+}
+.langbtns button:hover { color: var(--text); }
+.langbtns button.active { background: linear-gradient(135deg, var(--accent2), var(--accent)); color: #17202a; }
+
+/* Loading bar */
+.loadbar { position: relative; width: 200px; height: 6px; background: var(--bg); border-radius: 4px; overflow: hidden; display: inline-block; vertical-align: middle; }
+.loadbar > span { display: block; height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent2), var(--accent)); transition: width 0.3s; }
+.loading { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 40px; color: var(--muted); }
+.spinner {
+  width: 22px; height: 22px; border: 3px solid var(--border); border-top-color: var(--accent);
+  border-radius: 50%; animation: spin 0.9s linear infinite; flex-shrink: 0;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.bilingual-row { display: flex; flex-direction: column; gap: 4px; }
 
 /* Top bar */
 .topbar {

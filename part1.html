@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Part 1 of 3 — Scientific Tafsir of the Quran</title>
-  <meta name="description" content="Part 1 of 3 of the Scientific Tafsir of the Quran — bilingual Arabic/English reader.">
+  <meta name="description" content="Part 1 of 3 of the Scientific Tafsir of the Quran — bilingual English/Bengali/Arabic reader.">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
 </head>
@@ -12,35 +12,40 @@
   <header class="topbar">
     <a class="brand" href="index.html">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-      <span class="txt" style="line-height:1.2"><span>Bilingual Scientific Tafsir</span><span class="ar-tag" style="display:block">التفسير العلمي للقرآن الكريم</span></span>
+      <span class="txt" style="line-height:1.3">
+        <span data-i18n="tagline">Bilingual Scientific Tafsir</span>
+        <span class="bn-text" style="display:block;font-size:.78rem;color:var(--accent2)">দ্বিভাষিক বৈজ্ঞানিক তাফসির</span>
+        <span class="ar-tag" style="display:block">التفسير العلمي للقرآن الكريم</span>
+      </span>
     </a>
     <div class="top-actions">
-      <label class="switch" title="العربية / English">
-        <input type="checkbox" id="langSwitch">
-        <span class="slider"><span>EN</span><span>ع</span></span>
-      </label>
+      <div class="langbtns" id="langBtns">
+        <button data-lang="en">English</button>
+        <button data-lang="bn">বাংলা</button>
+        <button data-lang="ar">العربية</button>
+      </div>
     </div>
   </header>
 
   <div class="reader-header">
     <div class="breadcrumbs"><a href="index.html" data-i18n="reader.back">All Parts</a> › <span>Part 1 of 3</span></div>
-    <h1>Part 1 of 3 <span class="arabic-text">الجزء الأول من ثلاثة</span></h1>
-    <div class="ar-strip">Chapters 1 – 9 · السور ١ – ٩ · Guidance for the Guards · هدى للاتقياء</div>
+    <h1>Part 1 of 3 <span class="bn-text" style="color:var(--accent2)">১ম অংশ</span> <span class="arabic-text">الجزء الأول من ثلاثة</span></h1>
+    <div class="ar-strip">Chapters 1 – 9 · সূরা ১ – ৯ · السور ١ – ٩ · Guidance for the Guards · هدى للاتقياء · মুত্তাকীদের জন্য পথনির্দেশ</div>
     <p style="color:var(--muted);margin-top:6px">905 pages</p>
   </div>
 
   <div class="viewer-wrap">
     <nav class="side">
-      <h3>Chapters in this part <span class="arabic-text" dir="rtl">السور ١ – ٩</span></h3>
-      <a data-page-hint="#الفاتحة" href="javascript:void(0)" onclick="jumpToChapter(1)"><span class="cnum">1</span><span><span class="cname-ar">الفاتحة</span> <span class="en">Al-Fatihah / The Opening</span></span></a>
-      <a data-page-hint="#البقرة" href="javascript:void(0)" onclick="jumpToChapter(2)"><span class="cnum">2</span><span><span class="cname-ar">البقرة</span> <span class="en">Al-Baqarah / The Heifer</span></span></a>
-      <a data-page-hint="#آل عمران" href="javascript:void(0)" onclick="jumpToChapter(3)"><span class="cnum">3</span><span><span class="cname-ar">آل عمران</span> <span class="en">Aal-e Imran / Family of Imran</span></span></a>
-      <a data-page-hint="#النساء" href="javascript:void(0)" onclick="jumpToChapter(4)"><span class="cnum">4</span><span><span class="cname-ar">النساء</span> <span class="en">An-Nisa / The Women</span></span></a>
-      <a data-page-hint="#المائدة" href="javascript:void(0)" onclick="jumpToChapter(5)"><span class="cnum">5</span><span><span class="cname-ar">المائدة</span> <span class="en">Al-Ma'idah / The Repast</span></span></a>
-      <a data-page-hint="#الأنعام" href="javascript:void(0)" onclick="jumpToChapter(6)"><span class="cnum">6</span><span><span class="cname-ar">الأنعام</span> <span class="en">Al-An'am / The Cattle</span></span></a>
-      <a data-page-hint="#الأعراف" href="javascript:void(0)" onclick="jumpToChapter(7)"><span class="cnum">7</span><span><span class="cname-ar">الأعراف</span> <span class="en">Al-A'raf / The Heights</span></span></a>
-      <a data-page-hint="#الأنفال" href="javascript:void(0)" onclick="jumpToChapter(8)"><span class="cnum">8</span><span><span class="cname-ar">الأنفال</span> <span class="en">Al-Anfal / The Spoils of War</span></span></a>
-      <a data-page-hint="#التوبة" href="javascript:void(0)" onclick="jumpToChapter(9)"><span class="cnum">9</span><span><span class="cname-ar">التوبة</span> <span class="en">At-Tawbah / The Repentance</span></span></a>
+      <h3>Chapters in this part <span class="bn-text" style="color:var(--accent2);display:block;font-size:1rem;text-transform:none">সূরা ১ – ৯</span> <span class="arabic-text" dir="rtl">السور ١ – ٩</span></h3>
+      <a data-page-hint="#الفاتحة" href="javascript:void(0)" onclick="jumpToChapter(1)"><span class="cnum">1</span><span class="bilingual-row"><span class="cname-ar">الفاتحة</span> <span class="en">Al-Fatihah / The Opening</span><span class="bn-text" style="color:var(--accent2);font-size:.85rem">আল-ফাতিহা</span></span></a>
+      <a data-page-hint="#البقرة" href="javascript:void(0)" onclick="jumpToChapter(2)"><span class="cnum">2</span><span class="bilingual-row"><span class="cname-ar">البقرة</span> <span class="en">Al-Baqarah / The Heifer</span><span class="bn-text" style="color:var(--accent2);font-size:.85rem">আল-বাকারাহ</span></span></a>
+      <a data-page-hint="#آل عمران" href="javascript:void(0)" onclick="jumpToChapter(3)"><span class="cnum">3</span><span class="bilingual-row"><span class="cname-ar">آل عمران</span> <span class="en">Aal-e Imran / Family of Imran</span><span class="bn-text" style="color:var(--accent2);font-size:.85rem">আল-ইমরান</span></span></a>
+      <a data-page-hint="#النساء" href="javascript:void(0)" onclick="jumpToChapter(4)"><span class="cnum">4</span><span class="bilingual-row"><span class="cname-ar">النساء</span> <span class="en">An-Nisa / The Women</span><span class="bn-text" style="color:var(--accent2);font-size:.85rem">আন-নিসা</span></span></a>
+      <a data-page-hint="#المائدة" href="javascript:void(0)" onclick="jumpToChapter(5)"><span class="cnum">5</span><span class="bilingual-row"><span class="cname-ar">المائدة</span> <span class="en">Al-Ma'idah / The Repast</span><span class="bn-text" style="color:var(--accent2);font-size:.85rem">আল-মায়িদাহ</span></span></a>
+      <a data-page-hint="#الأنعام" href="javascript:void(0)" onclick="jumpToChapter(6)"><span class="cnum">6</span><span class="bilingual-row"><span class="cname-ar">الأنعام</span> <span class="en">Al-An'am / The Cattle</span><span class="bn-text" style="color:var(--accent2);font-size:.85rem">আল-আনআম</span></span></a>
+      <a data-page-hint="#الأعراف" href="javascript:void(0)" onclick="jumpToChapter(7)"><span class="cnum">7</span><span class="bilingual-row"><span class="cname-ar">الأعراف</span> <span class="en">Al-A'raf / The Heights</span><span class="bn-text" style="color:var(--accent2);font-size:.85rem">আল-আরাফ</span></span></a>
+      <a data-page-hint="#الأنفال" href="javascript:void(0)" onclick="jumpToChapter(8)"><span class="cnum">8</span><span class="bilingual-row"><span class="cname-ar">الأنفال</span> <span class="en">Al-Anfal / The Spoils of War</span><span class="bn-text" style="color:var(--accent2);font-size:.85rem">আল-আনফাল</span></span></a>
+      <a data-page-hint="#التوبة" href="javascript:void(0)" onclick="jumpToChapter(9)"><span class="cnum">9</span><span class="bilingual-row"><span class="cname-ar">التوبة</span> <span class="en">At-Tawbah / The Repentance</span><span class="bn-text" style="color:var(--accent2);font-size:.85rem">আত-তওবাহ</span></span></a>
       <a href="index.html" style="margin-top:10px;color:var(--accent)">← <span data-i18n="reader.back">All Parts</span></a>
     </nav>
 
@@ -58,13 +63,17 @@
         <button id="zoomOutBtn" title="Zoom out">−</button>
         <button id="zoomInBtn" title="Zoom in">+</button>
         <div class="search-wrap">
-          <input type="text" id="searchInput" placeholder="Search in PDF…">
+          <input type="text" id="searchInput" placeholder="Search in PDF…" data-i18n-ph="reader.search">
           <div class="search-res" id="searchRes"></div>
         </div>
         <a class="btn ghost" id="downloadBtn" style="font-size:.8rem;padding:6px 12px" href="assets/pdf/part1.pdf" download>⬇ <span data-i18n="download">Download PDF</span></a>
       </div>
-      <div id="viewer" style="min-height:70vh;position:relative;overflow:auto;background:#0b1520;text-align:center">
-        <div class="loading" id="loading">Loading PDF…</div>
+      <div id="viewer" style="min-height:70vh;position:relative;overflow:auto;background:#0b1520;text-align:center;width:100%">
+        <div class="loading" id="loading">
+          <span class="spinner"></span>
+          <span id="loadingMsg">Loading PDF…</span>
+          <span class="loadbar"><span id="loadingBar"></span></span>
+        </div>
         <canvas id="pdfCanvas"></canvas>
       </div>
       <div class="page-nav">
@@ -78,7 +87,7 @@
 
   <footer>
     <span class="arabic-text">بسم الله الرحمن الرحيم</span>
-    <p>Scientific Tafsir of the Quran · Zakaria Kamal</p>
+    <p>Scientific Tafsir of the Quran · Zakaria Kamal · জাকারিয়া কামাল</p>
   </footer>
 
   <script src="assets/js/pdf.min.js"></script>

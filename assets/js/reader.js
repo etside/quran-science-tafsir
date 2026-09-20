@@ -1,15 +1,26 @@
-let pdfDoc = null, currentPage = 1, currentScale = 1.2, searchCache = null;
+let pdfDoc = null, currentPage = 1, currentScale = 1.4, searchCache = null;
 
 const canvas = document.getElementById("pdfCanvas");
-const ctx = canvas.getContext("2d");
+const ctx = canvas.getContext("2d", { alpha: false });
 const viewerEl = document.getElementById("viewer");
 const loadingEl = document.getElementById("loading");
+const loadingBar = document.getElementById("loadingBar");
 
 const PART = window.PART_CONFIG;
 const CHAPTER_PAGES = PART.chapterPages || {};
+const MAX_DPR = 1.5;
 
 function cfg() {
   pdfjsLib.GlobalWorkerOptions.workerSrc = window.PDFJS_WORKER || "assets/js/pdf.worker.min.js";
+}
+
+function setLoading(msg, pct) {
+  if (loadingEl) {
+    loadingEl.style.display = "flex";
+    if (pct != null) loadingEl.textContent = msg + " " + Math.round(pct) + "%";
+    else loadingEl.textContent = msg;
+  }
+  if (loadingBar) loadingBar.style.width = (pct || 0) + "%";
 }
 
 function renderPage(pageNum) {
@@ -17,46 +28,51 @@ function renderPage(pageNum) {
   currentPage = Math.min(Math.max(1, pageNum), pdfDoc.numPages);
   document.getElementById("pageInput").value = currentPage;
   document.getElementById("pageOf").textContent = "/ " + pdfDoc.numPages;
-  document.getElementById("pageInfo").textContent = t("reader.page") + " " + currentPage + " " + t("reader.of") + " " + pdfDoc.numPages;
-  document.querySelectorAll("[id]").forEach((el) => {
-    if (/^(first|prev|next|last)PageBtn2?$/.test(el.id)) el.style.color = "";
-  });
+  document.getElementById("pageInfo").textContent =
+    t("reader.page") + " " + currentPage + " " + t("reader.of") + " " + pdfDoc.numPages;
   pdfDoc.getPage(currentPage).then((page) => {
     const vp1 = page.getViewport({ scale: 1 });
-    const availW = Math.max(320, viewerEl.clientWidth - 24);
-    const fit = (availW / vp1.width) * 0.96;
-    currentScale = Math.min(Math.max(currentScale, fit), 3);
+    const availW = Math.max(260, viewerEl.clientWidth - 16);
+    const fit = availW / vp1.width;
+    currentScale = Math.min(Math.max(currentScale, fit * 1.02), 2.8);
     const viewport = page.getViewport({ scale: currentScale });
-    const dpr = window.devicePixelRatio || 1;
+    const dpr = Math.min(window.devicePixelRatio || 1, MAX_DPR);
     canvas.width = viewport.width * dpr;
     canvas.height = viewport.height * dpr;
     canvas.style.width = viewport.width + "px";
     canvas.style.height = viewport.height + "px";
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    setLoading(t("reader.loading"), null);
     const renderTask = page.render({
       canvasContext: ctx,
       viewport,
+      intent: "display",
       background: "#0b1520",
     });
     renderTask.promise.then(() => {
       loadingEl.style.display = "none";
+      loadingBar.style.width = "0%";
     });
   });
 }
 
-async function goTo(delta) {
+function goTo(delta) {
   if (!pdfDoc) return;
   renderPage(currentPage + delta);
 }
 
 function zoom(d) {
-  currentScale = Math.min(Math.max(0.4, currentScale + d), 3);
+  currentScale = Math.min(Math.max(0.45, currentScale + d), 2.8);
   if (pdfDoc) renderPage(currentPage);
 }
 
 async function loadPdf() {
-  loadingEl.style.display = "block";
-  pdfDoc = await pdfjsLib.getDocument({ url: PART.file }).promise;
+  setLoading(t("reader.loading"), 0);
+  const task = pdfjsLib.getDocument({ url: PART.file });
+  task.onProgress = (p) => {
+    if (p.total) setLoading(t("reader.loading"), (p.loaded / p.total) * 100);
+  };
+  pdfDoc = await task.promise;
   document.getElementById("pageOf").textContent = "/ " + pdfDoc.numPages;
   const hash = parseInt(location.hash.replace("#page-", ""), 10);
   renderPage(Number.isFinite(hash) && hash > 0 ? hash : PART.startPage || 1);
@@ -78,27 +94,27 @@ function wireNav() {
   bind("nextPageBtn2", () => goTo(1));
   bind("zoomInBtn", () => zoom(0.25));
   bind("zoomOutBtn", () => zoom(-0.25));
-  document.getElementById("pageInput").addEventListener("keydown", (e) => {
+  const pageIn = document.getElementById("pageInput");
+  pageIn.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
-      const val = parseInt(e.target.value, 10);
-      if (Number.isFinite(val)) renderPage(val);
+      const v = parseInt(e.target.value, 10);
+      if (Number.isFinite(v)) renderPage(v);
     }
   });
-  document.getElementById("pageInput").addEventListener("change", (e) => {
-    const val = parseInt(e.target.value, 10);
-    if (Number.isFinite(val)) renderPage(val);
-  });
   document.getElementById("searchInput").addEventListener("input", (e) => doSearch(e.target.value));
-  // keyboard arrows
   document.addEventListener("keydown", (e) => {
     const tag = (e.target.tagName || "").toLowerCase();
     if (tag === "input" || tag === "textarea") return;
-    if (e.key === "ArrowRight") goTo(1);
+    if (e.key === "ArrowRight" || e.key === " ") goTo(1);
     else if (e.key === "ArrowLeft") goTo(-1);
     else if (e.key === "+" || e.key === "=") zoom(0.25);
     else if (e.key === "-") zoom(-0.25);
   });
-  window.addEventListener("resize", () => renderPage(currentPage));
+  let rt;
+  window.addEventListener("resize", () => {
+    clearTimeout(rt);
+    rt = setTimeout(() => renderPage(currentPage), 200);
+  });
 }
 
 const chapterPagePromises = {};
@@ -106,18 +122,20 @@ const chapterPagePromises = {};
 async function pageOfChapter(n) {
   if (CHAPTER_PAGES[n]) return CHAPTER_PAGES[n];
   if (chapterPagePromises[n]) return chapterPagePromises[n];
-  const names = (QURAN.chapters.find((c) => c.n === n) || {}).en || "";
-  const short = names ? names.split("/")[0].replace(/[^A-Za-z0-9 '-]/g, "").trim() : null;
-  const searchTerm = short || "Chapter- " + n;
   chapterPagePromises[n] = (async () => {
-    const start = 1;
-    for (let p = start; p <= pdfDoc.numPages; p++) {
+    const meta = QURAN.chapters.find((c) => c.n === n) || {};
+    const candidates = [];
+    if (meta.en) candidates.push(meta.en.split("/")[0].replace(/[^A-Za-z0-9 '-]/g, "").trim());
+    if (meta.bn) candidates.push(meta.bn);
+    for (let p = 1; p <= pdfDoc.numPages; p++) {
       const t1 = await pdfDoc.getPage(p).then((pg) => pg.getTextContent()).catch(() => null);
       if (!t1) continue;
       const text = t1.items.map((i) => i.str).join(" ");
-      if (text.includes(searchTerm) || text.includes("Chapter-" + n) || text.includes("Chapter " + n + " ") || text.includes("Chapter " + n + "\n")) {
-        return p;
-      }
+      if (
+        text.includes("Chapter-" + n) || text.includes("Chapter " + n + " ") ||
+        text.includes("Chapter " + n + "[") || text.includes("Chapter " + n + "\n")
+      ) return p;
+      if (candidates.some((c) => c && text.includes(c))) return p;
     }
     return 1;
   })();
@@ -127,11 +145,11 @@ async function pageOfChapter(n) {
 async function jumpToChapter(n) {
   const p = await pageOfChapter(n);
   renderPage(p);
-  const btn = document.querySelector(`.side a[data-page-hint="#${QURAN.chapters.find((c) => c.n === n)?.ar}"]`);
-  if (btn) {
-    document.querySelectorAll(".side a.active").forEach((a) => a.classList.remove("active"));
-    btn.classList.add("active");
-  }
+  document.getElementById("pageInput").value = p;
+  const arName = (QURAN.chapters.find((c) => c.n === n) || {}).ar;
+  document.querySelectorAll(".side a.active").forEach((a) => a.classList.remove("active"));
+  const btn = document.querySelector(`.side a[data-page-hint="#${arName}"]`);
+  if (btn) btn.classList.add("active");
 }
 
 let searchIdx = 0, searchMatches = [];
@@ -145,7 +163,7 @@ async function doSearch(q) {
     searchMatches = [];
     searchIdx = 0;
     for (let p = 1; p <= pdfDoc.numPages; p++) {
-      if (searchMatches.length > 500) break;
+      if (searchMatches.length > 400) break;
       const t1 = await pdfDoc.getPage(p).then((pg) => pg.getTextContent()).catch(() => null);
       if (!t1) continue;
       const text = t1.items.map((i) => i.str).join(" ");
@@ -161,7 +179,7 @@ async function doSearch(q) {
     res.innerHTML = `<div style="padding:8px;color:var(--muted)">${t("reader.noResults")}</div>`;
     return;
   }
-  searchMatches.slice(0, 30).forEach((m, i) => {
+  searchMatches.slice(0, 30).forEach((m) => {
     const b = document.createElement("button");
     b.textContent = `${m.p} · ${m.s}`;
     b.addEventListener("click", () => {
@@ -181,7 +199,14 @@ function onLangChange() {
   document.getElementById("searchInput").placeholder = t("reader.search");
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  cfg();
-  loadPdf();
-});
+(async function boot() {
+  document.addEventListener("DOMContentLoaded", async () => {
+    cfg();
+    try {
+      await loadPdf();
+    } catch (err) {
+      setLoading("Failed to load PDF: " + err, null);
+      console.error(err);
+    }
+  });
+})();
