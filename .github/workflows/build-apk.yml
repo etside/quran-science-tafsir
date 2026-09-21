@@ -66,11 +66,22 @@ jobs:
 
       - name: Init Capacitor (if needed)
         run: |
-          if [ ! -d "android" ]; then
-            npx cap add android
-          fi
           cat capacitor.config.json
-          ls -la android/ 2>&1 | head -20
+          ls -la . 2>&1 | head -20
+          if [ ! -d "android" ]; then
+            echo "Creating android platform..."
+            npx cap add android --webDir=www 2>&1 | tail -20
+          else
+            echo "android exists, skipping add"
+          fi
+          ls -la android/ 2>&1 | head -40
+          ls -lh android/gradlew 2>&1 | head
+          if [ ! -f "android/gradlew" ]; then
+            echo "gradlew missing — recreating android platform"
+            rm -rf android
+            npx cap add android --webDir=www 2>&1 | tail -30
+            ls -la android/ 2>&1 | head -40
+          fi
 
       - name: Fix Kotlin duplicates
         run: |
@@ -95,6 +106,13 @@ jobs:
 
       - name: Build Debug APK
         run: |
+          ls -la android/ 2>&1 | head -20
+          ls -lh android/gradlew 2>&1 | head
+          if [ ! -f "android/gradlew" ]; then
+            echo "ERROR: android/gradlew still missing"
+            ls -R android 2>&1 | head -n 50
+            exit 1
+          fi
           cd android
           chmod +x gradlew
           ./gradlew assembleDebug --stacktrace
