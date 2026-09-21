@@ -415,3 +415,10 @@ body{font-family:'Atkinson Hyperlegible', system-ui, sans-serif; line-height:1.6
 /* Remove templated SaaS-card kit: no identical soft shadow, use hairline + subtle */
 .card{box-shadow:none; border:1px solid var(--swiss-border); border-radius:8px; background:var(--card);}
 .card:hover{transform:none; border-color:var(--swiss-accent); box-shadow:0 1px 0 var(--swiss-border);}
+
+/* Wikipedia integration */
+.wiki-card{ background:var(--card); border:1px solid var(--border); border-radius:10px; padding:12px; margin:8px 0; }
+.wiki-card img{ border:1px solid var(--border); }
+.wiki-search{ display:flex; gap:8px; align-items:center; max-width:860px; margin:12px auto; padding:0 20px; }
+.wiki-search input{ flex:1; background:var(--card); border:1px solid var(--border); border-radius:8px; padding:8px 12px; color:var(--text); font-size:0.9rem; }
+.wiki-search button{ background:var(--accent); color:#17202a; border:none; border-radius:8px; padding:8px 14px; font-weight:700; cursor:pointer; }
