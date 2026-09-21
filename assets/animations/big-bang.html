@@ -1,0 +1,19 @@
+<!-- Big Bang — single point expanding (Q 21:30) -->
+<div data-composition-id="big-bang" data-width="1280" data-height="720" data-duration="7" style="width:100%;height:100%;background:#0d1b2a;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden">
+  <div class="core" style="width:12px;height:12px;background:#fff;border-radius:50%;position:absolute;box-shadow:0 0 20px #d4af37"></div>
+  <div class="ring clip" data-start="1" data-duration="2" style="position:absolute;width:80px;height:80px;border:2px solid rgba(212,175,55,0.6);border-radius:50%"></div>
+  <div class="ring clip" data-start="1.8" data-duration="2" style="position:absolute;width:180px;height:180px;border:1px solid rgba(212,175,55,0.4);border-radius:50%"></div>
+  <div class="ring clip" data-start="2.6" data-duration="2" style="position:absolute;width:320px;height:320px;border:1px solid rgba(212,175,55,0.25);border-radius:50%"></div>
+  <div class="ring clip" data-start="3.4" data-duration="2" style="position:absolute;width:520px;height:520px;border:1px solid rgba(212,175,55,0.15);border-radius:50%"></div>
+  <div class="clip" data-start="4.5" data-duration="2" style="position:absolute;bottom:24px;left:50%;transform:translateX(-50%);background:rgba(22,40,59,0.9);border:1px solid #24405c;border-radius:8px;padding:8px 14px;color:#e8eef5;font-size:11px;text-align:center">21:30 — Heavens & earth were one mass, then We split them<br><span style="color:#9fb3c8;font-size:9px">Modern: Big Bang — singularity expanding</span></div>
+  <script>
+    window.__timelines=window.__timelines||{};
+    const tl=gsap.timeline({paused:true});
+    tl.fromTo('.core',{scale:0},{scale:1,duration:0.4},0);
+    document.querySelectorAll('.ring').forEach((el,i)=>{
+      tl.fromTo(el,{scale:0,opacity:0},{scale:1,opacity:1,duration:1.2,ease:"power2.out"},1+i*0.7);
+      tl.to(el,{opacity:0,duration:0.8}, 1+i*0.7+1);
+    });
+    window.__timelines["big-bang"]=tl;
+  </script>
+</div>

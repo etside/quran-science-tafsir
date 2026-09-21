@@ -386,3 +386,7 @@ body.kids .ch-toc{ font-size:1rem; }
 .tts-bar button:active{ transform:scale(0.97); }
 .tts-hl{ animation: pulse 1.5s infinite; }
 @keyframes pulse{ 0%{box-shadow:0 0 0 0 rgba(212,175,55,0.4)} 70%{box-shadow:0 0 0 8px rgba(212,175,55,0)} 100%{box-shadow:0 0 0 0 rgba(212,175,55,0)} }
+
+/* Universe animations — inline visuals for science */
+.sci-card{position:relative; overflow:hidden;}
+.sci-card [data-anim]{margin-top:8px;}
