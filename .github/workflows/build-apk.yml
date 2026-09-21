@@ -43,14 +43,6 @@ jobs:
           $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --list_installed 2>&1 | head -20
           echo "SDK ready"
 
-      - name: Prepare DB for Android
-        run: |
-          mkdir -p app/src/main/assets/databases
-          if [ -f "tafsir.db.gz" ]; then cp tafsir.db.gz app/src/main/assets/databases/; fi
-          mkdir -p android/app/src/main/assets/databases 2>/dev/null || true
-          if [ -f "tafsir.db.gz" ]; then cp tafsir.db.gz android/app/src/main/assets/databases/ 2>/dev/null || true; fi
-          ls -lh app/src/main/assets/databases/ 2>&1 | head -5
-
       - name: Install Capacitor
         run: |
           npm init -y || true
@@ -68,19 +60,28 @@ jobs:
         run: |
           cat capacitor.config.json
           ls -la . 2>&1 | head -20
-          if [ ! -d "android" ]; then
+          if [ ! -f "android/gradlew" ]; then
+            if [ -d "android" ]; then
+              echo "android exists but gradlew missing — removing incomplete platform"
+              rm -rf android
+            fi
             echo "Creating android platform..."
-            npx cap add android --webDir=www 2>&1 | tail -20
+            npx cap add android 2>&1 | tail -40
           else
-            echo "android exists, skipping add"
+            echo "android/gradlew exists, skipping add"
           fi
           ls -la android/ 2>&1 | head -40
           ls -lh android/gradlew 2>&1 | head
-          if [ ! -f "android/gradlew" ]; then
-            echo "gradlew missing — recreating android platform"
-            rm -rf android
-            npx cap add android --webDir=www 2>&1 | tail -30
-            ls -la android/ 2>&1 | head -40
+
+      - name: Prepare DB for Android
+        run: |
+          mkdir -p app/src/main/assets/databases
+          if [ -f "tafsir.db.gz" ]; then cp tafsir.db.gz app/src/main/assets/databases/ && ls -lh app/src/main/assets/databases/; fi
+          if [ -d "android" ]; then
+            mkdir -p android/app/src/main/assets/databases
+            if [ -f "tafsir.db.gz" ]; then cp tafsir.db.gz android/app/src/main/assets/databases/ && ls -lh android/app/src/main/assets/databases/; fi
+          else
+            echo "android not yet created, DB will be synced after cap sync"
           fi
 
       - name: Fix Kotlin duplicates
