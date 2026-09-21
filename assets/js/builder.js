@@ -5,10 +5,14 @@
   function renderBuilder(n, attempt=0){
     const host = document.getElementById(`builder-${n}`);
     if(!host) return;
+    // Show skeletons on first attempt
+    if(attempt===0){
+      host.innerHTML='<div class="skeleton skeleton-title" style="width:70%"></div><div class="skeleton skeleton-card"></div><div class="skeleton skeleton-card"></div><div class="skeleton skeleton-text" style="width:90%"></div>';
+    }
     const deep = (window.DEEP_RESEARCH||{})[n] || (window.DEEP_RESEARCH||{})[String(n)];
     if(!deep || !deep.wordByWord){
       if(attempt < 8){ setTimeout(()=>renderBuilder(n, attempt+1), 400); return; }
-      host.innerHTML='<p class="small" style="color:var(--muted);padding:12px">Word data is being prepared for this surah — check back after the next research update. <button class="btn ghost" style="margin-top:8px" onclick="location.reload()">↻ Reload</button></p>'; return;
+      host.innerHTML='<div style="text-align:center;padding:20px"><p class="small" style="color:var(--muted)">Word data is being prepared for this surah — check back after the next research update.</p><button class="btn ghost" style="margin-top:8px" onclick="location.reload()">↻ Reload</button> <button class="btn ghost" style="margin-top:8px" onclick="renderBuilder('+n+',0)">↻ Retry Fetch</button></div>'; return;
     }
 
     // Build alternatives per word: 3 options from different lenses

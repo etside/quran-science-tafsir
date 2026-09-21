@@ -141,15 +141,29 @@ function updateProgress(){
   if(pctEl) pctEl.textContent=pct+'%';
 }
 function setupKids(){
-  const btn=document.getElementById('kidsToggle')||document.getElementById('kidsToggle2');
+  const btns=document.querySelectorAll('.kids-toggle');
   const saved=localStorage.getItem('tafsir-kids')==='1';
   if(saved) document.body.classList.add('kids');
-  if(btn) btn.addEventListener('click',()=>{
-    document.body.classList.toggle('kids');
+  // Update all buttons to reflect current state
+  const updateBtns=()=>{
     const on=document.body.classList.contains('kids');
-    localStorage.setItem('tafsir-kids', on?'1':'0');
-    btn.textContent = on ? '📖 Normal' : '🧒 Kids';
+    btns.forEach(b=>{ b.textContent = on ? '📖 Normal' : '🧒 Kids'; b.setAttribute('aria-pressed', on); });
+  };
+  updateBtns();
+  btns.forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      try{
+        document.body.classList.toggle('kids');
+        const on=document.body.classList.contains('kids');
+        localStorage.setItem('tafsir-kids', on?'1':'0');
+        updateBtns();
+        // Smooth scroll to top to show simplified view
+        window.scrollTo({top:0, behavior:'smooth'});
+      }catch(e){ console.error('Kids toggle failed', e); }
+    });
   });
+  // Handle missing button gracefully
+  if(btns.length===0) console.warn('Kids toggle button not found');
 }
 function setupToday(){
   const ayahs=[

@@ -358,3 +358,31 @@ html, body{max-width:100%; overflow-x:hidden;}
 .update-btn{background:var(--card); border:1px solid var(--border); color:var(--accent2); padding:8px 14px; border-radius:20px; font-size:0.82rem; cursor:pointer;}
 .update-btn:hover{border-color:var(--accent)}
 .update-btn[disabled]{opacity:0.6; pointer-events:none;}
+
+/* === Fix 1: Loading skeletons for accordion === */
+.skeleton{ background: linear-gradient(90deg, var(--card) 25%, var(--bg2) 50%, var(--card) 75%); background-size:200% 100%; animation:shimmer 1.5s infinite; border-radius:8px; min-height:16px; margin:8px 0;}
+@keyframes shimmer{ 0%{background-position:-200% 0} 100%{background-position:200% 0} }
+.skeleton-text{ height:14px; margin:6px 0; }
+.skeleton-title{ height:20px; width:60%; margin:10px 0; }
+.skeleton-card{ height:80px; margin:10px 0; }
+
+/* === Fix 4: Accordion smooth transitions === */
+.kb-wrap details, .deep-wrap details, .builder-wrap details{ transition: all 0.3s ease; }
+.kb-wrap details[open] .kb-body, .deep-wrap details[open] .kb-body{ animation: slideDown 0.3s ease; }
+@keyframes slideDown{ from{opacity:0; transform:translateY(-8px)} to{opacity:1; transform:translateY(0)} }
+.kb-wrap summary, .deep-wrap summary{ transition: background 0.2s ease; }
+.kb-wrap summary:hover, .deep-wrap summary:hover{ background: rgba(212,175,55,0.06); }
+
+/* === Fix 2: Kids mode — proper simplified UI === */
+body.kids .deep-wrap, body.kids .builder-wrap{ display:none !important; }
+body.kids .kb-wrap details:not(:first-of-type){ display:none; }
+body.kids .ch-body{ font-size:1.25rem; line-height:2.2; }
+body.kids .ch-body .verse{ font-size:1.35rem; padding:16px 20px; }
+body.kids .surah-meta{ font-size:0.9rem; }
+body.kids .ch-toc{ font-size:1rem; }
+
+/* === Fix 3: TTS controls — ensure visibility and correct lang === */
+.tts-bar select{ min-width:120px; }
+.tts-bar button:active{ transform:scale(0.97); }
+.tts-hl{ animation: pulse 1.5s infinite; }
+@keyframes pulse{ 0%{box-shadow:0 0 0 0 rgba(212,175,55,0.4)} 70%{box-shadow:0 0 0 8px rgba(212,175,55,0)} 100%{box-shadow:0 0 0 0 rgba(212,175,55,0)} }
