@@ -186,48 +186,22 @@
     });
   }
 
-  // Auto-fetch all WIKI_MAP contexts for current surah (no manual search) — uses WIKI_MAP to extract key topics, science terms, history, places, concepts
-  async function autoFetchWikiForSurah(n){
-    const surahTitle = (window.WIKI_MAP?.surah||{})[n];
-    if(!surahTitle) return;
-    const deep = (window.DEEP_RESEARCH||{})[n] || (window.DEEP_RESEARCH||{})[String(n)] || {};
-    const know = (window.SURAH_KNOWLEDGE||{})[n] || (window.SURAH_KNOWLEDGE||{})[String(n)] || {};
-    const topics = new Set();
-    (know.science||[]).forEach(s=>{ if(s.topic) topics.add(s.topic); });
-    (deep.science||[]).forEach(s=>{ if(s.topic) topics.add(s.topic); });
-    Object.values(window.WIKI_MAP?.history||{}).forEach(v=> topics.add(v.replace(/_/g,' ')));
-    Object.values(window.WIKI_MAP?.concepts||{}).forEach(v=> topics.add(v));
-    const toFetch = [surahTitle, ...Array.from(topics).slice(0,3)];
-    const container = document.getElementById(`wiki-surah-${n}`);
-    if(!container) return;
-    container.innerHTML = '<div class="skeleton skeleton-card"></div><div class="skeleton skeleton-card"></div>';
-    const results = await Promise.allSettled(toFetch.map(t=> fetchWiki(t)));
-    let html = '';
-    results.forEach((r)=>{
-      if(r.status==='fulfilled' && r.value){
-        const d=r.value;
-        html += `<div class="wiki-card" style="display:flex; gap:12px; align-items:start; margin:8px 0; padding:10px; background:var(--bg2); border:1px solid var(--border); border-radius:8px">
-          ${d.thumbnail ? `<img src="${d.thumbnail}" alt="" style="width:60px;height:60px;object-fit:cover;border-radius:6px;flex-shrink:0">` : ''}
-          <div><b style="color:var(--accent2)">${d.title}</b><p style="margin:4px 0; color:var(--muted); font-size:0.85rem; line-height:1.5">${d.extract.slice(0,220)}...</p><a href="${d.url}" target="_blank" rel="noopener" style="font-size:0.78rem; color:var(--accent2)">Read on Wikipedia →</a></div>
-        </div>`;
-      }
-    });
-    if(html) container.innerHTML = html;
-    else container.innerHTML = `<p class="small">Wikipedia: <a href="https://en.wikipedia.org/wiki/${surahTitle}" target="_blank" rel="noopener">View ${surahTitle} on Wikipedia →</a></p>`;
-  }
-
-  // Auto-enhance on load — auto-fetch via WIKI_MAP (no manual search needed)
+  // Auto-enhance on load
   function initWiki(){
+    // Render surah wiki tab for current chapter
     const m = location.pathname.match(/chapters\/(\d+)\.html/);
     if(m){
       const n=parseInt(m[1]);
-      autoFetchWikiForSurah(n);
-      setTimeout(enhanceScienceCards, 800);
-      document.addEventListener('click', e=>{
-        if(e.target.closest('summary')) setTimeout(enhanceScienceCards, 300);
-      });
+      // Find wiki tab container — we will add it via gen_site, but also handle if exists
+      const wikiContainer = document.querySelector('[data-kb="wiki-surah"]');
+      if(wikiContainer) renderWikiSurah(n, wikiContainer.id || (wikiContainer.id=`wiki-surah-${n}`));
     }
-    // Global Wikipedia search in header (if exists) — still supports manual search as fallback, but primary is auto-fetch
+    // Enhance science cards
+    setTimeout(enhanceScienceCards, 800);
+    document.addEventListener('click', e=>{
+      if(e.target.closest('summary')) setTimeout(enhanceScienceCards, 300);
+    });
+    // Global Wikipedia search in header (if exists)
     const search = document.getElementById('wikiSearch');
     if(search){
       search.addEventListener('keydown', async e=>{
@@ -248,5 +222,19 @@
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', initWiki);
   else initWiki();
 
-  window.Wiki = {fetchWiki, fetchWikiSections, renderWikiSurah: autoFetchWikiForSurah, enhanceScienceCards, autoFetchWikiForSurah};
+  window.Wiki = {fetchWiki, renderWikiSurah, enhanceScienceCards};
 })();
+async function wikiSearchSurah(n){
+  const q=document.getElementById(`wikiSearch-${n}`)?.value.trim();
+  if(!q) return;
+  const d=await Wiki.fetchWiki(q);
+  const o=document.getElementById(`wikiSearchOut-${n}`);
+  if(o&&d){ o.innerHTML=`<b>${d.title}</b>: ${d.extract} <a href='${d.url}' target='_blank'>More →</a>`; o.style.display='block'; }
+}
+async function wikiSearchGlobal(){
+  const q=document.getElementById('wikiSearch')?.value.trim();
+  if(!q) return;
+  const d=await Wiki.fetchWiki(q);
+  const o=document.getElementById('wikiSearchOut');
+  if(o&&d){ o.innerHTML=`<b>${d.title}</b>: ${d.extract} <a href='${d.url}' target='_blank'>More →</a>`; o.style.display='block'; }
+}

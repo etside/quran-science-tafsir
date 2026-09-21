@@ -6359,7 +6359,7 @@ const DEEP_RESEARCH = {
     },
     "wordByWord": [
       {
-        "w": "الم",
+        "w": "الم", "tr": "Alif Lam Mim",
         "root": "ا-ل-م",
         "form": "muqatta'at (disjointed letters)",
         "why": "Alif-Lam-Mim — challenge to eloquent Arabs: you know these letters, yet cannot produce like Quran. Also 'That book' (dhalika) points to heavenly archetype, not just this mushaf.",
@@ -6367,7 +6367,7 @@ const DEEP_RESEARCH = {
         "bn": "আলিফ লাম মীম — অলৌকিক বিচ্ছিন্ন হরফ"
       },
       {
-        "w": "ذَٰلِكَ",
+        "w": "ذَٰلِكَ", "tr": "Dhalika",
         "root": "ذ-ل-ك",
         "form": "dhalika (that, far demonstrative)",
         "why": "Why 'that book' not 'this'? Far demonstrative = elevation. Like pointing to something on a high shelf — Quran's status is lofty, from Lawh Mahfuz.",
@@ -6375,7 +6375,7 @@ const DEEP_RESEARCH = {
         "bn": "ঐ কিতাব — দূরবর্তী নির্দেশক দ্বারা মর্যাদা"
       },
       {
-        "w": "لَا رَيْبَ",
+        "w": "لَا رَيْبَ", "tr": "La raiba",
         "root": "ر-ي-ب",
         "form": "la raiba (absolute negation, la of genus)",
         "why": "'Raib' is doubt that causes anxiety/suspicion (like a bad business deal). 'La raiba' = zero anxiety-doubt, not just no doubt — absolute negation of genus.",
@@ -6383,7 +6383,7 @@ const DEEP_RESEARCH = {
         "bn": "এতে কোন সন্দেহ নেই — পরম নিঃসন্দেহতা"
       },
       {
-        "w": "تَقْوَىٰ",
+        "w": "تَقْوَىٰ", "tr": "Taqwa",
         "root": "و-ق-ي",
         "form": "taqwa (verbal noun)",
         "why": "Waqa = to protect, to shield. Taqwa is wariness, care, protection — like walking through thorns in long clothes, carefully. Not just 'fear' but protective consciousness (Nouman: Taqwa linked to wiqaya).",
@@ -6391,7 +6391,7 @@ const DEEP_RESEARCH = {
         "bn": "তাকওয়া — রক্ষামূলক সতর্কতা (ও-ক্বা-ইয়া)"
       },
       {
-        "w": "يُؤْمِنُونَ",
+        "w": "يُؤْمِنُونَ", "tr": "Yu'minuna",
         "root": "ء-م-ن",
         "form": "yu'minuna (Form IV, present)",
         "why": "A-m-n = security, safety, trust. Mu'min is one who feels secure AND gives security to others. Faith is not just belief but a state of safety with Allah.",
@@ -6399,7 +6399,7 @@ const DEEP_RESEARCH = {
         "bn": "তারা ঈমান আনে — নিরাপত্তা ও বিশ্বাস"
       },
       {
-        "w": "بِٱلْغَيْبِ",
+        "w": "بِٱلْغَيْبِ", "tr": "Bil-ghayb",
         "root": "غ-ي-ب",
         "form": "bil-ghayb (preposition + noun)",
         "why": "Ghayb is not just unseen but unseeable by senses — first quality of Muttaqin is belief in what you cannot verify empirically, foundation vs materialism. Why 'bil-ghayb' with 'bi' (contact)? Faith is in direct contact with unseen.",
@@ -6407,7 +6407,7 @@ const DEEP_RESEARCH = {
         "bn": "অদৃশ্যে — ইন্দ্রিয়াতীত, সরাসরি সংস্পর্শে"
       },
       {
-        "w": "خَتَمَ",
+        "w": "خَتَمَ", "tr": "Khatama",
         "root": "خ-ت-م",
         "form": "khatama (past, He sealed)",
         "why": "Khatm = to seal, to close off. Like sealing an envelope — hearts sealed so guidance cannot enter, but by their own earning (kasaba). Allah's seal is after they chose to seal themselves.",
@@ -6415,7 +6415,7 @@ const DEEP_RESEARCH = {
         "bn": "মোহর মেরে দিয়েছেন — বন্ধ করে দেওয়া"
       },
       {
-        "w": "يَسْتَهْزِئُ",
+        "w": "يَسْتَهْزِئُ", "tr": "Yastahzi'u",
         "root": "ه-ز-ء",
         "form": "yastahzi'u (Form X, present)",
         "why": "Huz' = to mock lightly. Form X (istahza'a) = to seek to mock, to consider someone mockable. Allah mocks them in return — humiliation on Judgment Day and even now, no one respects munafiq.",

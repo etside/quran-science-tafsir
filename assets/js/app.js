@@ -147,7 +147,9 @@ function setupKids(){
   // Update all buttons to reflect current state
   const updateBtns=()=>{
     const on=document.body.classList.contains('kids');
-    btns.forEach(b=>{ b.textContent = on ? '📖 Normal' : '🧒 Kids'; b.setAttribute('aria-pressed', on); });
+    const svgKids='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><circle cx="12" cy="7" r="4"/><path d="M12 11c-3 0-6 1.5-6 4v2h12v-2c0-2.5-3-4-6-4z"/><path d="M15 14l-3 3-2-2"/></svg> Kids';
+    const svgNormal='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="vertical-align:-2px;margin-right:4px"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> Normal';
+    btns.forEach(b=>{ b.innerHTML = on ? svgNormal : svgKids; b.setAttribute('aria-pressed', on); });
   };
   updateBtns();
   btns.forEach(btn=>{

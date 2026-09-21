@@ -373,13 +373,16 @@ html, body{max-width:100%; overflow-x:hidden;}
 .kb-wrap summary, .deep-wrap summary{ transition: background 0.2s ease; }
 .kb-wrap summary:hover, .deep-wrap summary:hover{ background: rgba(212,175,55,0.06); }
 
-/* === Fix 2: Kids mode — proper simplified UI === */
+/* === Fix 2: Kids mode — daily learning, keep Wikipedia for curiosity, premium SVG, no emoji === */
 body.kids .deep-wrap, body.kids .builder-wrap{ display:none !important; }
-body.kids .kb-wrap details:not(:first-of-type){ display:none; }
+body.kids .kb-wrap details:not(:first-of-type):not([id^="kb-wiki-"]){ display:none; }
+body.kids .kb-wrap details[id^="kb-wiki-"]{ display:block !important; }
 body.kids .ch-body{ font-size:1.25rem; line-height:2.2; }
 body.kids .ch-body .verse{ font-size:1.35rem; padding:16px 20px; }
 body.kids .surah-meta{ font-size:0.9rem; }
 body.kids .ch-toc{ font-size:1rem; }
+body.kids .today-wrap{ display:block !important; }
+.kids-toggle svg{ vertical-align:-2px; margin-right:4px; }
 
 /* === Fix 3: TTS controls — ensure visibility and correct lang === */
 .tts-bar select{ min-width:120px; }
