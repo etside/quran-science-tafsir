@@ -12,14 +12,19 @@ Live multilingual **English · বাংলা · العربية** website for t
 ## Structure
 
 ```
-index.html                 Home: 3 parts + all 114 chapters
+index.html                 Home: 3 parts + all 114 chapters (372 paginated read pages)
 part1.html · part2.html ·  part3.html      Part overviews (chapter grid + PDF download)
-chapters/1.html … 114.html Complete bilingual text of every surah
+chapters/1.html … 114.html Overviews + chapters/1/read/pageX.html paginated tafsir (25 paras/page)
 assets/
-  css/style.css            UI + reading styles
-  js/app.js                language toggle (en/bn/ar) + i18n
-  data/chapters.js         trilingual chapter data (114 surahs)
-  pdf/part{1..3}.pdf       original volumes (downloadable)
+  css/style.css            UI + reading styles (427 lines, Swiss)
+  js/app.js|tts.js|wiki.js|builder.js  trilingual toggle, TTS (verse-only), deep research, Ghaur o Fikr
+  data/chapters.js|surah_knowledge.js|deep_research.js|wiki_map.js|ghaur_ofikr_map.js
+  figures/fig_*.jpg        662 figures (pdfimages -png → JPG q78, 109M→22M)
+  pdf/part{1..3}.pdf       original volumes (24M)
+tafsir.db[.gz]             SQLite (16.9M → 5.3M gz): 7796 paras (EN+BN), 347 words, 114 tafsir, FTS5 search
+app/src/main/java/...      Android WebView bridge (Room createFromAsset)
+capacitor.config.json      com.etside.quran.tafsir, webDir www
+sw.js / manifest.json      PWA offline (CACHE tafsir-v3, stale-while-revalidate)
 ```
 
 ## Contents
@@ -32,26 +37,34 @@ assets/
 
 ## Features
 
-- **No PDF loading**: each chapter is a plain HTML page containing its full text — instant.
-- **Trilingual UI**: one-tap switch between **English, বাংলা, العربية** (full RTL for Arabic).
-- **Side-by-side content**: every paragraph exists in both English and Bengali; the language toggle switches the whole reading view.
-- **Typography-aware rendering**: Quranic verses, block quotes, section headings and notes are styled distinctly.
-- **Chapter navigation**: next/previous links on every surah page; home grid links to all 114.
+- **No PDF loading**: paginated reading (`chapters/N/read/pageX.html`, 25 paras/page, 372 pages) — instant, no viewer.
+- **Trilingual UI**: one-tap **English · বাংলা · العربية** (full RTL, AR translations via i18n).
+- **Side-by-side EN/BN**: all 7796 paras have BN (trans_cache 7796 → tafsir.db FTS5 `রহমত` searchable).
+- **Deep research**: `SURAH_KNOWLEDGE` (114) + `DEEP_RESEARCH` (Amud/Nazm, 347 words with Bayyinah roots, Balagha, GaurFikr).
+- **Ghaur o Fikr & Wikipedia**: `WIKI_MAP` (138 titles) + `GHAUR_O_FIKR_MAP` (7 curated + generic fallback) via `fetchKnowledgeData()`; `alt_meanings.json` (Pickthall sampler, daily via `update_research.py`).
+- **TTS verse-only**: `tts.js` reads only `.verse` (Quranic rule), per-para 🔊, cloud hook `window.TTS_CLOUD_URL`.
+- **Kids & Builder**: `Kids` toggle + daily streak, `builder.js` tadabbur picker (localStorage + URL hash).
+- **Vocabulary**: 82-word `vocabulary.html` with categories + 5-word quiz (flashcard).
+- **Offline PWA + APK**: `sw.js` v3 caches all chapters/read pages/assets (cache-first for jpg/js), `manifest.json`, Capacitor `com.etside.quran.tafsir`, `tafsir.db.gz` embedded via Room, GitHub Release `auto-*` APK (Java 21, 372 pages verified).
 
 ## How it was built
 
-1. `pdftotext` extracts each volume into clean, structured paragraphs (footers/pagination stripped).
-2. The English text is machine-translated to Bengali paragraph-by-paragraph (Google Translate endpoint, cached & resumable).
-3. A generator (`/tmp/opencode/gen_site.py`) emits 114 chapter pages + part pages + index.
-4. Pushed to GitHub Pages.
+1. `pdftotext -layout` → `paras.json` (7796 paras) + `pdfimages -png` → 662 figs (JPG q78).
+2. `translate` EN→BN via `clients5.google.com/translate_a/t?client=dict-chrome-ex` (SEP ␟, cached `trans_cache.json` 7796, 3 workers).
+3. `gen_site.py` emits 114 overviews + 372 `chapters/N/read/pageX.html` (smart nav) + `vocabulary.html`.
+4. `scripts/build_db.py` → `tafsir.db` (VACUUM + gzip, FTS5) → `app/src/main/assets/databases/tafsir.db.gz`.
+5. `npx cap add android` (CI generates `android/`, not committed) → `./gradlew assembleDebug` → `auto-*` Release.
+6. `scripts/update_research.py --daily` (03:00 UTC, `Daily Research Update` workflow) refreshes `alt_meanings.json` (AlQuran.cloud).
 
 ## Development
 
-Serve locally with any static server:
-
 ```bash
-python3 -m http.server 8000
+python3 -m http.server 8000            # static site
+npm run build:db && npm run cap:sync   # rebuild DB + sync to Android
+python3 scripts/update_research.py --daily  # refresh alt_meanings.json
 ```
+
+Notes: `android/` is generated in CI (`npx cap add android`), not committed (see `.gitignore`). Root `package.json` pins `@capacitor/*@6`.
 
 ## License
 

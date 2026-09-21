@@ -64,6 +64,20 @@ def main():
         ghaur = {}
     chapters = load_chapters()
     paras = json.loads((WORK / "paras.json").read_text(encoding="utf-8")) if (WORK / "paras.json").exists() else {}
+    # Load Bengali translations cache (trans_cache.json: "surah:paraIdx" -> bn text)
+    trans_cache = {}
+    tc_path = WORK / "trans_cache.json"
+    if tc_path.exists():
+        try:
+            trans_cache = json.loads(tc_path.read_text(encoding="utf-8"))
+            print(f"Loaded trans_cache: {len(trans_cache)} entries")
+        except Exception as e:
+            print(f"trans_cache load fail: {e}")
+    # Also check assets copy
+    if not trans_cache and (ROOT / "assets" / "trans_cache.json").exists():
+        try:
+            trans_cache = json.loads((ROOT / "assets" / "trans_cache.json").read_text(encoding="utf-8"))
+        except: pass
 
     # Also try alt_meanings.json if exists
     alt_path = ASSETS / "alt_meanings.json"
@@ -143,16 +157,19 @@ def main():
         cur.execute("INSERT INTO surahs (id, ar, en, bn, verses, type) VALUES (?,?,?,?,?,?)",
                     (n, meta["ar"], meta["en"], meta["bn"], para_count, surah_type))
 
-        # Verses: from paras
+        # Verses: from paras (actually tafsir paragraphs; name 'verses' is historical)
         pdata = paras.get(str(n), {})
         for idx, para in enumerate(pdata.get("paras", [])):
             # Heuristic: paragraphs starting with [number] are verses
             m = re.match(r"^\s*\[(\d+)\]", para)
             ayah_num = int(m.group(1)) if m else idx+1
-            # For verses table, store the paragraph as ar/en/bn? We have only en paras, but bn is in cache
-            # cache is trans_cache.json
+            bn = trans_cache.get(f"{n}:{idx}", "") or trans_cache.get(f"{n}:{idx+1}", "") or ""
+            # Some caches use string keys without 0-index shift; fallback scan
+            if not bn and trans_cache:
+                # try stripped para as key (legacy cache format: english para -> bn)
+                bn = trans_cache.get(para[:120], "") or trans_cache.get(para.strip()[:120], "")
             cur.execute("INSERT INTO verses (surah_id, ayah_num, ar, en, bn) VALUES (?,?,?,?,?)",
-                        (n, ayah_num, "", para[:2000], ""))
+                        (n, ayah_num, "", para[:2000], bn[:2000] if bn else ""))
 
         # Words
         deep_entry = deep.get(str(n)) or deep.get(n) or {}

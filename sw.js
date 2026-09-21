@@ -1,32 +1,70 @@
-const CACHE = "tafsir-v2";
+const CACHE = "tafsir-v3";
 const ASSETS = [
   "./",
   "./index.html",
+  "./part1.html",
+  "./part2.html",
+  "./part3.html",
+  "./vocabulary.html",
+  "./404.html",
   "./assets/css/style.css",
   "./assets/js/app.js",
   "./assets/js/tts.js",
   "./assets/js/builder.js",
+  "./assets/js/wiki.js",
+  "./assets/js/universe-animations.js",
   "./assets/data/chapters.js",
   "./assets/data/surah_knowledge.js",
   "./assets/data/deep_research.js",
-  "./manifest.json"
+  "./assets/data/wiki_map.js",
+  "./assets/data/ghaur_ofikr_map.js",
+  "./manifest.json",
+  "./assets/icon-192.png",
+  "./assets/icon-512.png"
 ];
 
 self.addEventListener("install", e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(()=>self.skipWaiting()));
+  e.waitUntil(
+    caches.open(CACHE).then(c => c.addAll(ASSETS)).then(()=>self.skipWaiting())
+  );
 });
 self.addEventListener("activate", e => {
-  e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));
+  e.waitUntil(
+    caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())
+  );
 });
 self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
-  if (e.request.method !== "GET" || !url.pathname.includes("/quran-science-tafsir/")) return;
+  // Only handle same-origin GET under GH Pages scope or root
+  if (e.request.method !== "GET") return;
+  // Cache strategy: Cache-First for assets, Stale-While-Revalidate for HTML
+  const isHTML = e.request.headers.get("accept")?.includes("text/html") || url.pathname.endsWith(".html");
+  const isAsset = url.pathname.match(/\.(css|js|json|png|jpg|jpeg|svg|woff2?)$/);
+  const isScope = url.pathname.includes("/quran-science-tafsir/") || url.origin === self.location.origin;
+
+  if (!isScope && !isAsset && !isHTML) return;
+
+  if (isAsset) {
+    // Cache-first for assets (figures, css, js)
+    e.respondWith(
+      caches.match(e.request).then(cached => {
+        if (cached) return cached;
+        return fetch(e.request).then(res => {
+          if (res.ok) caches.open(CACHE).then(c=>c.put(e.request, res.clone()));
+          return res;
+        }).catch(()=>cached);
+      })
+    );
+    return;
+  }
+
+  // For HTML (chapters, read pages): stale-while-revalidate + fallback to cache
   e.respondWith(
     caches.match(e.request).then(cached => {
       const fetched = fetch(e.request).then(res=>{
         if(res.ok) caches.open(CACHE).then(c=>c.put(e.request, res.clone()));
         return res;
-      }).catch(()=>cached);
+      }).catch(()=>cached || caches.match("./index.html"));
       return cached || fetched;
     })
   );

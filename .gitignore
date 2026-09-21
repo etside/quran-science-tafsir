@@ -2,3 +2,5 @@ www
 .env
 server/.env
 node_modules/
+android/
+scripts/update_log.json
