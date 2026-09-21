@@ -2,11 +2,14 @@
 (function(){
   function Hesc(s){ const d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
 
-  function renderBuilder(n){
+  function renderBuilder(n, attempt=0){
     const host = document.getElementById(`builder-${n}`);
     if(!host) return;
-    const deep = (window.DEEP_RESEARCH||{})[n];
-    if(!deep || !deep.wordByWord) { host.innerHTML='<p class="small" style="color:var(--muted);padding:12px">Word data will be available after deep research load.</p>'; return; }
+    const deep = (window.DEEP_RESEARCH||{})[n] || (window.DEEP_RESEARCH||{})[String(n)];
+    if(!deep || !deep.wordByWord){
+      if(attempt < 8){ setTimeout(()=>renderBuilder(n, attempt+1), 400); return; }
+      host.innerHTML='<p class="small" style="color:var(--muted);padding:12px">Word data is being prepared for this surah — check back after the next research update. <button class="btn ghost" style="margin-top:8px" onclick="location.reload()">↻ Reload</button></p>'; return;
+    }
 
     // Build alternatives per word: 3 options from different lenses
     const words = deep.wordByWord.map((w, idx) => {
@@ -50,7 +53,7 @@
 
     let html = `
       <div class="quran-rule">
-        <b>📖 Quranic Principles — Please Read</b>
+        <b><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.8" style="vertical-align:-3px;margin-right:6px"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> Quranic Principles — Please Read</b>
         <ul>
           <li><b>Arabic is fixed (محفوظ):</b> You are choosing <em>translation/interpretation</em> of a word, not changing the Quran. The Arabic <code>${words[0]?.w||'آية'}</code> stays as revealed.</li>
           <li><b>Sources matter:</b> Each alternative shows its source (Pickthall / Root / Scientific Tafsir / Balagha). Prefer classical tafsir for creed, use science as tadabbur, not as proof.</li>
