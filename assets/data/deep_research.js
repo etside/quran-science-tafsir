@@ -18,7 +18,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة111"
       },
       {
         "w": "تَدَبُّر",
@@ -26,7 +27,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -34,7 +36,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -116,7 +119,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة110"
       },
       {
         "w": "تَدَبُّر",
@@ -124,7 +128,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -132,7 +137,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -214,7 +220,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة45"
       },
       {
         "w": "تَدَبُّر",
@@ -222,7 +229,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -230,7 +238,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -312,7 +321,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة16"
       },
       {
         "w": "تَدَبُّر",
@@ -320,7 +330,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -328,7 +339,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -410,7 +422,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة109"
       },
       {
         "w": "تَدَبُّر",
@@ -418,7 +431,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -426,7 +440,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -508,7 +523,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة44"
       },
       {
         "w": "تَدَبُّر",
@@ -516,7 +532,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -524,7 +541,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -606,7 +624,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة108"
       },
       {
         "w": "تَدَبُّر",
@@ -614,7 +633,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -622,7 +642,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -704,7 +725,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة20"
       },
       {
         "w": "تَدَبُّر",
@@ -712,7 +734,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -720,7 +743,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -802,7 +826,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة107"
       },
       {
         "w": "تَدَبُّر",
@@ -810,7 +835,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -818,7 +844,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -900,7 +927,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة106"
       },
       {
         "w": "تَدَبُّر",
@@ -908,7 +936,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -916,7 +945,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -998,7 +1028,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة22"
       },
       {
         "w": "تَدَبُّر",
@@ -1006,7 +1037,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -1014,7 +1046,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -1096,7 +1129,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة105"
       },
       {
         "w": "تَدَبُّر",
@@ -1104,7 +1138,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -1112,7 +1147,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -1194,7 +1230,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة104"
       },
       {
         "w": "تَدَبُّر",
@@ -1202,7 +1239,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -1210,7 +1248,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -1292,7 +1331,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة41"
       },
       {
         "w": "تَدَبُّر",
@@ -1300,7 +1340,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -1308,7 +1349,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -1390,7 +1432,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة103"
       },
       {
         "w": "تَدَبُّر",
@@ -1398,7 +1441,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -1406,7 +1450,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -1488,7 +1533,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة40"
       },
       {
         "w": "تَدَبُّر",
@@ -1496,7 +1542,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -1504,7 +1551,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -1586,7 +1634,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة15"
       },
       {
         "w": "تَدَبُّر",
@@ -1594,7 +1643,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -1602,7 +1652,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -1684,7 +1735,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة102"
       },
       {
         "w": "تَدَبُّر",
@@ -1692,7 +1744,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -1700,7 +1753,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -1782,7 +1836,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة39"
       },
       {
         "w": "تَدَبُّر",
@@ -1790,7 +1845,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -1798,7 +1854,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -1880,7 +1937,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة101"
       },
       {
         "w": "تَدَبُّر",
@@ -1888,7 +1946,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -1896,7 +1955,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -1978,7 +2038,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة38"
       },
       {
         "w": "تَدَبُّر",
@@ -1986,7 +2047,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -1994,7 +2056,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -2076,7 +2139,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة12"
       },
       {
         "w": "تَدَبُّر",
@@ -2084,7 +2148,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -2092,7 +2157,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -2174,7 +2240,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة100"
       },
       {
         "w": "تَدَبُّر",
@@ -2182,7 +2249,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -2190,7 +2258,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -2272,7 +2341,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة37"
       },
       {
         "w": "تَدَبُّر",
@@ -2280,7 +2350,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -2288,7 +2359,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -2370,7 +2442,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة99"
       },
       {
         "w": "تَدَبُّر",
@@ -2378,7 +2451,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -2386,7 +2460,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -2468,7 +2543,8 @@ const DEEP_RESEARCH = {
         "form": "Ya-Sin",
         "en": "Ya Sin (disjointed letters)",
         "bn": "ইয়া-সীন",
-        "why": "Muqatta'at — Allah challenges eloquent Arabs with their own letters"
+        "why": "Muqatta'at — Allah challenges eloquent Arabs with their own letters",
+        "tr": "يس"
       },
       {
         "w": "صِرَاطٍ",
@@ -2476,7 +2552,8 @@ const DEEP_RESEARCH = {
         "form": "sirat",
         "en": "path that swallows",
         "bn": "গ্রাসকারী পথ",
-        "why": "S-r-t = to swallow; path that consumes you"
+        "why": "S-r-t = to swallow; path that consumes you",
+        "tr": "صِرَاطٍ"
       }
     ],
     "multipleMeanings": [
@@ -2558,7 +2635,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة98"
       },
       {
         "w": "تَدَبُّر",
@@ -2566,7 +2644,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -2574,7 +2653,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -2656,7 +2736,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة35"
       },
       {
         "w": "تَدَبُّر",
@@ -2664,7 +2745,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -2672,7 +2754,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -2754,7 +2837,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة97"
       },
       {
         "w": "تَدَبُّر",
@@ -2762,7 +2846,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -2770,7 +2855,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -2852,7 +2938,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة34"
       },
       {
         "w": "تَدَبُّر",
@@ -2860,7 +2947,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -2868,7 +2956,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -2950,7 +3039,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة96"
       },
       {
         "w": "تَدَبُّر",
@@ -2958,7 +3048,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -2966,7 +3057,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -3048,7 +3140,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة33"
       },
       {
         "w": "تَدَبُّر",
@@ -3056,7 +3149,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -3064,7 +3158,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -3146,7 +3241,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة11"
       },
       {
         "w": "تَدَبُّر",
@@ -3154,7 +3250,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -3162,7 +3259,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -3244,7 +3342,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة95"
       },
       {
         "w": "تَدَبُّر",
@@ -3252,7 +3351,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -3260,7 +3360,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -3342,7 +3443,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة79"
       },
       {
         "w": "تَدَبُّر",
@@ -3350,7 +3452,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -3358,7 +3461,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -3440,7 +3544,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة19"
       },
       {
         "w": "تَدَبُّر",
@@ -3448,7 +3553,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -3456,7 +3562,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -3538,7 +3645,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة94"
       },
       {
         "w": "تَدَبُّر",
@@ -3546,7 +3654,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -3554,7 +3663,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -3636,7 +3746,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة78"
       },
       {
         "w": "تَدَبُّر",
@@ -3644,7 +3755,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -3652,7 +3764,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -3734,7 +3847,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة93"
       },
       {
         "w": "تَدَبُّر",
@@ -3742,7 +3856,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -3750,7 +3865,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -3832,7 +3948,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة77"
       },
       {
         "w": "تَدَبُّر",
@@ -3840,7 +3957,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -3848,7 +3966,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -3930,7 +4049,8 @@ const DEEP_RESEARCH = {
         "form": "kahf",
         "en": "cave",
         "bn": "গুহা",
-        "why": "Kahf = shelter that covers; cave as protection"
+        "why": "Kahf = shelter that covers; cave as protection",
+        "tr": "كَهْف"
       },
       {
         "w": "فِتْيَة",
@@ -3938,7 +4058,8 @@ const DEEP_RESEARCH = {
         "form": "fitya",
         "en": "youths",
         "bn": "যুবকরা",
-        "why": "Fata = youthful vigor, idealism"
+        "why": "Fata = youthful vigor, idealism",
+        "tr": "فِتْيَة"
       },
       {
         "w": "وَرِقِكُمْ",
@@ -3946,7 +4067,8 @@ const DEEP_RESEARCH = {
         "form": "wariqikum",
         "en": "your silver coin",
         "bn": "তোমাদের রৌপ্য মুদ্রা",
-        "why": "Waraq = leaf, paper, money — all thin/flat"
+        "why": "Waraq = leaf, paper, money — all thin/flat",
+        "tr": "وَرِقِكُمْ"
       }
     ],
     "multipleMeanings": [
@@ -4028,7 +4150,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة92"
       },
       {
         "w": "تَدَبُّر",
@@ -4036,7 +4159,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -4044,7 +4168,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -4126,7 +4251,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة76"
       },
       {
         "w": "تَدَبُّر",
@@ -4134,7 +4260,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -4142,7 +4269,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -4224,7 +4352,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة91"
       },
       {
         "w": "تَدَبُّر",
@@ -4232,7 +4361,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -4240,7 +4370,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -4322,7 +4453,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة75"
       },
       {
         "w": "تَدَبُّر",
@@ -4330,7 +4462,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -4338,7 +4471,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -4420,7 +4554,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة90"
       },
       {
         "w": "تَدَبُّر",
@@ -4428,7 +4563,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -4436,7 +4572,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -4518,7 +4655,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة74"
       },
       {
         "w": "تَدَبُّر",
@@ -4526,7 +4664,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -4534,7 +4673,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -4616,7 +4756,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة89"
       },
       {
         "w": "تَدَبُّر",
@@ -4624,7 +4765,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -4632,7 +4774,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -4714,7 +4857,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة73"
       },
       {
         "w": "تَدَبُّر",
@@ -4722,7 +4866,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -4730,7 +4875,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -4812,7 +4958,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة88"
       },
       {
         "w": "تَدَبُّر",
@@ -4820,7 +4967,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -4828,7 +4976,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -4910,7 +5059,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة72"
       },
       {
         "w": "تَدَبُّر",
@@ -4918,7 +5068,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -4926,7 +5077,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -5008,7 +5160,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة14"
       },
       {
         "w": "تَدَبُّر",
@@ -5016,7 +5169,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -5024,7 +5178,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -5106,7 +5261,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة87"
       },
       {
         "w": "تَدَبُّر",
@@ -5114,7 +5270,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -5122,7 +5279,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -5204,7 +5362,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة71"
       },
       {
         "w": "تَدَبُّر",
@@ -5212,7 +5371,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -5220,7 +5380,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -5302,7 +5463,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة86"
       },
       {
         "w": "تَدَبُّر",
@@ -5310,7 +5472,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -5318,7 +5481,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -5400,7 +5564,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة70"
       },
       {
         "w": "تَدَبُّر",
@@ -5408,7 +5573,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -5416,7 +5582,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -5498,7 +5665,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة85"
       },
       {
         "w": "تَدَبُّر",
@@ -5506,7 +5674,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -5514,7 +5683,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -5596,7 +5766,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة69"
       },
       {
         "w": "تَدَبُّر",
@@ -5604,7 +5775,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -5612,7 +5784,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -5694,7 +5867,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة68"
       },
       {
         "w": "تَدَبُّر",
@@ -5702,7 +5876,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -5710,7 +5885,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -5792,7 +5968,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة84"
       },
       {
         "w": "تَدَبُّر",
@@ -5800,7 +5977,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -5808,7 +5986,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -5890,7 +6069,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة83"
       },
       {
         "w": "تَدَبُّر",
@@ -5898,7 +6078,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -5906,7 +6087,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -5988,7 +6170,8 @@ const DEEP_RESEARCH = {
         "form": "tabaraka",
         "en": "blessed, abundant in good",
         "bn": "বরকতময়",
-        "why": "B-r-k = knee, to kneel; blessing that makes you kneel in abundance"
+        "why": "B-r-k = knee, to kneel; blessing that makes you kneel in abundance",
+        "tr": "تَبَارَكَ"
       }
     ],
     "multipleMeanings": [
@@ -6070,7 +6253,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة82"
       },
       {
         "w": "تَدَبُّر",
@@ -6078,7 +6262,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -6086,7 +6271,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -6168,7 +6354,8 @@ const DEEP_RESEARCH = {
         "form": "muhkamat",
         "en": "decisive, firm verses",
         "bn": "সুস্পষ্ট আয়াত",
-        "why": "Hukm = to make firm, prevent chaos"
+        "why": "Hukm = to make firm, prevent chaos",
+        "tr": "مُحْكَمَات"
       },
       {
         "w": "مُتَشَابِهَاتٌ",
@@ -6176,7 +6363,8 @@ const DEEP_RESEARCH = {
         "form": "mutashabihat",
         "en": "resembling, ambiguous",
         "bn": "সাদৃশ্যপূর্ণ আয়াত",
-        "why": "Sh-b-h = to resemble; test of humility"
+        "why": "Sh-b-h = to resemble; test of humility",
+        "tr": "مُتَشَابِه"
       },
       {
         "w": "رَاسِخُونَ",
@@ -6184,7 +6372,8 @@ const DEEP_RESEARCH = {
         "form": "rasikhuna",
         "en": "firmly rooted in knowledge",
         "bn": "জ্ঞানে সুদৃঢ়",
-        "why": "R-s-kh = deep roots, like a firm tree"
+        "why": "R-s-kh = deep roots, like a firm tree",
+        "tr": "رَاسِخُونَ"
       }
     ],
     "multipleMeanings": [
@@ -6266,7 +6455,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة5"
       },
       {
         "w": "تَدَبُّر",
@@ -6274,7 +6464,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -6282,7 +6473,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -6359,7 +6551,8 @@ const DEEP_RESEARCH = {
     },
     "wordByWord": [
       {
-        "w": "الم", "tr": "Alif Lam Mim",
+        "w": "الم",
+        "tr": "Alif Lam Mim",
         "root": "ا-ل-م",
         "form": "muqatta'at (disjointed letters)",
         "why": "Alif-Lam-Mim — challenge to eloquent Arabs: you know these letters, yet cannot produce like Quran. Also 'That book' (dhalika) points to heavenly archetype, not just this mushaf.",
@@ -6367,7 +6560,8 @@ const DEEP_RESEARCH = {
         "bn": "আলিফ লাম মীম — অলৌকিক বিচ্ছিন্ন হরফ"
       },
       {
-        "w": "ذَٰلِكَ", "tr": "Dhalika",
+        "w": "ذَٰلِكَ",
+        "tr": "Dhalika",
         "root": "ذ-ل-ك",
         "form": "dhalika (that, far demonstrative)",
         "why": "Why 'that book' not 'this'? Far demonstrative = elevation. Like pointing to something on a high shelf — Quran's status is lofty, from Lawh Mahfuz.",
@@ -6375,7 +6569,8 @@ const DEEP_RESEARCH = {
         "bn": "ঐ কিতাব — দূরবর্তী নির্দেশক দ্বারা মর্যাদা"
       },
       {
-        "w": "لَا رَيْبَ", "tr": "La raiba",
+        "w": "لَا رَيْبَ",
+        "tr": "La raiba",
         "root": "ر-ي-ب",
         "form": "la raiba (absolute negation, la of genus)",
         "why": "'Raib' is doubt that causes anxiety/suspicion (like a bad business deal). 'La raiba' = zero anxiety-doubt, not just no doubt — absolute negation of genus.",
@@ -6383,7 +6578,8 @@ const DEEP_RESEARCH = {
         "bn": "এতে কোন সন্দেহ নেই — পরম নিঃসন্দেহতা"
       },
       {
-        "w": "تَقْوَىٰ", "tr": "Taqwa",
+        "w": "تَقْوَىٰ",
+        "tr": "Taqwa",
         "root": "و-ق-ي",
         "form": "taqwa (verbal noun)",
         "why": "Waqa = to protect, to shield. Taqwa is wariness, care, protection — like walking through thorns in long clothes, carefully. Not just 'fear' but protective consciousness (Nouman: Taqwa linked to wiqaya).",
@@ -6391,7 +6587,8 @@ const DEEP_RESEARCH = {
         "bn": "তাকওয়া — রক্ষামূলক সতর্কতা (ও-ক্বা-ইয়া)"
       },
       {
-        "w": "يُؤْمِنُونَ", "tr": "Yu'minuna",
+        "w": "يُؤْمِنُونَ",
+        "tr": "Yu'minuna",
         "root": "ء-م-ن",
         "form": "yu'minuna (Form IV, present)",
         "why": "A-m-n = security, safety, trust. Mu'min is one who feels secure AND gives security to others. Faith is not just belief but a state of safety with Allah.",
@@ -6399,7 +6596,8 @@ const DEEP_RESEARCH = {
         "bn": "তারা ঈমান আনে — নিরাপত্তা ও বিশ্বাস"
       },
       {
-        "w": "بِٱلْغَيْبِ", "tr": "Bil-ghayb",
+        "w": "بِٱلْغَيْبِ",
+        "tr": "Bil-ghayb",
         "root": "غ-ي-ب",
         "form": "bil-ghayb (preposition + noun)",
         "why": "Ghayb is not just unseen but unseeable by senses — first quality of Muttaqin is belief in what you cannot verify empirically, foundation vs materialism. Why 'bil-ghayb' with 'bi' (contact)? Faith is in direct contact with unseen.",
@@ -6407,7 +6605,8 @@ const DEEP_RESEARCH = {
         "bn": "অদৃশ্যে — ইন্দ্রিয়াতীত, সরাসরি সংস্পর্শে"
       },
       {
-        "w": "خَتَمَ", "tr": "Khatama",
+        "w": "خَتَمَ",
+        "tr": "Khatama",
         "root": "خ-ت-م",
         "form": "khatama (past, He sealed)",
         "why": "Khatm = to seal, to close off. Like sealing an envelope — hearts sealed so guidance cannot enter, but by their own earning (kasaba). Allah's seal is after they chose to seal themselves.",
@@ -6415,7 +6614,8 @@ const DEEP_RESEARCH = {
         "bn": "মোহর মেরে দিয়েছেন — বন্ধ করে দেওয়া"
       },
       {
-        "w": "يَسْتَهْزِئُ", "tr": "Yastahzi'u",
+        "w": "يَسْتَهْزِئُ",
+        "tr": "Yastahzi'u",
         "root": "ه-ز-ء",
         "form": "yastahzi'u (Form X, present)",
         "why": "Huz' = to mock lightly. Form X (istahza'a) = to seek to mock, to consider someone mockable. Allah mocks them in return — humiliation on Judgment Day and even now, no one respects munafiq.",
@@ -6556,7 +6756,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة13"
       },
       {
         "w": "تَدَبُّر",
@@ -6564,7 +6765,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -6572,7 +6774,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -6654,7 +6857,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة32"
       },
       {
         "w": "تَدَبُّر",
@@ -6662,7 +6866,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -6670,7 +6875,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -6752,7 +6958,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة4"
       },
       {
         "w": "تَدَبُّر",
@@ -6760,7 +6967,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -6768,7 +6976,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -6850,7 +7059,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة6"
       },
       {
         "w": "تَدَبُّر",
@@ -6858,7 +7068,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -6866,7 +7077,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -6948,7 +7160,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة31"
       },
       {
         "w": "تَدَبُّر",
@@ -6956,7 +7169,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -6964,7 +7178,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -7046,7 +7261,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة30"
       },
       {
         "w": "تَدَبُّر",
@@ -7054,7 +7270,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -7062,7 +7279,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -7144,7 +7362,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة29"
       },
       {
         "w": "تَدَبُّر",
@@ -7152,7 +7371,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -7160,7 +7380,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -7242,7 +7463,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة28"
       },
       {
         "w": "تَدَبُّر",
@@ -7250,7 +7472,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -7258,7 +7481,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -7340,7 +7564,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة66"
       },
       {
         "w": "تَدَبُّر",
@@ -7348,7 +7573,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -7356,7 +7582,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -7438,7 +7665,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة8"
       },
       {
         "w": "تَدَبُّر",
@@ -7446,7 +7674,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -7454,7 +7683,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -7536,7 +7766,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة27"
       },
       {
         "w": "تَدَبُّر",
@@ -7544,7 +7775,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -7552,7 +7784,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -7633,7 +7866,8 @@ const DEEP_RESEARCH = {
         "form": "ism (noun)",
         "why": "Why 'bismi' not 'bismillahi' with alif? Arabs drop alif for frequency — shows how often we should begin with Allah's name.",
         "en": "with the name — implies seeking help/Barakah",
-        "bn": "নামের সাথে — সাহায্য/বরকত প্রার্থনা"
+        "bn": "নামের সাথে — সাহায্য/বরকত প্রার্থনা",
+        "tr": "بِسْمِ"
       },
       {
         "w": "ٱلرَّحْمَٰنِ",
@@ -7641,7 +7875,8 @@ const DEEP_RESEARCH = {
         "form": "fa'lan (intensive, temporary)",
         "why": "Fa'lan form = overflowing, all-encompassing mercy NOW (this world). vs Raheem (fa'eel) = permanent.",
         "en": "The Entirely Merciful — mercy that is vast and immediate",
-        "bn": "পরম করুণাময় — বিশাল ও তাৎক্ষণিক দয়া"
+        "bn": "পরম করুণাময় — বিশাল ও তাৎক্ষণিক দয়া",
+        "tr": "ٱلرَّحْمَٰ"
       },
       {
         "w": "ٱلرَّحِيمِ",
@@ -7649,7 +7884,8 @@ const DEEP_RESEARCH = {
         "form": "fa'eel (permanent quality)",
         "why": "Same root, different form = mercy that is constant, for Akhirah. Pair shows dunya + akhirah covered.",
         "en": "The Especially Merciful — mercy that is lasting",
-        "bn": "অতি দয়ালু — স্থায়ী দয়া"
+        "bn": "অতি দয়ালু — স্থায়ী দয়া",
+        "tr": "ٱلرَّحِيمِ"
       },
       {
         "w": "مَٰلِكِ",
@@ -7657,7 +7893,8 @@ const DEEP_RESEARCH = {
         "form": "fa'il",
         "why": "Two readings: Maaliki (Owner) vs Maliki (King). Owner = you own the Day; King = you rule it. Both true — you need both to have full authority.",
         "en": "Owner/King of the Day of Recompense",
-        "bn": "প্রতিদান দিবসের মালিক/রাজা"
+        "bn": "প্রতিদান দিবসের মালিক/রাজা",
+        "tr": "مَٰلِكِ"
       },
       {
         "w": "إِيَّاكَ",
@@ -7665,7 +7902,8 @@ const DEEP_RESEARCH = {
         "form": "iyyaka (exclusive pronoun, fronted)",
         "why": "Normal Arabic would say 'na'buduka' (we worship You). Fronting 'iyyaka' makes it exclusive: ONLY You we worship — حصْر. Nouman Ali Khan: word order is theology.",
         "en": "ONLY You — exclusivity by fronting",
-        "bn": "কেবল তোমাকেই — অগ্রসর সর্বনাম দ্বারা একনিষ্ঠতা"
+        "bn": "কেবল তোমাকেই — অগ্রসর সর্বনাম দ্বারা একনিষ্ঠতা",
+        "tr": "إِيَّاكَ"
       },
       {
         "w": "ٱهْدِنَا",
@@ -7673,7 +7911,8 @@ const DEEP_RESEARCH = {
         "form": "ihdina (imperative + na)",
         "why": "Not 'guide me' but 'guide US' — even in personal du'a you include ummah. Subtle tarbiyah in grammar.",
         "en": "Guide US — plural even in personal prayer",
-        "bn": "আমাদের পথ দেখাও — ব্যক্তিগত দোয়াতেও বহুবচন"
+        "bn": "আমাদের পথ দেখাও — ব্যক্তিগত দোয়াতেও বহুবচন",
+        "tr": "ٱهْدِنَا"
       }
     ],
     "multipleMeanings": [
@@ -7776,7 +8015,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة65"
       },
       {
         "w": "تَدَبُّر",
@@ -7784,7 +8024,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -7792,7 +8033,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -7874,7 +8116,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة26"
       },
       {
         "w": "تَدَبُّر",
@@ -7882,7 +8125,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -7890,7 +8134,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -7972,7 +8217,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة64"
       },
       {
         "w": "تَدَبُّر",
@@ -7980,7 +8226,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -7988,7 +8235,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -8070,7 +8318,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة63"
       },
       {
         "w": "تَدَبُّر",
@@ -8078,7 +8327,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -8086,7 +8336,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -8168,7 +8419,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة62"
       },
       {
         "w": "تَدَبُّر",
@@ -8176,7 +8428,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -8184,7 +8437,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -8266,7 +8520,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة61"
       },
       {
         "w": "تَدَبُّر",
@@ -8274,7 +8529,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -8282,7 +8538,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -8364,7 +8621,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة43"
       },
       {
         "w": "تَدَبُّر",
@@ -8372,7 +8630,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -8380,7 +8639,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -8462,7 +8722,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة25"
       },
       {
         "w": "تَدَبُّر",
@@ -8470,7 +8731,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -8478,7 +8740,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -8560,7 +8823,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة60"
       },
       {
         "w": "تَدَبُّر",
@@ -8568,7 +8832,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -8576,7 +8841,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -8658,7 +8924,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة42"
       },
       {
         "w": "تَدَبُّر",
@@ -8666,7 +8933,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -8674,7 +8942,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -8756,7 +9025,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة24"
       },
       {
         "w": "تَدَبُّر",
@@ -8764,7 +9034,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -8772,7 +9043,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -8854,7 +9126,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة59"
       },
       {
         "w": "تَدَبُّر",
@@ -8862,7 +9135,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -8870,7 +9144,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -8952,7 +9227,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة58"
       },
       {
         "w": "تَدَبُّر",
@@ -8960,7 +9236,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -8968,7 +9245,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -9050,7 +9328,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة23"
       },
       {
         "w": "تَدَبُّر",
@@ -9058,7 +9337,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -9066,7 +9346,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -9148,7 +9429,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة7"
       },
       {
         "w": "تَدَبُّر",
@@ -9156,7 +9438,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -9164,7 +9447,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -9246,7 +9530,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة57"
       },
       {
         "w": "تَدَبُّر",
@@ -9254,7 +9539,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -9262,7 +9548,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -9344,7 +9631,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة56"
       },
       {
         "w": "تَدَبُّر",
@@ -9352,7 +9640,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -9360,7 +9649,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -9442,7 +9732,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة21"
       },
       {
         "w": "تَدَبُّر",
@@ -9450,7 +9741,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -9458,7 +9750,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -9540,7 +9833,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة55"
       },
       {
         "w": "تَدَبُّر",
@@ -9548,7 +9842,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -9556,7 +9851,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -9638,7 +9934,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة54"
       },
       {
         "w": "تَدَبُّر",
@@ -9646,7 +9943,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -9654,7 +9952,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -9736,7 +10035,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة53"
       },
       {
         "w": "تَدَبُّر",
@@ -9744,7 +10044,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -9752,7 +10053,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -9834,7 +10136,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة52"
       },
       {
         "w": "تَدَبُّر",
@@ -9842,7 +10145,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -9850,7 +10154,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -9932,7 +10237,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة10"
       },
       {
         "w": "تَدَبُّر",
@@ -9940,7 +10246,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -9948,7 +10255,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -10030,7 +10338,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة51"
       },
       {
         "w": "تَدَبُّر",
@@ -10038,7 +10347,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -10046,7 +10356,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -10128,7 +10439,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة50"
       },
       {
         "w": "تَدَبُّر",
@@ -10136,7 +10448,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -10144,7 +10457,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -10226,7 +10540,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة49"
       },
       {
         "w": "تَدَبُّر",
@@ -10234,7 +10549,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -10242,7 +10558,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -10324,7 +10641,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة48"
       },
       {
         "w": "تَدَبُّر",
@@ -10332,7 +10650,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -10340,7 +10659,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -10422,7 +10742,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة9"
       },
       {
         "w": "تَدَبُّر",
@@ -10430,7 +10751,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -10438,7 +10760,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -10520,7 +10843,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة17"
       },
       {
         "w": "تَدَبُّر",
@@ -10528,7 +10852,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -10536,7 +10861,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -10618,7 +10944,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة81"
       },
       {
         "w": "تَدَبُّر",
@@ -10626,7 +10953,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -10634,7 +10962,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -10716,7 +11045,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة47"
       },
       {
         "w": "تَدَبُّر",
@@ -10724,7 +11054,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -10732,7 +11063,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -10814,7 +11146,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة46"
       },
       {
         "w": "تَدَبُّر",
@@ -10822,7 +11155,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -10830,7 +11164,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -10912,7 +11247,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة80"
       },
       {
         "w": "تَدَبُّر",
@@ -10920,7 +11256,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -10928,7 +11265,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -11010,7 +11348,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة112"
       },
       {
         "w": "تَدَبُّر",
@@ -11018,7 +11357,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -11026,7 +11366,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -11108,7 +11449,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة113"
       },
       {
         "w": "تَدَبُّر",
@@ -11116,7 +11458,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -11124,7 +11467,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
@@ -11206,7 +11550,8 @@ const DEEP_RESEARCH = {
         "form": "ism",
         "en": "sign/word",
         "bn": "শব্দ/নিদর্শন",
-        "why": "Root shows knowledge is distinguishing"
+        "why": "Root shows knowledge is distinguishing",
+        "tr": "كلمة114"
       },
       {
         "w": "تَدَبُّر",
@@ -11214,7 +11559,8 @@ const DEEP_RESEARCH = {
         "form": "tadabbur",
         "en": "follow to the end",
         "bn": "শেষ পর্যন্ত অনুসরণ",
-        "why": "Dubur = back; tadabbur = follow ayah to its end"
+        "why": "Dubur = back; tadabbur = follow ayah to its end",
+        "tr": "تَدَبُّر"
       },
       {
         "w": "آيَة",
@@ -11222,7 +11568,8 @@ const DEEP_RESEARCH = {
         "form": "ayah",
         "en": "sign, verse, miracle",
         "bn": "নিদর্শন",
-        "why": "Ayah is both verse and sign — every verse is a sign"
+        "why": "Ayah is both verse and sign — every verse is a sign",
+        "tr": "آيَة"
       }
     ],
     "multipleMeanings": [
