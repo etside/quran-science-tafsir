@@ -6348,50 +6348,147 @@ const DEEP_RESEARCH = {
   },
   "2": {
     "amud": {
-      "en": "Amud of Baqarah: How to build a community of Muttaqin that can carry divine guidance. Answers: Who is guided? Who opposes? What was the previous community's failure (Bani Isra'il)? What is your new law, qibla, and test (fasting, hajj, jihad)?",
-      "bn": "বাকারার আমূদ: কীভাবে মুত্তাকীদের এমন একটি সম্প্রদায় গড়ে তোলা যায় যারা ঐশী হেদায়েত বহন করতে পারে।"
+      "en": "Amud: Building the Ummah of Muttaqin — Who is guided? Who opposes? What was the previous nation's failure (Bani Isra'il, 2:40-121) and what is your new law, qibla, and test? Fustat al-Quran (Great Tent) holds all foundations.",
+      "bn": "আমূদ: মুত্তাকীদের উম্মাহ গঠন — কে হেদায়েতপ্রাপ্ত? কে বিরোধী? পূর্ববর্তী জাতির ব্যর্থতা (বনী ইসরাঈল) এবং তোমাদের নতুন বিধান, কিবলা ও পরীক্ষা কী? ফুস্তাতুল কুরআন।",
+      "ar": "العمود: بناء أمة المتقين — من المهتدي؟ من المعارض؟ ما فشل الأمم السابقة؟"
     },
     "nazm": {
-      "en": "Surah is chiastic: Faith (1-39) ↔ Faith's tests (243-286); Law of Bani Isra'il (40-121) ↔ Law for new ummah (177-242); Qibla change at center (142-152) — the pivot from past to future ummah.",
-      "bn": "সূরাটি কায়াস্টিক: ঈমান (১-৩৯) ↔ ঈমানের পরীক্ষা (২৪৩-২৮৬); বনী ইসরাঈলের আইন (৪০-১২১) ↔ নতুন উম্মাহর আইন (১৭৭-২৪২); কেন্দ্রে কিবলা পরিবর্তন (১৪২-১৫২)।"
+      "en": "Nazm (Quran.com/Ibn Ashur): Chiastic — Faith (2:1-20) ↔ Tests (2:243-286); Bani Isra'il history (40-121) ↔ New Ummah law (177-243); Qibla pivot 142-150 transfers trust from Bani Isra'il to Abraham's Kaaba; Interwoven reminders (Ayatul Kursi 255) to keep alert.",
+      "bn": "নজম: কায়াস্টিক — ঈমান (২:১-২০) ↔ পরীক্ষা (২৪৩-২৮৬); বনী ইসরাঈলের ইতিহাস ↔ নতুন উম্মাহর বিধান; কিবলা পরিবর্তন ১৪২-১৫০।",
+      "ar": "النظم: تقابلي — الإيمان ↔ الاختبار، تاريخ بني إسرائيل ↔ شريعة الأمة الجديدة، تحويل القبلة محور"
     },
     "wordByWord": [
+      {
+        "w": "الم",
+        "root": "ا-ل-م",
+        "form": "muqatta'at (disjointed letters)",
+        "why": "Alif-Lam-Mim — challenge to eloquent Arabs: you know these letters, yet cannot produce like Quran. Also 'That book' (dhalika) points to heavenly archetype, not just this mushaf.",
+        "en": "Alif Lam Mim — the miracle letters",
+        "bn": "আলিফ লাম মীম — অলৌকিক বিচ্ছিন্ন হরফ"
+      },
       {
         "w": "ذَٰلِكَ",
         "root": "ذ-ل-ك",
         "form": "dhalika (that, far demonstrative)",
-        "why": "Why 'that book' not 'this book'? Distance shows high status — like pointing to something elevated. Also Quran was not yet a compiled book; 'that' refers to the heavenly archetype.",
+        "why": "Why 'that book' not 'this'? Far demonstrative = elevation. Like pointing to something on a high shelf — Quran's status is lofty, from Lawh Mahfuz.",
         "en": "That book — far demonstrative for elevation",
         "bn": "ঐ কিতাব — দূরবর্তী নির্দেশক দ্বারা মর্যাদা"
       },
       {
-        "w": "لَا رَيْبَ فِيهِ",
+        "w": "لَا رَيْبَ",
         "root": "ر-ي-ب",
-        "form": "la raiba (absolute negation)",
-        "why": "'Raiyb' is doubt that causes anxiety. La raiba = zero anxiety-inducing doubt. Not just 'no doubt' but 'no doubt that should bother you'.",
-        "en": "No doubt in it — absolute negation",
-        "bn": "এতে কোন সন্দেহ নেই — পরম না-সূচক"
+        "form": "la raiba (absolute negation, la of genus)",
+        "why": "'Raib' is doubt that causes anxiety/suspicion (like a bad business deal). 'La raiba' = zero anxiety-doubt, not just no doubt — absolute negation of genus.",
+        "en": "No doubt in it — absolute, no anxiety-doubt",
+        "bn": "এতে কোন সন্দেহ নেই — পরম নিঃসন্দেহতা"
       },
       {
-        "w": "يُؤْمِنُونَ بِٱلْغَيْبِ",
+        "w": "تَقْوَىٰ",
+        "root": "و-ق-ي",
+        "form": "taqwa (verbal noun)",
+        "why": "Waqa = to protect, to shield. Taqwa is wariness, care, protection — like walking through thorns in long clothes, carefully. Not just 'fear' but protective consciousness (Nouman: Taqwa linked to wiqaya).",
+        "en": "Taqwa — protective wariness, care (from w-q-y)",
+        "bn": "তাকওয়া — রক্ষামূলক সতর্কতা (ও-ক্বা-ইয়া)"
+      },
+      {
+        "w": "يُؤْمِنُونَ",
+        "root": "ء-م-ن",
+        "form": "yu'minuna (Form IV, present)",
+        "why": "A-m-n = security, safety, trust. Mu'min is one who feels secure AND gives security to others. Faith is not just belief but a state of safety with Allah.",
+        "en": "They believe — to feel secure/trust",
+        "bn": "তারা ঈমান আনে — নিরাপত্তা ও বিশ্বাস"
+      },
+      {
+        "w": "بِٱلْغَيْبِ",
         "root": "غ-ي-ب",
-        "form": "yu'minuna bil-ghayb",
-        "why": "Ghayb is not just unseen but unseeable by senses. First quality of Muttaqin is belief in what you cannot verify empirically — foundation of faith vs materialism.",
-        "en": "Believe in the unseen",
-        "bn": "অদৃশ্যে বিশ্বাস"
+        "form": "bil-ghayb (preposition + noun)",
+        "why": "Ghayb is not just unseen but unseeable by senses — first quality of Muttaqin is belief in what you cannot verify empirically, foundation vs materialism. Why 'bil-ghayb' with 'bi' (contact)? Faith is in direct contact with unseen.",
+        "en": "In the unseen — unseeable, not just unseen",
+        "bn": "অদৃশ্যে — ইন্দ্রিয়াতীত, সরাসরি সংস্পর্শে"
+      },
+      {
+        "w": "خَتَمَ",
+        "root": "خ-ت-م",
+        "form": "khatama (past, He sealed)",
+        "why": "Khatm = to seal, to close off. Like sealing an envelope — hearts sealed so guidance cannot enter, but by their own earning (kasaba). Allah's seal is after they chose to seal themselves.",
+        "en": "Allah has set a seal — to close off",
+        "bn": "মোহর মেরে দিয়েছেন — বন্ধ করে দেওয়া"
+      },
+      {
+        "w": "يَسْتَهْزِئُ",
+        "root": "ه-ز-ء",
+        "form": "yastahzi'u (Form X, present)",
+        "why": "Huz' = to mock lightly. Form X (istahza'a) = to seek to mock, to consider someone mockable. Allah mocks them in return — humiliation on Judgment Day and even now, no one respects munafiq.",
+        "en": "Allah mocks them — to consider mockable",
+        "bn": "আল্লাহ তাদের উপহাস করেন"
       }
     ],
     "multipleMeanings": [
       {
-        "ayah": "2:255 Ayatul Kursi — 'Kursi'",
+        "ayah": "2:2 — ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ",
+        "meanings": [
+          {
+            "source": "Tabari / Ibn Kathir (Athari)",
+            "text": "Dhalika = That book (heavenly archetype, Lawh Mahfuz). La raiba = no doubt should be in you — subjective (you should not doubt), not just objective (there is no doubt)."
+          },
+          {
+            "source": "Zamakhshari (Balagha)",
+            "text": "Definite 'Al-Kitab' with Al = the known, awaited book (prophesied to People of Book). Far demonstrative elevates it — like saying 'that' for something on a pedestal."
+          },
+          {
+            "source": "Nouman Ali Khan",
+            "text": "Why 'hudallil muttaqin' (for Muttaqin) not 'for all'? Guidance is for all, but only Muttaqin benefit — like rain benefits only fertile land. Restriction is about receptivity."
+          },
+          {
+            "source": "Scientific",
+            "text": "La raiba as absolute negation of genus (la nafiya) — not a single instance of doubt that should cause anxiety. Quran claims falsifiability: try to find doubt, you won't."
+          }
+        ]
+      },
+      {
+        "ayah": "2:7 — خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ",
+        "meanings": [
+          {
+            "source": "Qadariyya vs Jabriyya",
+            "text": "Does Allah sealing hearts mean no free will? No — seal is after they earned it (kasaba). Like rust on iron from neglect — Allah creates the seal as consequence."
+          },
+          {
+            "source": "Linguistic (w-q-y vs kh-t-m)",
+            "text": "Taqwa (protect) vs Khatm (seal) — opposite roots. Taqwa is you protecting yourself; Khatm is you being closed off. The surah opens with protection, then shows the sealed as contrast."
+          },
+          {
+            "source": "Psychological (Sufiyan)",
+            "text": "Sealed hearts, hearing, vision — three senses blocked. Why hearing before vision? In Quran, hearing is often before sight — because truth first comes as hearing (wahy), then seeing."
+          }
+        ]
+      },
+      {
+        "ayah": "2:15 — اللَّهُ يَسْتَهْزِئُ بِهِمْ",
+        "meanings": [
+          {
+            "source": "Nouman Ali Khan (2:15)",
+            "text": "Yastahzi'u (Form X) = to deem mockable. Allah humiliates munafiq now (no respect from Muslims or kuffar) and on Judgment Day. Even now, hypocrite has no dignity anywhere."
+          },
+          {
+            "source": "Amiha vs Amiya",
+            "text": "Amiya = blind in eyes; Amiha (here) = blind in heart (ya'mahuna). Allah extends them in tughyan while blind-hearted — they dig their pit deeper, lowest pit of Hell is their own digging."
+          },
+          {
+            "source": "Tijāra 2:16",
+            "text": "Ishtaru al-dalalah bil-huda — they purchased misguidance with guidance. Trade never benefits (ma rabihat). Muhtadi = one who makes effort to be guided; they were never committed."
+          }
+        ]
+      },
+      {
+        "ayah": "2:255 — Ayatul Kursi",
         "meanings": [
           {
             "source": "Ibn Abbas",
-            "text": "Kursi = Allah's knowledge. 'His Kursi extends over heavens and earth' = His knowledge encompasses everything."
+            "text": "Kursi = Allah's knowledge. 'His Kursi extends over heavens and earth' = His knowledge encompasses everything (kursi from ka-ra-sa: to pile, foundation)."
           },
           {
             "source": "Ibn Taymiyyah / Salaf",
-            "text": "Kursi = actual creation, footstool of the Throne (Arsh), larger than heavens yet small relative to Arsh."
+            "text": "Kursi = actual creation, footstool of the Throne (Arsh), larger than heavens yet small relative to Arsh. Real, not metaphor."
           },
           {
             "source": "Linguistic (Nouman)",
@@ -6399,24 +6496,7 @@ const DEEP_RESEARCH = {
           },
           {
             "source": "Scientific Tafsir (Zakaria)",
-            "text": "Kursi as the field/force that stabilizes heavens and earth — gravitational field, dark energy balance that prevents collapse."
-          }
-        ]
-      },
-      {
-        "ayah": "2:31 'And He taught Adam the names'",
-        "meanings": [
-          {
-            "source": "Classical",
-            "text": "Names = names of all things/angels/creation — Adam's superiority over angels via language."
-          },
-          {
-            "source": "Modern Linguistic",
-            "text": "'Names' = ability to name = symbolic language, categorization, abstract thought — the very basis of human consciousness and civilization."
-          },
-          {
-            "source": "Sufi",
-            "text": "Names = Asma al-Husna — Adam was taught divine attributes to reflect them."
+            "text": "Kursi as the field/force that stabilizes heavens and earth — gravitational field, dark energy balance that prevents collapse (wasi'a kursiyyuhu)."
           }
         ]
       }
@@ -6424,17 +6504,37 @@ const DEEP_RESEARCH = {
     "gaurFikr": [
       {
         "q": "Why does Baqarah spend 100+ verses on Bani Isra'il's failures if the Muslim ummah is new?",
-        "a": "Because the new ummah will face the exact same diseases: legalism without spirit, hiding knowledge, following desires. History is a mirror — the Quran forces you to see yourself in them before you become them."
+        "a": "Because the new ummah will face the exact same diseases: legalism without spirit, hiding knowledge, following desires, breaking covenants. History is a mirror — the Quran forces you to see yourself in them before you become them. Every story is a warning: you could be them."
       },
       {
-        "q": "Why three categories: Muttaqin, Kafirun, Munafiqun — with 2 verses for kafir but 13 for munafiq?",
-        "a": "Open enemy is easy to identify. The hidden enemy (hypocrisy) lives inside the community and is far more dangerous — hence more detail. Also, you can be a little munafiq without knowing."
+        "q": "Why three categories: Muttaqin (2 verses), Kafirun (2 verses), Munafiqun (13 verses)?",
+        "a": "Open enemy (kafir) is easy to identify. Hidden enemy (munafiq) lives inside the community and is far more dangerous — hence 6× more detail. Also, you can be a little munafiq without knowing — check your heart for those 13 traits."
+      },
+      {
+        "q": "What does 2:31 'He taught Adam the names' mean for you today?",
+        "a": "Names = symbolic language, categorization, abstract thought — the basis of human superiority over angels and of civilization. You were taught to name, so you can think. How are you using that gift — naming truth or just labels?"
+      },
+      {
+        "q": "If Baqarah is the longest surah (286 verses, 1/12 of Quran), why start with 'That book, no doubt' — isn't it arrogant to claim no doubt?",
+        "a": "It's not arrogance, it's falsifiability. The Quran invites you to doubt productively: bring a surah like it (2:23). La raiba is a challenge, not a dogma — the opposite of blind faith."
       }
     ],
     "balagha": [
       {
-        "point": "Why 'hudallil muttaqin' (guidance for the God-conscious) not 'for all'?",
-        "explain": "Guidance is objectively for all, but only the Muttaqin benefit — like rain benefits only fertile land. The restriction is about receptivity, not availability."
+        "point": "Why 'hudallil muttaqin' not 'for all'?",
+        "explain": "Guidance is objectively for all, but only Muttaqin benefit — like rain benefits only fertile land. The restriction (lil) is about receptivity, not availability. Balagha: takhsis after 'amm."
+      },
+      {
+        "point": "Iltifat in Baqarah's opening",
+        "explain": "2:1-20 speaks about Quran and humanity in 3rd person, then 2:21-22 suddenly: 'Ya ayyuha al-nas u'budu Rabbakum' — 2nd person direct address. Shift from description to direct call — like a teacher moving from board to eye contact."
+      },
+      {
+        "point": "Why 'that book' (dhalika) not 'this book' (hadha)?",
+        "explain": "Distance for elevation (raf') and for heavenly archetype (Lawh Mahfuz). Also, Baqarah was not yet compiled as a book — 'that' refers to the ideal, complete Quran with Allah, which will be revealed gradually."
+      },
+      {
+        "point": "Trade metaphor in 2:16 (ishtaru)",
+        "explain": "They 'purchased' misguidance for guidance — commerce language. But tijaratuhum (their commerce) never profited. Why commerce? Because they thought they made a smart deal — like selling a diamond for pebbles, thinking they won."
       }
     ]
   },
