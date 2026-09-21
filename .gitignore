@@ -1,1 +1,4 @@
 www
+.env
+server/.env
+node_modules/
