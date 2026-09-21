@@ -52,11 +52,27 @@
   }
 
   function buildQueue() {
-    // collect visible paragraphs in reading order; use the currently visible language block
+    // ONLY surah verses + translations — ignore tafsir, headings, quotes, notes, etc.
+    // Quranic rules: audio must not read anything except the surah text and its translation
     const isBn = document.body.classList.contains('lang-bn');
-    const sel = isBn ? '.ch-body .c-bn' : '.ch-body .c-en';
-    const nodes = Array.from(document.querySelectorAll(sel)).filter(n => n.textContent.trim().length > 8);
-    TTS.queue = nodes.map(n => ({ el: n, text: n.textContent.trim().replace(/\s+/g, ' ') }));
+    const sel = isBn ? '.ch-body .verse.c-bn' : '.ch-body .verse.c-en';
+    let nodes = Array.from(document.querySelectorAll(sel)).filter(n => {
+      const t = n.textContent.trim();
+      // Must look like a verse: starts with [number] or contains Arabic, and length > 3
+      return t.length > 3 && (t.startsWith('[') || /[\u0600-\u06FF]/.test(t) || t.length > 12);
+    });
+    // Fallback: if no verse-marked nodes (extraction edge case), take only first 3 verse-like blocks
+    if (!nodes.length) {
+      const all = Array.from(document.querySelectorAll(isBn ? '.ch-body .c-bn' : '.ch-body .c-en'));
+      nodes = all.filter(n => n.textContent.trim().startsWith('[')).slice(0, 20);
+    }
+    TTS.queue = nodes.map(n => {
+      // Clean: remove the para-tts button text (🔈) if present
+      let text = n.textContent.replace('🔈','').trim().replace(/\s+/g, ' ');
+      // Remove leading [n] numbers for smoother speech? Keep them as "Ayah 1:"
+      text = text.replace(/^\[(\d+)\]\s*/, 'Ayah $1: ');
+      return { el: n, text };
+    }).filter(x => x.text.length > 8);
   }
 
   function speakNext() {
