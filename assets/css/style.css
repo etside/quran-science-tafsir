@@ -390,3 +390,28 @@ body.kids .ch-toc{ font-size:1rem; }
 /* Universe animations — inline visuals for science */
 .sci-card{position:relative; overflow:hidden;}
 .sci-card [data-anim]{margin-top:8px;}
+
+/* === Swiss Modernism 2.0 — scholarly refinement (frontend-design skill) === */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+:root{
+  --swiss-primary:#1E3A5F;
+  --swiss-accent:#B45309;
+  --swiss-bg:#F8FAFC;
+  --swiss-ink:#0F172A;
+  --swiss-muted:#475569;
+  --swiss-border:#CBD5E1;
+}
+.hero h1{font-family:'Crimson Pro', serif; font-weight:600; letter-spacing:-0.02em;}
+body{font-family:'Atkinson Hyperlegible', system-ui, sans-serif; line-height:1.65;}
+.ch-body{font-family:'Atkinson Hyperlegible', system-ui, sans-serif; max-width:68ch;}
+.ch-body .verse{font-family:'Crimson Pro', serif; font-size:1.08rem;}
+/* Grid: 12 columns, asymmetric editorial */
+.cards{grid-template-columns:repeat(12,1fr);}
+.cards .card{grid-column:span 4;}
+.cards .card:nth-child(3n+1){grid-column:span 5;}
+.cards .card:nth-child(3n+2){grid-column:span 4;}
+.cards .card:nth-child(3n){grid-column:span 3;}
+@media(max-width:900px){.cards .card{grid-column:span 12 !important;}}
+/* Remove templated SaaS-card kit: no identical soft shadow, use hairline + subtle */
+.card{box-shadow:none; border:1px solid var(--swiss-border); border-radius:8px; background:var(--card);}
+.card:hover{transform:none; border-color:var(--swiss-accent); box-shadow:0 1px 0 var(--swiss-border);}
