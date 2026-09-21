@@ -139,6 +139,30 @@
         });
         if(added) tabEl.dataset.wikiAdded='1';
       });
+      // Also populate Ghaur o Fikr science tab
+      setTimeout(()=>{
+        const ghaurContainer = document.querySelector(`[data-kb="ghaur-science"]`);
+        const ghaurContainer2 = document.querySelector(`[data-kb="ghaur-fikr-science"]`);
+        const ghaurData = (window.GHAUR_O_FIKR_MAP||{})[n] || [];
+        [ghaurContainer, ghaurContainer2].forEach(el=>{
+          if(!el || el.dataset.done) return;
+          if(ghaurData.length===0){
+            el.innerHTML='<p class="small" style="color:var(--muted)">No Ghaur o Fikr episodes for this surah yet — check back or explore the <a href="https://www.youtube.com/playlist?list=PL" target="_blank" style="color:var(--accent2)">full playlist</a>.</p>';
+          } else {
+            el.innerHTML = ghaurData.map(item=>`
+              <div style="display:flex; gap:10px; padding:10px; background:var(--bg2); border:1px solid var(--border); border-radius:8px; margin:8px 0">
+                <div style="width:80px; height:45px; background:var(--bg); border-radius:6px; display:flex; align-items:center; justify-content:center; flex-shrink:0; font-size:18px">▶️</div>
+                <div style="flex:1">
+                  <b style="color:var(--accent2); font-size:0.85rem">${item.title}</b>
+                  <div style="font-size:0.78rem; color:var(--muted)">${item.ayah} · ${item.topic}</div>
+                  <a href="https://www.youtube.com/watch?v=${item.youtubeId}&t=${item.timestamp}s" target="_blank" rel="noopener" style="font-size:0.78rem; color:var(--accent2)">Watch on YouTube →</a>
+                </div>
+              </div>
+            `).join('');
+          }
+          el.dataset.done='1';
+        });
+      }, 1200);
     }, 1000);
     el.innerHTML = html;
   }
@@ -248,5 +272,20 @@
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', initWiki);
   else initWiki();
 
-  window.Wiki = {fetchWiki, fetchWikiSections, renderWikiSurah: autoFetchWikiForSurah, enhanceScienceCards, autoFetchWikiForSurah};
+  // Unified data fetcher — consolidates local JSON, WIKI_MAP, and external (Ghaur o Fikr, Bayyinah, Corpus)
+  async function fetchKnowledgeData(surahNumber){
+    const n = parseInt(surahNumber);
+    const result = { surah: n, wiki: null, deep: null, know: null, ghaur: [], bayyinah: [] };
+    try{ result.wiki = await fetchWiki((window.WIKI_MAP?.surah||{})[n] || `Surah_${n}`); }catch{}
+    try{ result.deep = (window.DEEP_RESEARCH||{})[n] || (window.DEEP_RESEARCH||{})[String(n)] || null; }catch{}
+    try{ result.know = (window.SURAH_KNOWLEDGE||{})[n] || (window.SURAH_KNOWLEDGE||{})[String(n)] || null; }catch{}
+    try{ result.ghaur = (window.GHAUR_O_FIKR_MAP||{})[n] || []; }catch{}
+    // Bayyinah is inside deep.wordByWord[*].alternative_meanings and root_analysis
+    if(result.deep && result.deep.wordByWord){
+      result.bayyinah = result.deep.wordByWord.map(w=> ({w: w.w, root_analysis: w.root_analysis, alternative_meanings: w.alternative_meanings})).filter(x=>x.root_analysis);
+    }
+    return result;
+  }
+
+  window.Wiki = {fetchWiki, fetchWikiSections, renderWikiSurah: autoFetchWikiForSurah, enhanceScienceCards, autoFetchWikiForSurah, fetchKnowledgeData};
 })();
